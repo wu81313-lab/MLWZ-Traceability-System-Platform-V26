@@ -77,14 +77,14 @@ a {
   height: 46px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 0 14px;
+  gap: 8px;
+  padding: 0 10px 0 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .sidebar-brand img {
-  width: 95px;
-  height: 32px;
+  width: 76px;
+  height: 30px;
   border-radius: 0;
   flex-shrink: 0;
   box-shadow: none;
@@ -92,12 +92,14 @@ a {
 }
 
 .sidebar-brand__text {
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   color: #ffffff;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
 }
 
 .dashboard-app.is-collapsed .sidebar-brand__text {
