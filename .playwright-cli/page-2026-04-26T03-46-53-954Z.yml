@@ -1,0 +1,152 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img "logo" [ref=e5]
+      - generic [ref=e6]: 产品追溯系统
+    - menubar [ref=e8]:
+      - menuitem " 总览首页" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 
+        - text: 总览首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e11]:
+        - generic [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 
+          - text: 产品追溯系统
+          - generic [ref=e14]: 
+        - menu [ref=e15]:
+          - menuitem "生产管理 " [expanded] [ref=e16]:
+            - generic [ref=e17] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e18]: 
+            - menu [ref=e19]:
+              - menuitem "工厂信息 " [expanded] [ref=e20]:
+                - generic [ref=e21] [cursor=pointer]:
+                  - text: 工厂信息
+                  - generic [ref=e22]: 
+                - menu [ref=e23]:
+                  - menuitem "工厂管理 " [ref=e24]:
+                    - generic [ref=e25] [cursor=pointer]:
+                      - text: 工厂管理
+                      - generic [ref=e26]: 
+                    - menu [ref=e27]:
+                      - menuitem "工厂列表" [ref=e28] [cursor=pointer]
+                      - menuitem "车间列表" [ref=e29] [cursor=pointer]
+                      - menuitem "产线列表" [ref=e30] [cursor=pointer]
+                  - menuitem "班组管理" [ref=e31] [cursor=pointer]
+              - menuitem "生产信息 " [ref=e32]:
+                - generic [ref=e33] [cursor=pointer]:
+                  - text: 生产信息
+                  - generic [ref=e34]: 
+          - menuitem "工厂物流 " [ref=e35]:
+            - generic [ref=e36] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e37]: 
+          - menuitem "渠道物流 " [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e40]: 
+          - menuitem "稽查管理 " [ref=e41]:
+            - generic [ref=e42] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e43]: 
+          - menuitem "查询管理 " [ref=e44]:
+            - generic [ref=e45] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e46]: 
+          - menuitem "看板 " [ref=e47]:
+            - generic [ref=e48] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e49]: 
+  - generic [ref=e50]:
+    - banner [ref=e51]:
+      - generic [ref=e52]:
+        - button "" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+        - generic [ref=e55]:
+          - generic [ref=e56]: 班组管理
+          - generic [ref=e57]: 首页 / 生产管理 / 班组管理
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - button "" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: 
+          - superscript [ref=e62]: "4"
+        - button "" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: 
+        - button "" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 
+        - button "系 系统管理员 平台管理中心 " [ref=e68]:
+          - generic [ref=e69]: 系
+          - generic [ref=e70]:
+            - generic [ref=e71]: 系统管理员
+            - generic [ref=e72]: 平台管理中心
+          - generic [ref=e73]: 
+    - main [ref=e74]:
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: 工厂信息
+          - generic [ref=e248]: 班组管理
+        - navigation "Breadcrumb" [ref=e250]:
+          - generic [ref=e251]:
+            - link "生产管理" [ref=e252]
+            - text: /
+          - link "班组管理" [ref=e254]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e258]:
+                - generic [ref=e259]: 班组编码
+                - textbox "请输入班组编码" [ref=e261]
+              - generic [ref=e262]:
+                - generic [ref=e263]: 班组名称
+                - textbox "请输入班组名称" [ref=e265]
+            - generic [ref=e266]:
+              - button " 搜索" [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: 
+                - text: 搜索
+              - button "重置" [ref=e269] [cursor=pointer]
+            - button " 新建班组" [ref=e271] [cursor=pointer]:
+              - generic [ref=e272]: 
+              - text: 新建班组
+          - generic [ref=e274]:
+            - table [ref=e276]:
+              - rowgroup [ref=e281]:
+                - row "班组编号 班组名称" [ref=e282]:
+                  - columnheader "班组编号" [ref=e283]:
+                    - generic [ref=e284]: 班组编号
+                  - columnheader "班组名称" [ref=e285]:
+                    - generic [ref=e286]: 班组名称
+                  - columnheader [ref=e287]
+            - table [ref=e289]:
+              - rowgroup [ref=e294]:
+                - row "bz001 班组一" [ref=e295]:
+                  - cell "bz001" [ref=e296]:
+                    - generic [ref=e297]: bz001
+                  - cell "班组一" [ref=e298]:
+                    - generic [ref=e299]: 班组一
+                  - cell [ref=e300]
+            - generic [ref=e301]:
+              - table [ref=e303]:
+                - rowgroup [ref=e308]:
+                  - row "操作" [ref=e309]:
+                    - columnheader [ref=e310]
+                    - columnheader [ref=e311]
+                    - columnheader "操作" [ref=e312]:
+                      - generic [ref=e313]: 操作
+              - table [ref=e315]:
+                - rowgroup [ref=e320]:
+                  - row "修改 删除" [ref=e321]:
+                    - cell [ref=e322]
+                    - cell [ref=e323]
+                    - cell "修改 删除" [ref=e324]:
+                      - generic [ref=e326]:
+                        - button "修改" [ref=e327] [cursor=pointer]
+                        - button "删除" [ref=e328] [cursor=pointer]
+          - generic [ref=e329]:
+            - generic [ref=e330]: 共 1 条
+            - generic [ref=e331]:
+              - button "" [disabled] [ref=e332]:
+                - generic [ref=e333]: 
+              - list [ref=e334]:
+                - listitem [ref=e335]: "1"
+              - button "" [disabled] [ref=e336]:
+                - generic [ref=e337]: 
+        - text: 

@@ -1,0 +1,246 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic:
+      - generic:
+        - link:
+          - /url: "#/"
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - menubar:
+              - generic:
+                - link:
+                  - /url: "#/dashboard"
+                  - menuitem
+              - generic:
+                - menuitem:
+                  - generic:
+                    - img
+                    - text: 
+                  - text:               
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e71] [cursor=pointer]
+          - menubar [ref=e73]:
+            - menuitem "系统基础信息" [ref=e74] [cursor=pointer]:
+              - link "系统基础信息" [ref=e75]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e76] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e77]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e78] [cursor=pointer]:
+              - link "码库管理" [ref=e79]:
+                - /url: /org//#/readycreate
+          - button "" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e84]: 
+        - generic [ref=e89] [cursor=pointer]:
+          - text: 运单管理
+          - generic [ref=e90]: 
+      - generic [ref=e96]:
+        - navigation "Breadcrumb" [ref=e98]:
+          - generic [ref=e99]:
+            - link "物流管理" [ref=e100]: 物流管理
+            - text: /
+          - link "运单管理" [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: 运单号
+                - textbox "请输入运单号" [ref=e112]
+              - generic [ref=e114]:
+                - generic [ref=e115]: 产品编码
+                - textbox "请输入产品名称模糊匹配或者下拉选择" [ref=e119] [cursor=pointer]
+              - generic [ref=e123]:
+                - generic [ref=e124]: 出库单号
+                - textbox "请输入出库单号" [ref=e127]
+              - generic [ref=e129]:
+                - generic [ref=e130]: 客户名称
+                - textbox "请输入客户名称" [ref=e133]
+              - generic [ref=e135]:
+                - generic [ref=e136]: 出库日期
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - textbox "开始日期" [ref=e140]
+                  - generic [ref=e141]: "-"
+                  - textbox "结束日期" [ref=e142]
+              - generic [ref=e145]:
+                - generic [ref=e146]: 创建时间
+                - generic [ref=e148]:
+                  - generic [ref=e149]: 
+                  - textbox "开始日期" [ref=e150]
+                  - generic [ref=e151]: "-"
+                  - textbox "结束日期" [ref=e152]
+              - generic [ref=e155]:
+                - generic [ref=e156]: 仓库编码
+                - textbox "请输入仓库编码" [ref=e159]
+              - generic [ref=e161]:
+                - generic [ref=e162]: 发货状态
+                - generic [ref=e165]:
+                  - textbox "请选择发货状态" [ref=e166] [cursor=pointer]
+                  - generic [ref=e168] [cursor=pointer]: 
+            - generic [ref=e170]:
+              - button "重置" [ref=e171] [cursor=pointer]
+              - button " 搜索" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]: 
+                - text: 搜索
+              - button "导出Excel" [ref=e174] [cursor=pointer]: 导出Excel
+              - button "下载导入模板" [ref=e175] [cursor=pointer]
+              - button "导入" [ref=e176] [cursor=pointer]
+              - button "新增出库单" [ref=e177] [cursor=pointer]
+          - text: "* * *   * * * *   "
+          - generic [ref=e179]:
+            - heading "运单管理" [level=4] [ref=e180]
+            - generic [ref=e182]:
+              - table [ref=e184]:
+                - rowgroup [ref=e203]:
+                  - row "运单号 出库单号 出库时间 发货仓库编码 发货仓库 客户编码 客户名称 客户地址 产品编码 产品名称 单位 计划出库数量 出库人工确认数量 扫码数量 发货状态 备注" [ref=e204]:
+                    - columnheader "运单号" [ref=e205]:
+                      - generic [ref=e206]: 运单号
+                    - columnheader "出库单号" [ref=e207]:
+                      - generic [ref=e208]: 出库单号
+                    - columnheader "出库时间" [ref=e209]:
+                      - generic [ref=e210]: 出库时间
+                    - columnheader "发货仓库编码" [ref=e211]:
+                      - generic [ref=e212]: 发货仓库编码
+                    - columnheader "发货仓库" [ref=e213]:
+                      - generic [ref=e214]: 发货仓库
+                    - columnheader "客户编码" [ref=e215]:
+                      - generic [ref=e216]: 客户编码
+                    - columnheader "客户名称" [ref=e217]:
+                      - generic [ref=e218]: 客户名称
+                    - columnheader "客户地址" [ref=e219]:
+                      - generic [ref=e220]: 客户地址
+                    - columnheader "产品编码" [ref=e221]:
+                      - generic [ref=e222]: 产品编码
+                    - columnheader "产品名称" [ref=e223]:
+                      - generic [ref=e224]: 产品名称
+                    - columnheader "单位" [ref=e225]:
+                      - generic [ref=e226]: 单位
+                    - columnheader "计划出库数量" [ref=e227]:
+                      - generic [ref=e228]: 计划出库数量
+                    - columnheader "出库人工确认数量" [ref=e229]:
+                      - generic [ref=e230]: 出库人工确认数量
+                    - columnheader "扫码数量" [ref=e231]:
+                      - generic [ref=e232]: 扫码数量
+                    - columnheader "发货状态" [ref=e233]:
+                      - generic [ref=e234]: 发货状态
+                    - columnheader "备注" [ref=e235]:
+                      - generic [ref=e236]: 备注
+                    - columnheader [ref=e237]
+                    - columnheader
+              - generic [ref=e238]:
+                - table:
+                  - rowgroup
+                - generic [ref=e240]: 暂无数据
+              - generic [ref=e241]:
+                - table [ref=e243]:
+                  - rowgroup [ref=e262]:
+                    - row "操作" [ref=e263]:
+                      - columnheader [ref=e264]
+                      - columnheader [ref=e265]
+                      - columnheader [ref=e266]
+                      - columnheader [ref=e267]
+                      - columnheader [ref=e268]
+                      - columnheader [ref=e269]
+                      - columnheader [ref=e270]
+                      - columnheader [ref=e271]
+                      - columnheader [ref=e272]
+                      - columnheader [ref=e273]
+                      - columnheader [ref=e274]
+                      - columnheader [ref=e275]
+                      - columnheader [ref=e276]
+                      - columnheader [ref=e277]
+                      - columnheader [ref=e278]
+                      - columnheader [ref=e279]
+                      - columnheader "操作" [ref=e280]:
+                        - generic [ref=e281]: 操作
+                - generic:
+                  - table:
+                    - rowgroup
+            - generic [ref=e282]:
+              - generic [ref=e283]: 共 1 条
+              - button "" [disabled] [ref=e284]:
+                - generic [ref=e285]: 
+              - list [ref=e286]:
+                - listitem [ref=e287]: "1"
+              - button "" [disabled] [ref=e288]:
+                - generic [ref=e289]: 
+              - generic [ref=e290]:
+                - text: 前往
+                - spinbutton [ref=e292]: "1"
+                - text: 页
+              - generic [ref=e295]:
+                - textbox "请选择" [ref=e296] [cursor=pointer]: 10条/页
+                - generic [ref=e298] [cursor=pointer]: 
+          - generic [ref=e300]:
+            - heading "产品批次表" [level=4] [ref=e301]
+            - generic [ref=e303]:
+              - table [ref=e305]:
+                - rowgroup [ref=e316]:
+                  - row "出库单号 产品编码 产品名称 批次 计划批次 计划出库数量 扫码出库数量 实际出库数量 创建时间" [ref=e317]:
+                    - columnheader "出库单号" [ref=e318]:
+                      - generic [ref=e319]: 出库单号
+                    - columnheader "产品编码" [ref=e320]:
+                      - generic [ref=e321]: 产品编码
+                    - columnheader "产品名称" [ref=e322]:
+                      - generic [ref=e323]: 产品名称
+                    - columnheader "批次" [ref=e324]:
+                      - generic [ref=e325]: 批次
+                    - columnheader "计划批次" [ref=e326]:
+                      - generic [ref=e327]: 计划批次
+                    - columnheader "计划出库数量" [ref=e328]:
+                      - generic [ref=e329]: 计划出库数量
+                    - columnheader "扫码出库数量" [ref=e330]:
+                      - generic [ref=e331]: 扫码出库数量
+                    - columnheader "实际出库数量" [ref=e332]:
+                      - generic [ref=e333]: 实际出库数量
+                    - columnheader "创建时间" [ref=e334]:
+                      - generic [ref=e335]: 创建时间
+                    - columnheader
+              - generic [ref=e336]:
+                - table:
+                  - rowgroup
+                - generic [ref=e338]: 暂无数据
+            - generic [ref=e339]:
+              - generic [ref=e340]: 共 0 条
+              - button "" [disabled] [ref=e341]:
+                - generic [ref=e342]: 
+              - list [ref=e343]:
+                - listitem [ref=e344]: "1"
+              - button "" [disabled] [ref=e345]:
+                - generic [ref=e346]: 
+              - generic [ref=e347]:
+                - text: 前往
+                - spinbutton [ref=e349]: "1"
+                - text: 页
+              - generic [ref=e352]:
+                - textbox "请选择" [ref=e353] [cursor=pointer]: 10条/页
+                - generic [ref=e355] [cursor=pointer]: 
+          - text: 
+          - generic [ref=e357]: 
+  - alert [ref=e358]:
+    - generic [ref=e359]:
+      - heading "页面提示" [level=2] [ref=e360]
+      - generic [ref=e361]: 数据量较大，请输入搜索条件进行筛选
+      - generic [ref=e362] [cursor=pointer]: 

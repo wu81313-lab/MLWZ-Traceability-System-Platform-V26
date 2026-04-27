@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "DIV",
+    "class": "card-panel-text",
+    "text": "今日产量",
+    "x": 279,
+    "y": 157,
+    "w": 147,
+    "h": 20
+  },
+  {
+    "tag": "DIV",
+    "class": "card-panel-description",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 279,
+    "y": 157,
+    "w": 147,
+    "h": 106
+  },
+  {
+    "tag": "DIV",
+    "class": "card-panel",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 254,
+    "y": 132,
+    "w": 197,
+    "h": 180
+  },
+  {
+    "tag": "DIV",
+    "class": "card-panel-col el-col el-col-24 el-col-xs-24 el-col-sm-24 el-col-lg-24",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 242,
+    "y": 132,
+    "w": 221,
+    "h": 180
+  },
+  {
+    "tag": "DIV",
+    "class": "panel-group el-row",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 242,
+    "y": 132,
+    "w": 221,
+    "h": 212
+  },
+  {
+    "tag": "DIV",
+    "class": "",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 242,
+    "y": 132,
+    "w": 221,
+    "h": 212
+  },
+  {
+    "tag": "DIV",
+    "class": "el-col el-col-4",
+    "text": "今日产量 0 今日计划产量 0",
+    "x": 242,
+    "y": 132,
+    "w": 221,
+    "h": 212
+  },
+  {
+    "tag": "DIV",
+    "class": "el-row is-justify-space-between el-row--flex",
+    "text": "今日产量 0 今日计划产量 0 今日发货量 0 今日计划发货量 0 年度累计扫码量 5 历史累计扫码次数 5 今日用户扫码量 0 今日用户预警数 0 年度累计用",
+    "x": 242,
+    "y": 116,
+    "w": 1326,
+    "h": 228
+  }
+]

@@ -1,0 +1,93 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "logo" [ref=e6]
+      - generic [ref=e7]: V26
+    - menubar [ref=e9]:
+      - menuitem " 首页" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+        - text: 首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 
+          - text: 产品追溯系统
+          - generic [ref=e15]: 
+        - menu [ref=e16]:
+          - menuitem "生产管理 " [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e19]: 
+            - text:   
+          - menuitem "工厂物流 " [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e22]: 
+          - menuitem "渠道物流 " [ref=e23]:
+            - generic [ref=e24] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e25]: 
+          - menuitem "稽查管理 " [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e28]: 
+          - menuitem "查询管理 " [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e31]: 
+          - menuitem "看板 " [expanded] [ref=e32]:
+            - generic [ref=e33] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e34]: 
+            - menu [ref=e35]:
+              - menuitem "总览首页" [ref=e36] [cursor=pointer]
+              - menuitem "生产监控" [ref=e37] [cursor=pointer]
+              - menuitem "SCADA监控大屏" [ref=e38] [cursor=pointer]
+              - menuitem "仓储物流" [ref=e39] [cursor=pointer]
+              - menuitem "稽查管理" [ref=e40] [cursor=pointer]
+  - generic [ref=e41]:
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - button "" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 
+        - navigation [ref=e46]:
+          - link "系统基础信息" [ref=e47] [cursor=pointer]:
+            - /url: javascript:;
+          - link "产品追溯系统" [ref=e48] [cursor=pointer]:
+            - /url: javascript:;
+          - link "码库管理" [ref=e49] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e50]:
+        - button "" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+        - button "Tt" [ref=e53] [cursor=pointer]
+        - button "⌁ " [ref=e55]:
+          - generic [ref=e56]: ⌁
+          - generic [ref=e57]: 
+    - button "稽查管理 ×" [ref=e60] [cursor=pointer]:
+      - generic [ref=e62]: 稽查管理
+      - generic [ref=e63]: ×
+    - main [ref=e64]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: 疑似稽查窜货事件总数
+          - generic [ref=e70]: "3"
+        - generic [ref=e71]:
+          - generic [ref=e72]: 本周新增稽查预警数
+          - generic [ref=e73]: "0"
+    - generic:
+      - button "" [ref=e80] [cursor=pointer]:
+        - generic [ref=e81]: 
+      - generic [ref=e82]:
+        - generic [ref=e83]: 系统布局配置
+        - generic [ref=e84]:
+          - generic [ref=e85]: 开启 Tags-View
+          - switch [checked] [ref=e86]:
+            - checkbox [checked]
+        - generic [ref=e88]:
+          - generic [ref=e89]: 固定 Header
+          - switch [ref=e90]:
+            - checkbox
+        - generic [ref=e92]:
+          - generic [ref=e93]: 侧边栏 Logo
+          - switch [checked] [ref=e94]:
+            - checkbox [checked]

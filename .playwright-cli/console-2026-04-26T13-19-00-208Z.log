@@ -1,0 +1,16 @@
+[     497ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     677ms] [ERROR] need roles! Like v-permission="['admin','editor']" @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     775ms] [ERROR] Mixed Content: The page at 'https://dev.mtkj.fun/ts/#/login?redirect=%2FproductionMonitoring' was loaded over HTTPS, but requested an insecure script 'http://pv.sohu.com/cityjson?ie=utf-8'. This request has been blocked; the content must be served over HTTPS. @ https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:38
+[    1318ms] ReferenceError: returnCitySN is not defined
+    at https://dev.mtkj.fun/ts/static/js/chunk-bf3436e8.14cf0a1c.js:1:5798
+[   50723ms] [LOG] Z1zgSQj719pAQEhEXCuqhQ== 测试 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   50755ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   50756ms] [LOG] 域名 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   50756ms] [LOG] mtadmin @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   51238ms] [LOG] line {xAxis: Array(12), series: Array(3)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   51288ms] [LOG] line {xAxis: Array(12), series: Array(3)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   51385ms] [LOG] 折线图数据 [Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-091429d6.a6cc7717.js:0
+[   51413ms] [LOG] line {xAxis: Array(12), series: Array(3)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   51450ms] [LOG] line {xAxis: Array(12), series: Array(3)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   51479ms] [LOG] {items: null, page_index: 1, page_size: 10000, total_pages: 1, total_count: 4} @ https://dev.mtkj.fun/ts/static/js/chunk-091429d6.a6cc7717.js:0
+[   51493ms] [LOG] {items: null, page_index: 1, page_size: 3, total_pages: 37, total_count: 111} @ https://dev.mtkj.fun/ts/static/js/chunk-091429d6.a6cc7717.js:0

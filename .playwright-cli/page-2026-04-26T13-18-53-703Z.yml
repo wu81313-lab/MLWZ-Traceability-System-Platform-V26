@@ -1,0 +1,444 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - text:  
+            - menuitem "渠道物流 " [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - text:    
+            - menuitem "稽查管理 " [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]:
+                - img [ref=e107]
+                - text: 稽查管理
+                - generic [ref=e109]: 
+            - menuitem "查询管理 " [ref=e111]:
+              - generic [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+                - text: 查询管理
+                - generic [ref=e115]: 
+            - menuitem "看板 " [expanded] [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]:
+                - img [ref=e119]
+                - text: 看板
+                - generic [ref=e121]: 
+              - menu [ref=e122]:
+                - link "总览首页" [ref=e124] [cursor=pointer]:
+                  - /url: "#/dashboardOverview"
+                  - menuitem "总览首页" [ref=e125]
+                - link "生产监控" [ref=e127] [cursor=pointer]:
+                  - /url: "#/productionMonitoring"
+                  - menuitem "生产监控" [ref=e128]
+                - link "SCADA监控大屏" [ref=e130] [cursor=pointer]:
+                  - /url: "#/scada-dashboard"
+                  - menuitem "SCADA监控大屏" [ref=e131]
+                - link "仓储物流" [ref=e133] [cursor=pointer]:
+                  - /url: "#/warehouselogistics"
+                  - menuitem "仓储物流" [ref=e134]
+                - link "稽查管理" [ref=e136] [cursor=pointer]:
+                  - /url: "#/inspectionManagement"
+                  - menuitem "稽查管理" [ref=e137]
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - img [ref=e143] [cursor=pointer]
+          - menubar [ref=e145]:
+            - menuitem "系统基础信息" [ref=e146] [cursor=pointer]:
+              - link "系统基础信息" [ref=e147]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e148] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e149]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e150] [cursor=pointer]:
+              - link "码库管理" [ref=e151]:
+                - /url: /org//#/readycreate
+          - generic [ref=e152]:
+            - img [ref=e154] [cursor=pointer]
+            - button [ref=e157] [cursor=pointer]:
+              - img [ref=e158]
+            - button "" [ref=e161] [cursor=pointer]:
+              - img [ref=e162]
+              - generic [ref=e163]: 
+        - generic [ref=e168] [cursor=pointer]:
+          - text: 生产监控
+          - generic [ref=e169]: 
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]: 计划产量
+            - generic [ref=e183]: "0"
+            - generic [ref=e184]: 实际产量
+            - generic [ref=e185]: "0"
+          - generic [ref=e191] [cursor=pointer]:
+            - generic [ref=e192]: 生产线OEE（设备综合效率）
+            - generic [ref=e193]: "0"
+          - generic [ref=e199] [cursor=pointer]:
+            - generic [ref=e200]: 小袋码采集成功率
+            - generic [ref=e201]: "0"
+          - generic [ref=e207] [cursor=pointer]:
+            - generic [ref=e208]: 大袋码采集成功率
+            - generic [ref=e209]: "10"
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - generic [ref=e233]:
+              - generic [ref=e234]: 生产时间
+              - generic [ref=e236]:
+                - generic [ref=e237]: 
+                - textbox "开始日期" [ref=e238]
+                - generic [ref=e239]: "-"
+                - textbox "结束日期" [ref=e240]
+            - generic [ref=e243]:
+              - generic [ref=e244]: 工厂
+              - generic [ref=e247]:
+                - textbox "请选择" [ref=e248] [cursor=pointer]
+                - generic [ref=e250] [cursor=pointer]: 
+            - generic [ref=e252]:
+              - generic [ref=e253]: 车间
+              - generic [ref=e256]:
+                - textbox "请选择" [ref=e257] [cursor=pointer]
+                - generic [ref=e259] [cursor=pointer]: 
+            - generic [ref=e261]:
+              - generic [ref=e262]: 产线
+              - generic [ref=e265]:
+                - textbox "请选择" [ref=e266] [cursor=pointer]
+                - generic [ref=e268] [cursor=pointer]: 
+            - generic [ref=e270]:
+              - generic [ref=e271]: 生产班组
+              - textbox "请输入生产班组" [ref=e274]
+            - generic [ref=e276]:
+              - generic [ref=e277]: 数据状态
+              - generic [ref=e280]:
+                - textbox "请选择" [ref=e281] [cursor=pointer]: 新数据
+                - generic [ref=e283] [cursor=pointer]: 
+            - generic [ref=e284]:
+              - button "重置" [ref=e285] [cursor=pointer]
+              - button " 搜索" [ref=e286] [cursor=pointer]:
+                - generic [ref=e287]: 
+                - text: 搜索
+              - button "导出Excel" [ref=e288] [cursor=pointer]: 导出Excel
+          - generic [ref=e290]:
+            - heading "生产数据明细表" [level=4] [ref=e291]
+            - generic [ref=e293]:
+              - table [ref=e295]:
+                - rowgroup [ref=e330]:
+                  - row "工厂 车间 产线 班组 订单 产品 规格 计划生产数量 人工确认数量 批次号 有效期 1级采集数量 1级生产数量 1级采集率 2级采集数量 2级生产数量 2级采集率 3级采集数量 3级生产数量 3级采集率 4级采集数量 4级生产数量 4级采集率 5级采集数量 5级生产数量 5级采集率 生产开始时间 工单完成时间 计划开始时间 计划完成时间 计划生产日期 生产状态 质检状态" [ref=e331]:
+                    - columnheader "工厂" [ref=e332]:
+                      - generic [ref=e333]: 工厂
+                    - columnheader "车间" [ref=e334]:
+                      - generic [ref=e335]: 车间
+                    - columnheader "产线" [ref=e336]:
+                      - generic [ref=e337]: 产线
+                    - columnheader "班组" [ref=e338]:
+                      - generic [ref=e339]: 班组
+                    - columnheader "订单" [ref=e340]:
+                      - generic [ref=e341]: 订单
+                    - columnheader "产品" [ref=e342]:
+                      - generic [ref=e343]: 产品
+                    - columnheader "规格" [ref=e344]:
+                      - generic [ref=e345]: 规格
+                    - columnheader "计划生产数量" [ref=e346]:
+                      - generic [ref=e347]: 计划生产数量
+                    - columnheader "人工确认数量" [ref=e348]:
+                      - generic [ref=e349]: 人工确认数量
+                    - columnheader "批次号" [ref=e350]:
+                      - generic [ref=e351]: 批次号
+                    - columnheader "有效期" [ref=e352]:
+                      - generic [ref=e353]: 有效期
+                    - columnheader "1级采集数量" [ref=e354]:
+                      - generic [ref=e355]: 1级采集数量
+                    - columnheader "1级生产数量" [ref=e356]:
+                      - generic [ref=e357]: 1级生产数量
+                    - columnheader "1级采集率" [ref=e358]:
+                      - generic [ref=e359]: 1级采集率
+                    - columnheader "2级采集数量" [ref=e360]:
+                      - generic [ref=e361]: 2级采集数量
+                    - columnheader "2级生产数量" [ref=e362]:
+                      - generic [ref=e363]: 2级生产数量
+                    - columnheader "2级采集率" [ref=e364]:
+                      - generic [ref=e365]: 2级采集率
+                    - columnheader "3级采集数量" [ref=e366]:
+                      - generic [ref=e367]: 3级采集数量
+                    - columnheader "3级生产数量" [ref=e368]:
+                      - generic [ref=e369]: 3级生产数量
+                    - columnheader "3级采集率" [ref=e370]:
+                      - generic [ref=e371]: 3级采集率
+                    - columnheader "4级采集数量" [ref=e372]:
+                      - generic [ref=e373]: 4级采集数量
+                    - columnheader "4级生产数量" [ref=e374]:
+                      - generic [ref=e375]: 4级生产数量
+                    - columnheader "4级采集率" [ref=e376]:
+                      - generic [ref=e377]: 4级采集率
+                    - columnheader "5级采集数量" [ref=e378]:
+                      - generic [ref=e379]: 5级采集数量
+                    - columnheader "5级生产数量" [ref=e380]:
+                      - generic [ref=e381]: 5级生产数量
+                    - columnheader "5级采集率" [ref=e382]:
+                      - generic [ref=e383]: 5级采集率
+                    - columnheader "生产开始时间" [ref=e384]:
+                      - generic [ref=e385]: 生产开始时间
+                    - columnheader "工单完成时间" [ref=e386]:
+                      - generic [ref=e387]: 工单完成时间
+                    - columnheader "计划开始时间" [ref=e388]:
+                      - generic [ref=e389]: 计划开始时间
+                    - columnheader "计划完成时间" [ref=e390]:
+                      - generic [ref=e391]: 计划完成时间
+                    - columnheader "计划生产日期" [ref=e392]:
+                      - generic [ref=e393]: 计划生产日期
+                    - columnheader "生产状态" [ref=e394]:
+                      - generic [ref=e395]: 生产状态
+                    - columnheader "质检状态" [ref=e396]:
+                      - generic [ref=e397]: 质检状态
+                    - columnheader
+              - table [ref=e399]:
+                - rowgroup [ref=e434]:
+                  - row "MT001 弥特纯净水工厂 cj01纯净水一车间 cx02二号线 mite2026020604 cjs1 纯净水500ml 500ml 0 0 260121 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0001-01-01 00:00:00 0001-01-01 00:00:00 2026-02-06 00:00:00 已下载 待质检" [ref=e435]:
+                    - cell "MT001 弥特纯净水工厂" [ref=e436]:
+                      - generic [ref=e437]: MT001 弥特纯净水工厂
+                    - cell "cj01纯净水一车间" [ref=e438]:
+                      - generic [ref=e439]: cj01纯净水一车间
+                    - cell "cx02二号线" [ref=e440]:
+                      - generic [ref=e441]: cx02二号线
+                    - cell [ref=e442]
+                    - cell "mite2026020604" [ref=e443]:
+                      - generic [ref=e444]: mite2026020604
+                    - cell "cjs1 纯净水500ml" [ref=e445]:
+                      - generic [ref=e446]: cjs1 纯净水500ml
+                    - cell "500ml" [ref=e447]:
+                      - generic [ref=e448]: 500ml
+                    - cell "0" [ref=e449]:
+                      - generic [ref=e450]: "0"
+                    - cell "0" [ref=e451]:
+                      - generic [ref=e452]: "0"
+                    - cell "260121" [ref=e453]:
+                      - generic [ref=e454]: "260121"
+                    - cell [ref=e455]
+                    - cell "0" [ref=e456]:
+                      - generic [ref=e457]: "0"
+                    - cell "0" [ref=e458]:
+                      - generic [ref=e459]: "0"
+                    - cell "0%" [ref=e460]:
+                      - generic [ref=e461]: 0%
+                    - cell "0" [ref=e462]:
+                      - generic [ref=e463]: "0"
+                    - cell "0" [ref=e464]:
+                      - generic [ref=e465]: "0"
+                    - cell "0%" [ref=e466]:
+                      - generic [ref=e467]: 0%
+                    - cell "0" [ref=e468]:
+                      - generic [ref=e469]: "0"
+                    - cell "0" [ref=e470]:
+                      - generic [ref=e471]: "0"
+                    - cell "0%" [ref=e472]:
+                      - generic [ref=e473]: 0%
+                    - cell "0" [ref=e474]:
+                      - generic [ref=e475]: "0"
+                    - cell "0" [ref=e476]:
+                      - generic [ref=e477]: "0"
+                    - cell "0%" [ref=e478]:
+                      - generic [ref=e479]: 0%
+                    - cell "0" [ref=e480]:
+                      - generic [ref=e481]: "0"
+                    - cell "0" [ref=e482]:
+                      - generic [ref=e483]: "0"
+                    - cell "0%" [ref=e484]:
+                      - generic [ref=e485]: 0%
+                    - cell [ref=e486]
+                    - cell [ref=e487]
+                    - cell "0001-01-01 00:00:00" [ref=e488]:
+                      - generic [ref=e489]: 0001-01-01 00:00:00
+                    - cell "0001-01-01 00:00:00" [ref=e490]:
+                      - generic [ref=e491]: 0001-01-01 00:00:00
+                    - cell "2026-02-06 00:00:00" [ref=e492]:
+                      - generic [ref=e493]: 2026-02-06 00:00:00
+                    - cell "已下载" [ref=e494]:
+                      - generic [ref=e495]: 已下载
+                    - cell "待质检" [ref=e496]:
+                      - generic [ref=e497]: 待质检
+                  - row "mt002 弥特纯净水工厂002 2314121 B001 test 123托 0 12313 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0001-01-01 00:00:00 0001-01-01 00:00:00 2026-04-08 00:00:00 已下载 待质检" [ref=e498]:
+                    - cell "mt002 弥特纯净水工厂002" [ref=e499]:
+                      - generic [ref=e500]: mt002 弥特纯净水工厂002
+                    - cell [ref=e501]
+                    - cell [ref=e502]
+                    - cell [ref=e503]
+                    - cell "2314121" [ref=e504]:
+                      - generic [ref=e505]: "2314121"
+                    - cell "B001 test" [ref=e506]:
+                      - generic [ref=e507]: B001 test
+                    - cell [ref=e508]
+                    - cell "123托" [ref=e509]:
+                      - generic [ref=e510]: 123托
+                    - cell "0" [ref=e511]:
+                      - generic [ref=e512]: "0"
+                    - cell "12313" [ref=e513]:
+                      - generic [ref=e514]: "12313"
+                    - cell [ref=e515]
+                    - cell "0" [ref=e516]:
+                      - generic [ref=e517]: "0"
+                    - cell "0" [ref=e518]:
+                      - generic [ref=e519]: "0"
+                    - cell "0%" [ref=e520]:
+                      - generic [ref=e521]: 0%
+                    - cell "0" [ref=e522]:
+                      - generic [ref=e523]: "0"
+                    - cell "0" [ref=e524]:
+                      - generic [ref=e525]: "0"
+                    - cell "0%" [ref=e526]:
+                      - generic [ref=e527]: 0%
+                    - cell "0" [ref=e528]:
+                      - generic [ref=e529]: "0"
+                    - cell "0" [ref=e530]:
+                      - generic [ref=e531]: "0"
+                    - cell "0%" [ref=e532]:
+                      - generic [ref=e533]: 0%
+                    - cell "0" [ref=e534]:
+                      - generic [ref=e535]: "0"
+                    - cell "0" [ref=e536]:
+                      - generic [ref=e537]: "0"
+                    - cell "0%" [ref=e538]:
+                      - generic [ref=e539]: 0%
+                    - cell "0" [ref=e540]:
+                      - generic [ref=e541]: "0"
+                    - cell "0" [ref=e542]:
+                      - generic [ref=e543]: "0"
+                    - cell "0%" [ref=e544]:
+                      - generic [ref=e545]: 0%
+                    - cell [ref=e546]
+                    - cell [ref=e547]
+                    - cell "0001-01-01 00:00:00" [ref=e548]:
+                      - generic [ref=e549]: 0001-01-01 00:00:00
+                    - cell "0001-01-01 00:00:00" [ref=e550]:
+                      - generic [ref=e551]: 0001-01-01 00:00:00
+                    - cell "2026-04-08 00:00:00" [ref=e552]:
+                      - generic [ref=e553]: 2026-04-08 00:00:00
+                    - cell "已下载" [ref=e554]:
+                      - generic [ref=e555]: 已下载
+                    - cell "待质检" [ref=e556]:
+                      - generic [ref=e557]: 待质检
+                  - row "MT001 弥特纯净水工厂 cj01纯净水一车间 cx01一号线 ces260409 cjs1 纯净水500ml 500ml 100箱 0 260409 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0 0 0% 0001-01-01 00:00:00 0001-01-01 00:00:00 2026-04-09 00:00:00 已下载 待质检" [ref=e558]:
+                    - cell "MT001 弥特纯净水工厂" [ref=e559]:
+                      - generic [ref=e560]: MT001 弥特纯净水工厂
+                    - cell "cj01纯净水一车间" [ref=e561]:
+                      - generic [ref=e562]: cj01纯净水一车间
+                    - cell "cx01一号线" [ref=e563]:
+                      - generic [ref=e564]: cx01一号线
+                    - cell [ref=e565]
+                    - cell "ces260409" [ref=e566]:
+                      - generic [ref=e567]: ces260409
+                    - cell "cjs1 纯净水500ml" [ref=e568]:
+                      - generic [ref=e569]: cjs1 纯净水500ml
+                    - cell "500ml" [ref=e570]:
+                      - generic [ref=e571]: 500ml
+                    - cell "100箱" [ref=e572]:
+                      - generic [ref=e573]: 100箱
+                    - cell "0" [ref=e574]:
+                      - generic [ref=e575]: "0"
+                    - cell "260409" [ref=e576]:
+                      - generic [ref=e577]: "260409"
+                    - cell [ref=e578]
+                    - cell "0" [ref=e579]:
+                      - generic [ref=e580]: "0"
+                    - cell "0" [ref=e581]:
+                      - generic [ref=e582]: "0"
+                    - cell "0%" [ref=e583]:
+                      - generic [ref=e584]: 0%
+                    - cell "0" [ref=e585]:
+                      - generic [ref=e586]: "0"
+                    - cell "0" [ref=e587]:
+                      - generic [ref=e588]: "0"
+                    - cell "0%" [ref=e589]:
+                      - generic [ref=e590]: 0%
+                    - cell "0" [ref=e591]:
+                      - generic [ref=e592]: "0"
+                    - cell "0" [ref=e593]:
+                      - generic [ref=e594]: "0"
+                    - cell "0%" [ref=e595]:
+                      - generic [ref=e596]: 0%
+                    - cell "0" [ref=e597]:
+                      - generic [ref=e598]: "0"
+                    - cell "0" [ref=e599]:
+                      - generic [ref=e600]: "0"
+                    - cell "0%" [ref=e601]:
+                      - generic [ref=e602]: 0%
+                    - cell "0" [ref=e603]:
+                      - generic [ref=e604]: "0"
+                    - cell "0" [ref=e605]:
+                      - generic [ref=e606]: "0"
+                    - cell "0%" [ref=e607]:
+                      - generic [ref=e608]: 0%
+                    - cell [ref=e609]
+                    - cell [ref=e610]
+                    - cell "0001-01-01 00:00:00" [ref=e611]:
+                      - generic [ref=e612]: 0001-01-01 00:00:00
+                    - cell "0001-01-01 00:00:00" [ref=e613]:
+                      - generic [ref=e614]: 0001-01-01 00:00:00
+                    - cell "2026-04-09 00:00:00" [ref=e615]:
+                      - generic [ref=e616]: 2026-04-09 00:00:00
+                    - cell "已下载" [ref=e617]:
+                      - generic [ref=e618]: 已下载
+                    - cell "待质检" [ref=e619]:
+                      - generic [ref=e620]: 待质检
+            - generic [ref=e621]:
+              - generic [ref=e622]: 共 111 条
+              - button "" [disabled] [ref=e623]:
+                - generic [ref=e624]: 
+              - list [ref=e625]:
+                - listitem [ref=e626]: "1"
+                - listitem [ref=e627] [cursor=pointer]: "2"
+                - listitem [ref=e628] [cursor=pointer]: "3"
+                - listitem [ref=e629] [cursor=pointer]: "4"
+                - listitem [ref=e630] [cursor=pointer]: "5"
+                - listitem [ref=e631] [cursor=pointer]: "6"
+                - listitem [ref=e632] [cursor=pointer]: 
+                - listitem [ref=e633] [cursor=pointer]: "37"
+              - button "" [ref=e634] [cursor=pointer]:
+                - generic [ref=e635]: 
+              - generic [ref=e636]:
+                - text: 前往
+                - spinbutton [ref=e638]: "1"
+                - text: 页
+              - generic [ref=e641]:
+                - textbox "请选择" [ref=e642] [cursor=pointer]: 3条/页
+                - generic [ref=e644] [cursor=pointer]: 

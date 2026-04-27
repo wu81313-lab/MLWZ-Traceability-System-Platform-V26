@@ -1,0 +1,22 @@
+[     496ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     653ms] [ERROR] need roles! Like v-permission="['admin','editor']" @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     734ms] [ERROR] Mixed Content: The page at 'https://dev.mtkj.fun/ts/#/login?redirect=%2Fwarehouselogistics' was loaded over HTTPS, but requested an insecure script 'http://pv.sohu.com/cityjson?ie=utf-8'. This request has been blocked; the content must be served over HTTPS. @ https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:38
+[    1282ms] ReferenceError: returnCitySN is not defined
+    at https://dev.mtkj.fun/ts/static/js/chunk-bf3436e8.14cf0a1c.js:1:5798
+[   42153ms] [LOG] Z1zgSQj719pAQEhEXCuqhQ== 测试 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   42177ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   42177ms] [LOG] 域名 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   42178ms] [LOG] mtadmin @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   42489ms] [LOG] line {xAxis: undefined, series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42577ms] [LOG] line {xAxis: Array(0), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42593ms] [LOG] line {xAxis: undefined, series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42694ms] [LOG] [Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-5ae1f66c.c88e5559.js:0
+[   42736ms] [LOG] line {xAxis: Array(30), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42783ms] [LOG] line {xAxis: Array(0), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42791ms] [LOG] line {xAxis: undefined, series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42817ms] [LOG] line {xAxis: Array(30), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42847ms] [LOG] line {xAxis: Array(0), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42854ms] [LOG] line {xAxis: undefined, series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42868ms] [LOG] line {xAxis: Array(30), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42895ms] [LOG] line {xAxis: Array(0), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[   42905ms] [LOG] line {xAxis: Array(31), series: Array(1)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0

@@ -1,0 +1,39 @@
+[     604ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     604ms] [LOG] scanData: [] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     605ms] [LOG] fullScanData: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     605ms] [LOG] fullScanData1: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     606ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     606ms] [LOG] scanInspect: [] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     606ms] [LOG] fullScanData2: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     795ms] [LOG] line {xAxis: undefined, series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[     867ms] [LOG] line {xAxis: undefined, series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[     907ms] [LOG] 今日发货量.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     908ms] [LOG] 今日计划发货量.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     911ms] [LOG] 获取今日计划产量.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     916ms] [LOG] line {xAxis: undefined, series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[     927ms] [LOG] 获取今日产量.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     931ms] [LOG] line {xAxis: undefined, series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[     947ms] [LOG] 年度累计扫码量.data 5 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     948ms] [LOG] 历史累计扫码次数.data 5 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     950ms] [LOG] 今日扫码量.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     951ms] [LOG] 今日窜货预警数.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     952ms] [LOG] 年度累计窜货预警数.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     953ms] [LOG] 折线图数据 {xAxisData: undefined, seriesDataOne: undefined, seriesDataTwo: undefined, __ob__: vt} @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     956ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[     985ms] [LOG] 折线图数据 [Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[     988ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[    1042ms] [LOG] 用户异地扫码分布热力图 [] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1043ms] [LOG] fullScanData1: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1045ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[    1134ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[    1155ms] [LOG] 用户扫码分布热力图 [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1156ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1156ms] [LOG] scanData: [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1156ms] [LOG] fullScanData: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1158ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[    1242ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0
+[    1265ms] [LOG] 窜货预警热力图 [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1266ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1266ms] [LOG] scanInspect: [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1267ms] [LOG] fullScanData2: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-3c04173a.9cdea3e1.js:0
+[    1270ms] [LOG] line {xAxis: Array(31), series: Array(2)} @ https://dev.mtkj.fun/ts/static/js/chunk-a4b9d7a8.8dd8c050.js:0

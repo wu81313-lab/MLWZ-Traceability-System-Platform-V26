@@ -1,0 +1,278 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "logo" [ref=e6]
+      - generic [ref=e7]: V26
+    - menubar [ref=e9]:
+      - menuitem " 首页" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+        - text: 首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 
+          - text: 产品追溯系统
+          - generic [ref=e15]: 
+        - menu [ref=e16]:
+          - menuitem "生产管理 " [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e19]: 
+            - text:   
+          - menuitem "工厂物流 " [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e22]: 
+          - menuitem "渠道物流 " [ref=e23]:
+            - generic [ref=e24] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e25]: 
+          - menuitem "稽查管理 " [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e28]: 
+          - menuitem "查询管理 " [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e31]: 
+          - menuitem "看板 " [expanded] [ref=e32]:
+            - generic [ref=e33] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e34]: 
+            - menu [ref=e35]:
+              - menuitem "总览首页" [ref=e36] [cursor=pointer]
+              - menuitem "生产监控" [ref=e37] [cursor=pointer]
+              - menuitem "SCADA监控大屏" [ref=e38] [cursor=pointer]
+              - menuitem "仓储物流" [ref=e39] [cursor=pointer]
+              - menuitem "稽查管理" [ref=e40] [cursor=pointer]
+  - generic [ref=e41]:
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - button "" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 
+        - navigation [ref=e46]:
+          - link "系统基础信息" [ref=e47] [cursor=pointer]:
+            - /url: javascript:;
+          - link "产品追溯系统" [ref=e48] [cursor=pointer]:
+            - /url: javascript:;
+          - link "码库管理" [ref=e49] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e50]:
+        - button "" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+        - button "Tt" [ref=e53] [cursor=pointer]
+        - button "⌁ " [ref=e55]:
+          - generic [ref=e56]: ⌁
+          - generic [ref=e57]: 
+    - button "仓储物流 ×" [ref=e60] [cursor=pointer]:
+      - generic [ref=e62]: 仓储物流
+      - generic [ref=e63]: ×
+    - main [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 当日出库订单数
+            - generic [ref=e70]: "0"
+            - generic [ref=e71]: 商品数
+            - generic [ref=e72]: "0"
+          - generic [ref=e73]:
+            - generic [ref=e74]: 近7天平均出货数量
+            - generic [ref=e75]: "0"
+          - generic [ref=e76]:
+            - generic [ref=e77]: 出库扫码率
+            - generic [ref=e78]: "0"
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: 日期服务
+            - generic [ref=e95]:
+              - generic [ref=e96]: 
+              - textbox "开始日期" [ref=e97]
+              - generic [ref=e98]: "-"
+              - textbox "结束日期" [ref=e99]
+          - generic [ref=e101]:
+            - generic [ref=e102]: 发货仓库编码
+            - textbox "请输入仓库名称" [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: 收货仓库编码
+            - textbox "请输入仓库名称" [ref=e108]
+          - generic [ref=e109]:
+            - generic [ref=e110]: 状态
+            - generic [ref=e112]:
+              - textbox "请选择状态" [ref=e113] [cursor=pointer]
+              - generic [ref=e115] [cursor=pointer]: 
+          - generic [ref=e116]:
+            - generic [ref=e117]: 承运商
+            - textbox "请输入承运商" [ref=e119]
+          - generic [ref=e120]:
+            - button "重置" [ref=e121] [cursor=pointer]
+            - button "搜索" [ref=e122] [cursor=pointer]
+        - generic [ref=e123]:
+          - generic [ref=e124]: 当日出库订单状态表
+          - generic [ref=e125]:
+            - table [ref=e127]:
+              - rowgroup [ref=e144]:
+                - row "运单号 出库单号 出库时间 发货仓库编码 发货仓库 客户编码 客户名称 客户地址 产品编码 产品名称 单位 计划出库数量 出库人工确认数量 扫码数量 发货状态" [ref=e145]:
+                  - columnheader "运单号" [ref=e146]:
+                    - generic [ref=e147]: 运单号
+                  - columnheader "出库单号" [ref=e148]:
+                    - generic [ref=e149]: 出库单号
+                  - columnheader "出库时间" [ref=e150]:
+                    - generic [ref=e151]: 出库时间
+                  - columnheader "发货仓库编码" [ref=e152]:
+                    - generic [ref=e153]: 发货仓库编码
+                  - columnheader "发货仓库" [ref=e154]:
+                    - generic [ref=e155]: 发货仓库
+                  - columnheader "客户编码" [ref=e156]:
+                    - generic [ref=e157]: 客户编码
+                  - columnheader "客户名称" [ref=e158]:
+                    - generic [ref=e159]: 客户名称
+                  - columnheader "客户地址" [ref=e160]:
+                    - generic [ref=e161]: 客户地址
+                  - columnheader "产品编码" [ref=e162]:
+                    - generic [ref=e163]: 产品编码
+                  - columnheader "产品名称" [ref=e164]:
+                    - generic [ref=e165]: 产品名称
+                  - columnheader "单位" [ref=e166]:
+                    - generic [ref=e167]: 单位
+                  - columnheader "计划出库数量" [ref=e168]:
+                    - generic [ref=e169]: 计划出库数量
+                  - columnheader "出库人工确认数量" [ref=e170]:
+                    - generic [ref=e171]: 出库人工确认数量
+                  - columnheader "扫码数量" [ref=e172]:
+                    - generic [ref=e173]: 扫码数量
+                  - columnheader "发货状态" [ref=e174]:
+                    - generic [ref=e175]: 发货状态
+            - table [ref=e177]:
+              - rowgroup [ref=e194]:
+                - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛仓 KH001 测试客户A 青岛市市南区 cjs1 纯净水500ml 箱 0 0 0 已完成" [ref=e195]:
+                  - cell "XSCK213701-2608674" [ref=e196]:
+                    - generic [ref=e197]: XSCK213701-2608674
+                  - cell "XSCK213701-2608674" [ref=e198]:
+                    - generic [ref=e199]: XSCK213701-2608674
+                  - cell "1970-01-01 08:00:00" [ref=e200]:
+                    - generic [ref=e201]: 1970-01-01 08:00:00
+                  - cell "213701" [ref=e202]:
+                    - generic [ref=e203]: "213701"
+                  - cell "青岛仓" [ref=e204]:
+                    - generic [ref=e205]: 青岛仓
+                  - cell "KH001" [ref=e206]:
+                    - generic [ref=e207]: KH001
+                  - cell "测试客户A" [ref=e208]:
+                    - generic [ref=e209]: 测试客户A
+                  - cell "青岛市市南区" [ref=e210]:
+                    - generic [ref=e211]: 青岛市市南区
+                  - cell "cjs1" [ref=e212]:
+                    - generic [ref=e213]: cjs1
+                  - cell "纯净水500ml" [ref=e214]:
+                    - generic [ref=e215]: 纯净水500ml
+                  - cell "箱" [ref=e216]:
+                    - generic [ref=e217]: 箱
+                  - cell "0" [ref=e218]:
+                    - generic [ref=e219]: "0"
+                  - cell "0" [ref=e220]:
+                    - generic [ref=e221]: "0"
+                  - cell "0" [ref=e222]:
+                    - generic [ref=e223]: "0"
+                  - cell "已完成" [ref=e224]:
+                    - generic [ref=e225]: 已完成
+                - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛仓 KH001 测试客户A 青岛市市南区 cjs1 纯净水500ml 箱 0 0 0 已完成" [ref=e226]:
+                  - cell "XSCK213701-2608674" [ref=e227]:
+                    - generic [ref=e228]: XSCK213701-2608674
+                  - cell "XSCK213701-2608674" [ref=e229]:
+                    - generic [ref=e230]: XSCK213701-2608674
+                  - cell "1970-01-01 08:00:00" [ref=e231]:
+                    - generic [ref=e232]: 1970-01-01 08:00:00
+                  - cell "213701" [ref=e233]:
+                    - generic [ref=e234]: "213701"
+                  - cell "青岛仓" [ref=e235]:
+                    - generic [ref=e236]: 青岛仓
+                  - cell "KH001" [ref=e237]:
+                    - generic [ref=e238]: KH001
+                  - cell "测试客户A" [ref=e239]:
+                    - generic [ref=e240]: 测试客户A
+                  - cell "青岛市市南区" [ref=e241]:
+                    - generic [ref=e242]: 青岛市市南区
+                  - cell "cjs1" [ref=e243]:
+                    - generic [ref=e244]: cjs1
+                  - cell "纯净水500ml" [ref=e245]:
+                    - generic [ref=e246]: 纯净水500ml
+                  - cell "箱" [ref=e247]:
+                    - generic [ref=e248]: 箱
+                  - cell "0" [ref=e249]:
+                    - generic [ref=e250]: "0"
+                  - cell "0" [ref=e251]:
+                    - generic [ref=e252]: "0"
+                  - cell "0" [ref=e253]:
+                    - generic [ref=e254]: "0"
+                  - cell "已完成" [ref=e255]:
+                    - generic [ref=e256]: 已完成
+                - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛仓 KH001 测试客户A 青岛市市南区 cjs1 纯净水500ml 箱 0 0 0 已完成" [ref=e257]:
+                  - cell "XSCK213701-2608674" [ref=e258]:
+                    - generic [ref=e259]: XSCK213701-2608674
+                  - cell "XSCK213701-2608674" [ref=e260]:
+                    - generic [ref=e261]: XSCK213701-2608674
+                  - cell "1970-01-01 08:00:00" [ref=e262]:
+                    - generic [ref=e263]: 1970-01-01 08:00:00
+                  - cell "213701" [ref=e264]:
+                    - generic [ref=e265]: "213701"
+                  - cell "青岛仓" [ref=e266]:
+                    - generic [ref=e267]: 青岛仓
+                  - cell "KH001" [ref=e268]:
+                    - generic [ref=e269]: KH001
+                  - cell "测试客户A" [ref=e270]:
+                    - generic [ref=e271]: 测试客户A
+                  - cell "青岛市市南区" [ref=e272]:
+                    - generic [ref=e273]: 青岛市市南区
+                  - cell "cjs1" [ref=e274]:
+                    - generic [ref=e275]: cjs1
+                  - cell "纯净水500ml" [ref=e276]:
+                    - generic [ref=e277]: 纯净水500ml
+                  - cell "箱" [ref=e278]:
+                    - generic [ref=e279]: 箱
+                  - cell "0" [ref=e280]:
+                    - generic [ref=e281]: "0"
+                  - cell "0" [ref=e282]:
+                    - generic [ref=e283]: "0"
+                  - cell "0" [ref=e284]:
+                    - generic [ref=e285]: "0"
+                  - cell "已完成" [ref=e286]:
+                    - generic [ref=e287]: 已完成
+          - generic [ref=e288]:
+            - generic [ref=e289]: 共 459 条
+            - generic [ref=e290]:
+              - button "" [disabled] [ref=e291]:
+                - generic [ref=e292]: 
+              - list [ref=e293]:
+                - listitem [ref=e294]: "1"
+                - listitem [ref=e295] [cursor=pointer]: "2"
+                - listitem [ref=e296] [cursor=pointer]: "3"
+                - listitem [ref=e297] [cursor=pointer]: "4"
+                - listitem [ref=e298] [cursor=pointer]: "5"
+                - listitem [ref=e299] [cursor=pointer]: "6"
+                - listitem [ref=e300] [cursor=pointer]: 
+                - listitem [ref=e301] [cursor=pointer]: "153"
+              - button "" [ref=e302] [cursor=pointer]:
+                - generic [ref=e303]: 
+              - generic [ref=e304]:
+                - text: 前往
+                - spinbutton [ref=e306]: "1"
+                - text: 页
+              - generic [ref=e309]:
+                - textbox "请选择" [ref=e310] [cursor=pointer]: 3条/页
+                - generic [ref=e312] [cursor=pointer]: 
+    - generic:
+      - button "" [ref=e313] [cursor=pointer]:
+        - generic [ref=e314]: 
+      - generic [ref=e315]:
+        - generic [ref=e316]: 系统布局配置
+        - generic [ref=e317]:
+          - generic [ref=e318]: 开启 Tags-View
+          - switch [checked] [ref=e319]:
+            - checkbox [checked]
+        - generic [ref=e321]:
+          - generic [ref=e322]: 固定 Header
+          - switch [ref=e323]:
+            - checkbox
+        - generic [ref=e325]:
+          - generic [ref=e326]: 侧边栏 Logo
+          - switch [checked] [ref=e327]:
+            - checkbox [checked]

@@ -1,0 +1,427 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - text:  
+            - menuitem "渠道物流 " [expanded] [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - menu [ref=e104]:
+                - menuitem "经销商物流 " [ref=e106]:
+                  - generic [ref=e107] [cursor=pointer]:
+                    - text: 经销商物流
+                    - generic [ref=e108]: 
+                  - text: 
+                - menuitem "终端物流 " [expanded] [ref=e110]:
+                  - generic [ref=e111] [cursor=pointer]:
+                    - text: 终端物流
+                    - generic [ref=e112]: 
+                  - menu [ref=e113]:
+                    - link "单据签收记录" [ref=e115] [cursor=pointer]:
+                      - /url: "#/sttSsignWeblist"
+                      - menuitem "单据签收记录" [ref=e116]
+                    - link "扫码签收记录" [ref=e118] [cursor=pointer]:
+                      - /url: "#/sttSsignscancodelogs"
+                      - menuitem "扫码签收记录" [ref=e119]
+                - menuitem "渠道库存 " [ref=e121]:
+                  - generic [ref=e122] [cursor=pointer]:
+                    - text: 渠道库存
+                    - generic [ref=e123]: 
+            - menuitem "稽查管理 " [ref=e125]:
+              - generic [ref=e126] [cursor=pointer]:
+                - img [ref=e127]
+                - text: 稽查管理
+                - generic [ref=e129]: 
+            - menuitem "查询管理 " [ref=e131]:
+              - generic [ref=e132] [cursor=pointer]:
+                - img [ref=e133]
+                - text: 查询管理
+                - generic [ref=e135]: 
+            - menuitem "看板 " [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - img [ref=e139]
+                - text: 看板
+                - generic [ref=e141]: 
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - img [ref=e148] [cursor=pointer]
+          - menubar [ref=e150]:
+            - menuitem "系统基础信息" [ref=e151] [cursor=pointer]:
+              - link "系统基础信息" [ref=e152]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e153] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e154]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e155] [cursor=pointer]:
+              - link "码库管理" [ref=e156]:
+                - /url: /org//#/readycreate
+          - generic [ref=e157]:
+            - generic [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - button [ref=e160]:
+                  - img [ref=e162]
+                - superscript [ref=e164]
+              - text: 
+            - img [ref=e166] [cursor=pointer]
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - button "" [ref=e173] [cursor=pointer]:
+              - img [ref=e174]
+              - generic [ref=e175]: 
+        - generic [ref=e180] [cursor=pointer]:
+          - text: 扫码签收记录
+          - generic [ref=e181]: 
+      - generic [ref=e187]:
+        - navigation "Breadcrumb" [ref=e189]:
+          - generic [ref=e190]:
+            - link "终端签收" [ref=e191]: 终端签收
+            - text: /
+          - link "扫码签收记录" [ref=e193]
+        - generic [ref=e194]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: 出库单号
+                - textbox "请输入出库单号" [ref=e203]
+              - generic [ref=e205]:
+                - generic [ref=e206]: 收货编码
+                - textbox "请输入收货编码" [ref=e209]
+              - generic [ref=e211]:
+                - generic [ref=e212]: 签收单号
+                - textbox "请输入签收单号" [ref=e215]
+              - generic [ref=e217]:
+                - generic [ref=e218]: 状态
+                - generic [ref=e221]:
+                  - textbox "请选择" [ref=e222] [cursor=pointer]: 所有
+                  - generic [ref=e224] [cursor=pointer]: 
+            - generic [ref=e226]:
+              - button "重置" [ref=e227] [cursor=pointer]
+              - button " 搜索" [ref=e228] [cursor=pointer]:
+                - generic [ref=e229]: 
+                - text: 搜索
+          - generic [ref=e231]:
+            - heading "扫码签收记录" [level=4] [ref=e232]
+            - generic [ref=e234]:
+              - table [ref=e236]:
+                - rowgroup [ref=e251]:
+                  - row "客户编码 客户名称 签收人 签收人手机号 建单时间 签收时间 签收地址 送达时间 送达地址 出库单号 收货编码 状态" [ref=e252]:
+                    - columnheader [ref=e253]
+                    - columnheader "客户编码" [ref=e254]:
+                      - generic [ref=e255]: 客户编码
+                    - columnheader "客户名称" [ref=e256]:
+                      - generic [ref=e257]: 客户名称
+                    - columnheader "签收人" [ref=e258]:
+                      - generic [ref=e259]: 签收人
+                    - columnheader "签收人手机号" [ref=e260]:
+                      - generic [ref=e261]: 签收人手机号
+                    - columnheader "建单时间" [ref=e262]:
+                      - generic [ref=e263]: 建单时间
+                    - columnheader "签收时间" [ref=e264]:
+                      - generic [ref=e265]: 签收时间
+                    - columnheader "签收地址" [ref=e266]:
+                      - generic [ref=e267]: 签收地址
+                    - columnheader "送达时间" [ref=e268]:
+                      - generic [ref=e269]: 送达时间
+                    - columnheader "送达地址" [ref=e270]:
+                      - generic [ref=e271]: 送达地址
+                    - columnheader "出库单号" [ref=e272]:
+                      - generic [ref=e273]: 出库单号
+                    - columnheader "收货编码" [ref=e274]:
+                      - generic [ref=e275]: 收货编码
+                    - columnheader "状态" [ref=e276]:
+                      - generic [ref=e277]: 状态
+              - table [ref=e279]:
+                - rowgroup [ref=e294]:
+                  - row " 2c124912c5884159ac42463d74b022b5 2026-02-28 12:55:21 2026-02-28 12:55:21 2026-02-28 12:55:21 广东省广州市黄埔区穗东街道港前路科学城IMIC大湾区智能制造创新中心 202602282c124912c5884159ac42463d74b022b5 2c124912c5884159ac42463d74b022b5 已送达" [ref=e295]:
+                    - cell "" [ref=e296]:
+                      - generic [ref=e299] [cursor=pointer]: 
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e300]:
+                      - generic [ref=e301]: 2c124912c5884159ac42463d74b022b5
+                    - cell [ref=e302]
+                    - cell [ref=e303]
+                    - cell [ref=e304]
+                    - cell "2026-02-28 12:55:21" [ref=e305]:
+                      - generic [ref=e306]: 2026-02-28 12:55:21
+                    - cell "2026-02-28 12:55:21" [ref=e307]:
+                      - generic [ref=e308]: 2026-02-28 12:55:21
+                    - cell [ref=e309]
+                    - cell "2026-02-28 12:55:21" [ref=e310]:
+                      - generic [ref=e311]: 2026-02-28 12:55:21
+                    - cell "广东省广州市黄埔区穗东街道港前路科学城IMIC大湾区智能制造创新中心" [ref=e312]:
+                      - generic [ref=e313]: 广东省广州市黄埔区穗东街道港前路科学城IMIC大湾区智能制造创新中心
+                    - cell "202602282c124912c5884159ac42463d74b022b5" [ref=e314]:
+                      - generic [ref=e315]: 202602282c124912c5884159ac42463d74b022b5
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e316]:
+                      - generic [ref=e317]: 2c124912c5884159ac42463d74b022b5
+                    - cell "已送达" [ref=e318]:
+                      - generic [ref=e319]: 已送达
+                  - row " 2c124912c5884159ac42463d74b022b5 终端A 2026-02-28 13:05:38 2026-02-28 13:05:38 广东省广州市增城区荔湖街道增城区行政中心广州市增城区人民政府 HP202602285801000001 2c124912c5884159ac42463d74b022b5 未送达" [ref=e320]:
+                    - cell "" [ref=e321]:
+                      - generic [ref=e324] [cursor=pointer]: 
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e325]:
+                      - generic [ref=e326]: 2c124912c5884159ac42463d74b022b5
+                    - cell "终端A" [ref=e327]:
+                      - generic [ref=e328]: 终端A
+                    - cell [ref=e329]
+                    - cell [ref=e330]
+                    - cell "2026-02-28 13:05:38" [ref=e331]:
+                      - generic [ref=e332]: 2026-02-28 13:05:38
+                    - cell [ref=e333]
+                    - cell [ref=e334]
+                    - cell "2026-02-28 13:05:38" [ref=e335]:
+                      - generic [ref=e336]: 2026-02-28 13:05:38
+                    - cell "广东省广州市增城区荔湖街道增城区行政中心广州市增城区人民政府" [ref=e337]:
+                      - generic [ref=e338]: 广东省广州市增城区荔湖街道增城区行政中心广州市增城区人民政府
+                    - cell "HP202602285801000001" [ref=e339]:
+                      - generic [ref=e340]: HP202602285801000001
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e341]:
+                      - generic [ref=e342]: 2c124912c5884159ac42463d74b022b5
+                    - cell "未送达" [ref=e343]:
+                      - generic [ref=e344]: 未送达
+                  - row " 65950a59de0c4a3cbfea530347e4c82c 终端2B 2026-02-05 17:31:52 2026-02-05 17:31:52 广东省广州市黄埔区西成中街 HP202602057498000007 65950a59de0c4a3cbfea530347e4c82c 未送达" [ref=e345]:
+                    - cell "" [ref=e346]:
+                      - generic [ref=e349] [cursor=pointer]: 
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e350]:
+                      - generic [ref=e351]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "终端2B" [ref=e352]:
+                      - generic [ref=e353]: 终端2B
+                    - cell [ref=e354]
+                    - cell [ref=e355]
+                    - cell "2026-02-05 17:31:52" [ref=e356]:
+                      - generic [ref=e357]: 2026-02-05 17:31:52
+                    - cell [ref=e358]
+                    - cell [ref=e359]
+                    - cell "2026-02-05 17:31:52" [ref=e360]:
+                      - generic [ref=e361]: 2026-02-05 17:31:52
+                    - cell "广东省广州市黄埔区西成中街" [ref=e362]:
+                      - generic [ref=e363]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602057498000007" [ref=e364]:
+                      - generic [ref=e365]: HP202602057498000007
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e366]:
+                      - generic [ref=e367]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "未送达" [ref=e368]:
+                      - generic [ref=e369]: 未送达
+                  - row " 77acc51897a54fd6b1def6709ce050a5 二级经销商2 2026-02-05 17:30:19 2026-02-05 17:30:19 广东省广州市黄埔区西成中街 HP202602052641000006 77acc51897a54fd6b1def6709ce050a5 未送达" [ref=e370]:
+                    - cell "" [ref=e371]:
+                      - generic [ref=e374] [cursor=pointer]: 
+                    - cell "77acc51897a54fd6b1def6709ce050a5" [ref=e375]:
+                      - generic [ref=e376]: 77acc51897a54fd6b1def6709ce050a5
+                    - cell "二级经销商2" [ref=e377]:
+                      - generic [ref=e378]: 二级经销商2
+                    - cell [ref=e379]
+                    - cell [ref=e380]
+                    - cell "2026-02-05 17:30:19" [ref=e381]:
+                      - generic [ref=e382]: 2026-02-05 17:30:19
+                    - cell [ref=e383]
+                    - cell [ref=e384]
+                    - cell "2026-02-05 17:30:19" [ref=e385]:
+                      - generic [ref=e386]: 2026-02-05 17:30:19
+                    - cell "广东省广州市黄埔区西成中街" [ref=e387]:
+                      - generic [ref=e388]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602052641000006" [ref=e389]:
+                      - generic [ref=e390]: HP202602052641000006
+                    - cell "77acc51897a54fd6b1def6709ce050a5" [ref=e391]:
+                      - generic [ref=e392]: 77acc51897a54fd6b1def6709ce050a5
+                    - cell "未送达" [ref=e393]:
+                      - generic [ref=e394]: 未送达
+                  - row " 65950a59de0c4a3cbfea530347e4c82c 终端2B 2026-02-05 17:32:02 2026-02-05 17:36:18 2026-02-05 17:32:02 广东省广州市黄埔区西成中街 HP202602054506000005 65950a59de0c4a3cbfea530347e4c82c 已送达" [ref=e395]:
+                    - cell "" [ref=e396]:
+                      - generic [ref=e399] [cursor=pointer]: 
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e400]:
+                      - generic [ref=e401]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "终端2B" [ref=e402]:
+                      - generic [ref=e403]: 终端2B
+                    - cell [ref=e404]
+                    - cell [ref=e405]
+                    - cell "2026-02-05 17:32:02" [ref=e406]:
+                      - generic [ref=e407]: 2026-02-05 17:32:02
+                    - cell "2026-02-05 17:36:18" [ref=e408]:
+                      - generic [ref=e409]: 2026-02-05 17:36:18
+                    - cell [ref=e410]
+                    - cell "2026-02-05 17:32:02" [ref=e411]:
+                      - generic [ref=e412]: 2026-02-05 17:32:02
+                    - cell "广东省广州市黄埔区西成中街" [ref=e413]:
+                      - generic [ref=e414]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602054506000005" [ref=e415]:
+                      - generic [ref=e416]: HP202602054506000005
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e417]:
+                      - generic [ref=e418]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "已送达" [ref=e419]:
+                      - generic [ref=e420]: 已送达
+                  - row " 2c124912c5884159ac42463d74b022b5 终端A 2026-02-05 17:27:09 2026-02-05 17:27:27 2026-02-05 17:27:09 广东省广州市黄埔区西成中街 HP202602050160000004 2c124912c5884159ac42463d74b022b5 已送达" [ref=e421]:
+                    - cell "" [ref=e422]:
+                      - generic [ref=e425] [cursor=pointer]: 
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e426]:
+                      - generic [ref=e427]: 2c124912c5884159ac42463d74b022b5
+                    - cell "终端A" [ref=e428]:
+                      - generic [ref=e429]: 终端A
+                    - cell [ref=e430]
+                    - cell [ref=e431]
+                    - cell "2026-02-05 17:27:09" [ref=e432]:
+                      - generic [ref=e433]: 2026-02-05 17:27:09
+                    - cell "2026-02-05 17:27:27" [ref=e434]:
+                      - generic [ref=e435]: 2026-02-05 17:27:27
+                    - cell [ref=e436]
+                    - cell "2026-02-05 17:27:09" [ref=e437]:
+                      - generic [ref=e438]: 2026-02-05 17:27:09
+                    - cell "广东省广州市黄埔区西成中街" [ref=e439]:
+                      - generic [ref=e440]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602050160000004" [ref=e441]:
+                      - generic [ref=e442]: HP202602050160000004
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e443]:
+                      - generic [ref=e444]: 2c124912c5884159ac42463d74b022b5
+                    - cell "已送达" [ref=e445]:
+                      - generic [ref=e446]: 已送达
+                  - row " 2c124912c5884159ac42463d74b022b5 终端A 2026-02-05 17:06:56 2026-02-05 17:06:55 2026-02-05 17:06:56 广东省广州市黄埔区西成中街 202602052c124912c5884159ac42463d74b022b5 2c124912c5884159ac42463d74b022b5 已送达" [ref=e447]:
+                    - cell "" [ref=e448]:
+                      - generic [ref=e451] [cursor=pointer]: 
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e452]:
+                      - generic [ref=e453]: 2c124912c5884159ac42463d74b022b5
+                    - cell "终端A" [ref=e454]:
+                      - generic [ref=e455]: 终端A
+                    - cell [ref=e456]
+                    - cell [ref=e457]
+                    - cell "2026-02-05 17:06:56" [ref=e458]:
+                      - generic [ref=e459]: 2026-02-05 17:06:56
+                    - cell "2026-02-05 17:06:55" [ref=e460]:
+                      - generic [ref=e461]: 2026-02-05 17:06:55
+                    - cell [ref=e462]
+                    - cell "2026-02-05 17:06:56" [ref=e463]:
+                      - generic [ref=e464]: 2026-02-05 17:06:56
+                    - cell "广东省广州市黄埔区西成中街" [ref=e465]:
+                      - generic [ref=e466]: 广东省广州市黄埔区西成中街
+                    - cell "202602052c124912c5884159ac42463d74b022b5" [ref=e467]:
+                      - generic [ref=e468]: 202602052c124912c5884159ac42463d74b022b5
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e469]:
+                      - generic [ref=e470]: 2c124912c5884159ac42463d74b022b5
+                    - cell "已送达" [ref=e471]:
+                      - generic [ref=e472]: 已送达
+                  - row " 65950a59de0c4a3cbfea530347e4c82c 终端2B 2026-02-05 17:00:24 2026-02-05 17:00:24 广东省广州市黄埔区港前路 HP202602058817000003 65950a59de0c4a3cbfea530347e4c82c 未送达" [ref=e473]:
+                    - cell "" [ref=e474]:
+                      - generic [ref=e477] [cursor=pointer]: 
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e478]:
+                      - generic [ref=e479]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "终端2B" [ref=e480]:
+                      - generic [ref=e481]: 终端2B
+                    - cell [ref=e482]
+                    - cell [ref=e483]
+                    - cell "2026-02-05 17:00:24" [ref=e484]:
+                      - generic [ref=e485]: 2026-02-05 17:00:24
+                    - cell [ref=e486]
+                    - cell [ref=e487]
+                    - cell "2026-02-05 17:00:24" [ref=e488]:
+                      - generic [ref=e489]: 2026-02-05 17:00:24
+                    - cell "广东省广州市黄埔区港前路" [ref=e490]:
+                      - generic [ref=e491]: 广东省广州市黄埔区港前路
+                    - cell "HP202602058817000003" [ref=e492]:
+                      - generic [ref=e493]: HP202602058817000003
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e494]:
+                      - generic [ref=e495]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "未送达" [ref=e496]:
+                      - generic [ref=e497]: 未送达
+                  - row " 77acc51897a54fd6b1def6709ce050a5 二级经销商2 2026-02-05 16:21:37 2026-02-05 16:21:37 广东省广州市黄埔区港前路 HP202602059083000002 77acc51897a54fd6b1def6709ce050a5 未送达" [ref=e498]:
+                    - cell "" [ref=e499]:
+                      - generic [ref=e502] [cursor=pointer]: 
+                    - cell "77acc51897a54fd6b1def6709ce050a5" [ref=e503]:
+                      - generic [ref=e504]: 77acc51897a54fd6b1def6709ce050a5
+                    - cell "二级经销商2" [ref=e505]:
+                      - generic [ref=e506]: 二级经销商2
+                    - cell [ref=e507]
+                    - cell [ref=e508]
+                    - cell "2026-02-05 16:21:37" [ref=e509]:
+                      - generic [ref=e510]: 2026-02-05 16:21:37
+                    - cell [ref=e511]
+                    - cell [ref=e512]
+                    - cell "2026-02-05 16:21:37" [ref=e513]:
+                      - generic [ref=e514]: 2026-02-05 16:21:37
+                    - cell "广东省广州市黄埔区港前路" [ref=e515]:
+                      - generic [ref=e516]: 广东省广州市黄埔区港前路
+                    - cell "HP202602059083000002" [ref=e517]:
+                      - generic [ref=e518]: HP202602059083000002
+                    - cell "77acc51897a54fd6b1def6709ce050a5" [ref=e519]:
+                      - generic [ref=e520]: 77acc51897a54fd6b1def6709ce050a5
+                    - cell "未送达" [ref=e521]:
+                      - generic [ref=e522]: 未送达
+                  - row " a15523e2fa5647a7acb60ff1eadb3d35 二级经销商 2026-02-05 16:05:56 2026-02-05 16:05:56 广东省广州市黄埔区西成中街 HP202602056450000001 a15523e2fa5647a7acb60ff1eadb3d35 未送达" [ref=e523]:
+                    - cell "" [ref=e524]:
+                      - generic [ref=e527] [cursor=pointer]: 
+                    - cell "a15523e2fa5647a7acb60ff1eadb3d35" [ref=e528]:
+                      - generic [ref=e529]: a15523e2fa5647a7acb60ff1eadb3d35
+                    - cell "二级经销商" [ref=e530]:
+                      - generic [ref=e531]: 二级经销商
+                    - cell [ref=e532]
+                    - cell [ref=e533]
+                    - cell "2026-02-05 16:05:56" [ref=e534]:
+                      - generic [ref=e535]: 2026-02-05 16:05:56
+                    - cell [ref=e536]
+                    - cell [ref=e537]
+                    - cell "2026-02-05 16:05:56" [ref=e538]:
+                      - generic [ref=e539]: 2026-02-05 16:05:56
+                    - cell "广东省广州市黄埔区西成中街" [ref=e540]:
+                      - generic [ref=e541]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602056450000001" [ref=e542]:
+                      - generic [ref=e543]: HP202602056450000001
+                    - cell "a15523e2fa5647a7acb60ff1eadb3d35" [ref=e544]:
+                      - generic [ref=e545]: a15523e2fa5647a7acb60ff1eadb3d35
+                    - cell "未送达" [ref=e546]:
+                      - generic [ref=e547]: 未送达
+            - generic [ref=e548]:
+              - generic [ref=e549]: 共 10 条
+              - button "" [disabled] [ref=e550]:
+                - generic [ref=e551]: 
+              - list [ref=e552]:
+                - listitem [ref=e553]: "1"
+              - button "" [disabled] [ref=e554]:
+                - generic [ref=e555]: 
+              - generic [ref=e556]:
+                - text: 前往
+                - spinbutton [ref=e558]: "1"
+                - text: 页
+              - generic [ref=e561]:
+                - textbox "请选择" [ref=e562] [cursor=pointer]: 10条/页
+                - generic [ref=e564] [cursor=pointer]: 
+          - text: 

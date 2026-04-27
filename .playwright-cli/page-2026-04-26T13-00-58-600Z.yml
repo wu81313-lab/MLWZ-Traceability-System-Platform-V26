@@ -1,0 +1,304 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - text:  
+            - menuitem "渠道物流 " [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - text:    
+            - menuitem "稽查管理 " [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]:
+                - img [ref=e107]
+                - text: 稽查管理
+                - generic [ref=e109]: 
+            - menuitem "查询管理 " [ref=e111]:
+              - generic [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+                - text: 查询管理
+                - generic [ref=e115]: 
+            - menuitem "看板 " [expanded] [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]:
+                - img [ref=e119]
+                - text: 看板
+                - generic [ref=e121]: 
+              - menu [ref=e122]:
+                - link "总览首页" [ref=e124] [cursor=pointer]:
+                  - /url: "#/dashboardOverview"
+                  - menuitem "总览首页" [ref=e125]
+                - link "生产监控" [ref=e127] [cursor=pointer]:
+                  - /url: "#/productionMonitoring"
+                  - menuitem "生产监控" [ref=e128]
+                - link "SCADA监控大屏" [ref=e130] [cursor=pointer]:
+                  - /url: "#/scada-dashboard"
+                  - menuitem "SCADA监控大屏" [ref=e131]
+                - link "仓储物流" [ref=e133] [cursor=pointer]:
+                  - /url: "#/warehouselogistics"
+                  - menuitem "仓储物流" [ref=e134]
+                - link "稽查管理" [ref=e136] [cursor=pointer]:
+                  - /url: "#/inspectionManagement"
+                  - menuitem "稽查管理" [ref=e137]
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - img [ref=e144] [cursor=pointer]
+          - menubar [ref=e146]:
+            - menuitem "系统基础信息" [ref=e147] [cursor=pointer]:
+              - link "系统基础信息" [ref=e148]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e149] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e150]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e151] [cursor=pointer]:
+              - link "码库管理" [ref=e152]:
+                - /url: /org//#/readycreate
+          - generic [ref=e153]:
+            - img [ref=e155] [cursor=pointer]
+            - button [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+            - button "" [ref=e162] [cursor=pointer]:
+              - img [ref=e163]
+              - generic [ref=e164]: 
+        - generic [ref=e169] [cursor=pointer]:
+          - text: 仓储物流
+          - generic [ref=e170]: 
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e182] [cursor=pointer]:
+            - generic [ref=e183]: 当日出库订单数
+            - generic [ref=e184]: "0"
+            - generic [ref=e185]: /商品数
+            - generic [ref=e186]: "0"
+          - generic [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: 近7天平均出库数量
+            - generic [ref=e194]: "0"
+          - generic [ref=e200] [cursor=pointer]:
+            - generic [ref=e201]: 出库扫码率
+            - generic [ref=e202]: "0"
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - generic [ref=e226]:
+                - generic [ref=e227]: 日期服务
+                - generic [ref=e229]:
+                  - generic [ref=e230]: 
+                  - textbox "开始日期" [ref=e231]
+                  - generic [ref=e232]: "-"
+                  - textbox "结束日期" [ref=e233]
+              - generic [ref=e236]:
+                - generic [ref=e237]: 发货仓库编码
+                - generic [ref=e240]:
+                  - textbox "请输入仓库名称" [ref=e241] [cursor=pointer]
+                  - generic [ref=e243] [cursor=pointer]: 
+              - generic [ref=e245]:
+                - generic [ref=e246]: 收货仓库编码
+                - generic [ref=e249]:
+                  - textbox "请输入仓库名称" [ref=e250] [cursor=pointer]
+                  - generic [ref=e252] [cursor=pointer]: 
+              - generic [ref=e254]:
+                - generic [ref=e255]: 状态
+                - generic [ref=e258]:
+                  - textbox "请选择状态" [ref=e259] [cursor=pointer]
+                  - generic [ref=e261] [cursor=pointer]: 
+            - generic [ref=e262]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: 承运商
+                - textbox "请输入承运商" [ref=e268]
+              - generic [ref=e269]:
+                - button "重置" [ref=e270] [cursor=pointer]
+                - button " 搜索" [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]: 
+                  - text: 搜索
+          - generic [ref=e274]:
+            - heading "当日出库订单状态表" [level=4] [ref=e275]
+            - generic [ref=e277]:
+              - table [ref=e279]:
+                - rowgroup [ref=e296]:
+                  - row "运单号 出库单号 出库时间 发货仓库编码 发货仓库 客户编码 客户名称 客户地址 产品编码 产品名称 单位 计划出库数量 出库人工确认数量 扫码数量 发货状态" [ref=e297]:
+                    - columnheader "运单号" [ref=e298]:
+                      - generic [ref=e299]: 运单号
+                    - columnheader "出库单号" [ref=e300]:
+                      - generic [ref=e301]: 出库单号
+                    - columnheader "出库时间" [ref=e302]:
+                      - generic [ref=e303]: 出库时间
+                    - columnheader "发货仓库编码" [ref=e304]:
+                      - generic [ref=e305]: 发货仓库编码
+                    - columnheader "发货仓库" [ref=e306]:
+                      - generic [ref=e307]: 发货仓库
+                    - columnheader "客户编码" [ref=e308]:
+                      - generic [ref=e309]: 客户编码
+                    - columnheader "客户名称" [ref=e310]:
+                      - generic [ref=e311]: 客户名称
+                    - columnheader "客户地址" [ref=e312]:
+                      - generic [ref=e313]: 客户地址
+                    - columnheader "产品编码" [ref=e314]:
+                      - generic [ref=e315]: 产品编码
+                    - columnheader "产品名称" [ref=e316]:
+                      - generic [ref=e317]: 产品名称
+                    - columnheader "单位" [ref=e318]:
+                      - generic [ref=e319]: 单位
+                    - columnheader "计划出库数量" [ref=e320]:
+                      - generic [ref=e321]: 计划出库数量
+                    - columnheader "出库人工确认数量" [ref=e322]:
+                      - generic [ref=e323]: 出库人工确认数量
+                    - columnheader "扫码数量" [ref=e324]:
+                      - generic [ref=e325]: 扫码数量
+                    - columnheader "发货状态" [ref=e326]:
+                      - generic [ref=e327]: 发货状态
+              - table [ref=e329]:
+                - rowgroup [ref=e346]:
+                  - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛工厂 92371002MAE51MWN43 环翠区山红云婷美容养生中心(个体工商户) 1ZKMS-GS001 MESO MASTER塑颜BB霜(MH-302) 盒 1 0 0 未发货" [ref=e347]:
+                    - cell "XSCK213701-2608674" [ref=e348]:
+                      - generic [ref=e349]: XSCK213701-2608674
+                    - cell "XSCK213701-2608674" [ref=e350]:
+                      - generic [ref=e351]: XSCK213701-2608674
+                    - cell "1970-01-01 08:00:00" [ref=e352]:
+                      - generic [ref=e353]: 1970-01-01 08:00:00
+                    - cell "213701" [ref=e354]:
+                      - generic [ref=e355]: "213701"
+                    - cell "青岛工厂" [ref=e356]:
+                      - generic [ref=e357]: 青岛工厂
+                    - cell "92371002MAE51MWN43" [ref=e358]:
+                      - generic [ref=e359]: 92371002MAE51MWN43
+                    - cell "环翠区山红云婷美容养生中心(个体工商户)" [ref=e360]:
+                      - generic [ref=e361]: 环翠区山红云婷美容养生中心(个体工商户)
+                    - cell [ref=e362]
+                    - cell "1ZKMS-GS001" [ref=e363]:
+                      - generic [ref=e364]: 1ZKMS-GS001
+                    - cell "MESO MASTER塑颜BB霜(MH-302)" [ref=e365]:
+                      - generic [ref=e366]: MESO MASTER塑颜BB霜(MH-302)
+                    - cell "盒" [ref=e367]:
+                      - generic [ref=e368]: 盒
+                    - cell "1" [ref=e369]:
+                      - generic [ref=e370]: "1"
+                    - cell "0" [ref=e371]:
+                      - generic [ref=e372]: "0"
+                    - cell "0" [ref=e373]:
+                      - generic [ref=e374]: "0"
+                    - cell "未发货" [ref=e375]:
+                      - generic [ref=e376]: 未发货
+                  - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛工厂 92371002MAE51MWN43 环翠区山红云婷美容养生中心(个体工商户) 1TY-GS007 MESO MASTER 轻柔防晒乳(YD-306) 支 1 0 0 未发货" [ref=e377]:
+                    - cell "XSCK213701-2608674" [ref=e378]:
+                      - generic [ref=e379]: XSCK213701-2608674
+                    - cell "XSCK213701-2608674" [ref=e380]:
+                      - generic [ref=e381]: XSCK213701-2608674
+                    - cell "1970-01-01 08:00:00" [ref=e382]:
+                      - generic [ref=e383]: 1970-01-01 08:00:00
+                    - cell "213701" [ref=e384]:
+                      - generic [ref=e385]: "213701"
+                    - cell "青岛工厂" [ref=e386]:
+                      - generic [ref=e387]: 青岛工厂
+                    - cell "92371002MAE51MWN43" [ref=e388]:
+                      - generic [ref=e389]: 92371002MAE51MWN43
+                    - cell "环翠区山红云婷美容养生中心(个体工商户)" [ref=e390]:
+                      - generic [ref=e391]: 环翠区山红云婷美容养生中心(个体工商户)
+                    - cell [ref=e392]
+                    - cell "1TY-GS007" [ref=e393]:
+                      - generic [ref=e394]: 1TY-GS007
+                    - cell "MESO MASTER 轻柔防晒乳(YD-306)" [ref=e395]:
+                      - generic [ref=e396]: MESO MASTER 轻柔防晒乳(YD-306)
+                    - cell "支" [ref=e397]:
+                      - generic [ref=e398]: 支
+                    - cell "1" [ref=e399]:
+                      - generic [ref=e400]: "1"
+                    - cell "0" [ref=e401]:
+                      - generic [ref=e402]: "0"
+                    - cell "0" [ref=e403]:
+                      - generic [ref=e404]: "0"
+                    - cell "未发货" [ref=e405]:
+                      - generic [ref=e406]: 未发货
+                  - row "XSCK213701-2608674 XSCK213701-2608674 1970-01-01 08:00:00 213701 青岛工厂 92371002MAE51MWN43 环翠区山红云婷美容养生中心(个体工商户) 1TY-JH009 MESO MASTER光耀美白精华液(TS-004) 支 5 0 0 未发货" [ref=e407]:
+                    - cell "XSCK213701-2608674" [ref=e408]:
+                      - generic [ref=e409]: XSCK213701-2608674
+                    - cell "XSCK213701-2608674" [ref=e410]:
+                      - generic [ref=e411]: XSCK213701-2608674
+                    - cell "1970-01-01 08:00:00" [ref=e412]:
+                      - generic [ref=e413]: 1970-01-01 08:00:00
+                    - cell "213701" [ref=e414]:
+                      - generic [ref=e415]: "213701"
+                    - cell "青岛工厂" [ref=e416]:
+                      - generic [ref=e417]: 青岛工厂
+                    - cell "92371002MAE51MWN43" [ref=e418]:
+                      - generic [ref=e419]: 92371002MAE51MWN43
+                    - cell "环翠区山红云婷美容养生中心(个体工商户)" [ref=e420]:
+                      - generic [ref=e421]: 环翠区山红云婷美容养生中心(个体工商户)
+                    - cell [ref=e422]
+                    - cell "1TY-JH009" [ref=e423]:
+                      - generic [ref=e424]: 1TY-JH009
+                    - cell "MESO MASTER光耀美白精华液(TS-004)" [ref=e425]:
+                      - generic [ref=e426]: MESO MASTER光耀美白精华液(TS-004)
+                    - cell "支" [ref=e427]:
+                      - generic [ref=e428]: 支
+                    - cell "5" [ref=e429]:
+                      - generic [ref=e430]: "5"
+                    - cell "0" [ref=e431]:
+                      - generic [ref=e432]: "0"
+                    - cell "0" [ref=e433]:
+                      - generic [ref=e434]: "0"
+                    - cell "未发货" [ref=e435]:
+                      - generic [ref=e436]: 未发货
+            - generic [ref=e437]:
+              - generic [ref=e438]: 共 459 条
+              - button "" [disabled] [ref=e439]:
+                - generic [ref=e440]: 
+              - list [ref=e441]:
+                - listitem [ref=e442]: "1"
+                - listitem [ref=e443] [cursor=pointer]: "2"
+                - listitem [ref=e444] [cursor=pointer]: "3"
+                - listitem [ref=e445] [cursor=pointer]: "4"
+                - listitem [ref=e446] [cursor=pointer]: "5"
+                - listitem [ref=e447] [cursor=pointer]: "6"
+                - listitem [ref=e448] [cursor=pointer]: 
+                - listitem [ref=e449] [cursor=pointer]: "153"
+              - button "" [ref=e450] [cursor=pointer]:
+                - generic [ref=e451]: 
+              - generic [ref=e452]:
+                - text: 前往
+                - spinbutton [ref=e454]: "1"
+                - text: 页
+              - generic [ref=e457]:
+                - textbox "请选择" [ref=e458] [cursor=pointer]: 3条/页
+                - generic [ref=e460] [cursor=pointer]: 

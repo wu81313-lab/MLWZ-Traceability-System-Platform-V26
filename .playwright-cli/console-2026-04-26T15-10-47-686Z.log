@@ -1,0 +1,20 @@
+[     628ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     731ms] [ERROR] need roles! Like v-permission="['admin','editor']" @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     806ms] [ERROR] Mixed Content: The page at 'https://dev.mtkj.fun/ts/#/login?redirect=%2Fchannelinventorylist' was loaded over HTTPS, but requested an insecure script 'http://pv.sohu.com/cityjson?ie=utf-8'. This request has been blocked; the content must be served over HTTPS. @ https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:38
+[    1335ms] ReferenceError: returnCitySN is not defined
+    at https://dev.mtkj.fun/ts/static/js/chunk-bf3436e8.14cf0a1c.js:1:5798
+[   19251ms] [LOG] Z1zgSQj719pAQEhEXCuqhQ== 测试 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   19273ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   19273ms] [LOG] 域名 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   19273ms] [LOG] mtadmin @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   19415ms] [ERROR] TypeError: this.getmarkentinglist is not a function
+    at r.mounted (https://dev.mtkj.fun/ts/static/js/chunk-74fa80eb.a48689b0.js:1:5676)
+    at Ae (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:11677)
+    at wA (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:29145)
+    at Object.insert (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:20796)
+    at v (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:47568)
+    at r.__patch__ (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:48886)
+    at PA.t._update (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:26991)
+    at r.n (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:27814)
+    at en.get (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:30684)
+    at en.run (https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:39:31417) mounted hook @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0

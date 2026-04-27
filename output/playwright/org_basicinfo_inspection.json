@@ -1,0 +1,859 @@
+[
+  {
+    "route": "productlist",
+    "url": "https://dev.mtkj.fun/org/#/productlist",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_productlist.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表"
+    ],
+    "breadcrumb": [
+      "产品信息 /",
+      "产品信息",
+      "/",
+      "产品列表管理"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "产品编码",
+            "placeholders": [
+              "编码精确查询"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "产品名称",
+            "placeholders": [
+              "名称或编码模糊查询"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "是否可追溯",
+            "placeholders": [
+              "",
+              "",
+              ""
+            ],
+            "values": [
+              "0",
+              "1",
+              "-1"
+            ],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "导出Excel",
+      "下载导入模板",
+      "点击上传",
+      "新增",
+      "维护包装关系",
+      "搜索",
+      "重置",
+      "详情",
+      "删除",
+      "扩展"
+    ],
+    "tableColumns": [
+      "图片",
+      "产品编码",
+      "产品名称",
+      "产品简码",
+      "箱内瓶数",
+      "托盘内数量",
+      "重量",
+      "保质期数",
+      "保质期",
+      "零售价格(元)",
+      "规格",
+      "品牌",
+      "是否可追溯",
+      "操作"
+    ],
+    "rowActions": [
+      "详情",
+      "删除",
+      "扩展"
+    ],
+    "pagination": [
+      "共 4009 条 123456401 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 5
+  },
+  {
+    "route": "productsort",
+    "url": "https://dev.mtkj.fun/org/#/productsort",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_productsort.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "品牌分类"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "品牌分类"
+    ],
+    "forms": [],
+    "toolbarButtons": [
+      "添加"
+    ],
+    "tableColumns": [],
+    "rowActions": [],
+    "pagination": [],
+    "treeNodes": [
+      "1 弥特",
+      "2 溯印",
+      "3 弥特",
+      "4 A品牌",
+      "5 1-弥特",
+      "6 广西田园"
+    ],
+    "hasTree": true,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [
+      "品牌分类 添加"
+    ],
+    "splitCols": 5
+  },
+  {
+    "route": "productunit",
+    "url": "https://dev.mtkj.fun/org/#/productunit",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_productunit.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "包装单位"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "包装单位"
+    ],
+    "forms": [],
+    "toolbarButtons": [
+      "新增"
+    ],
+    "tableColumns": [
+      "包装单位编码",
+      "包装单位名称",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 5 条 1 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 3
+  },
+  {
+    "route": "hierarchylist",
+    "url": "https://dev.mtkj.fun/org/#/hierarchylist",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_hierarchylist.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "包装关系"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "包装关系"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "产品编码",
+            "placeholders": [
+              "编码精确查询"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "导出Excel",
+      "查询",
+      "添加"
+    ],
+    "tableColumns": [
+      "产品编码",
+      "产品名称",
+      "包装级别",
+      "包装关系编码",
+      "包装单位名称",
+      "包装数量",
+      "托盘标志",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 2
+  },
+  {
+    "route": "hierarchy",
+    "url": "https://dev.mtkj.fun/org/#/hierarchy",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_hierarchy.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "包装关系"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "产品编码 | 包装单位 | 包装级别 | 包装数量"
+    ],
+    "forms": [],
+    "toolbarButtons": [
+      "添加"
+    ],
+    "tableColumns": [],
+    "rowActions": [],
+    "pagination": [],
+    "treeNodes": [
+      "469851 | 箱 | 2 | 4",
+      "469851 | 瓶 | 1 | 1",
+      "469852 | 箱 | 2 | 12",
+      "469852 | 瓶 | 1 | 1",
+      "472195 | 箱 | 2 | 4",
+      "472195 | 瓶 | 1 | 1",
+      "B001 | 托 | 3 | 24",
+      "B001 | 箱 | 2 | 12",
+      "B001 | 瓶 | 1 | 1",
+      "B002 | 托 | 3 | 24",
+      "B002 | 箱 | 2 | 24",
+      "B002 | 瓶 | 1 | 1",
+      "cjs1 | 托 | 3 | 72",
+      "cjs1 | 箱 | 2 | 123",
+      "cjs1 | 瓶 | 1 | 1",
+      "cjs250 | 托 | 3 | 60",
+      "cjs250 | 箱 | 2 | 24",
+      "cjs250 | 瓶 | 1 | 1",
+      "cs | 托 | 4 | 2",
+      "cs | 测试1 | 3 | 2"
+    ],
+    "hasTree": true,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [
+      "产品编码 | 包装单位 | 包装级别 | 包装数量 添加"
+    ],
+    "splitCols": 4
+  },
+  {
+    "route": "productunitconvert",
+    "url": "https://dev.mtkj.fun/org/#/productunitconvert",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_productunitconvert.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "包装单位转换"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "包装单位转换"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "基本计量单位编码",
+            "placeholders": [
+              "请输入基本计量单位编码"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "基本计量单位名称",
+            "placeholders": [
+              "请输入基本计量单位名称"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "产品",
+            "placeholders": [
+              "输入名称模糊查询"
+            ],
+            "values": [],
+            "selects": [
+              "输入名称模糊查询"
+            ],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索",
+      "新增产品单位转换"
+    ],
+    "tableColumns": [
+      "产品编码",
+      "产品名称",
+      "产品包装单位",
+      "⇆",
+      "基本计量单位",
+      "创建时间",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 18 条 12 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 6
+  },
+  {
+    "route": "store",
+    "url": "https://dev.mtkj.fun/org/#/store",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_store.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理"
+    ],
+    "breadcrumb": [
+      "仓库管理 /",
+      "仓库管理",
+      "/"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "仓库管理"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "仓库编号",
+            "placeholders": [
+              "请输入仓库编号"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "仓库名称",
+            "placeholders": [
+              "请输入仓库名称"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索",
+      "新增仓库"
+    ],
+    "tableColumns": [
+      "仓库名称",
+      "仓库编码",
+      "关联部门编码",
+      "仓库地址",
+      "创建时间",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 2 条 1 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 6
+  },
+  {
+    "route": "material",
+    "url": "https://dev.mtkj.fun/org/#/material",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_material.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理",
+      "原料信息"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "原料信息"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "原料信息"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "原料名称",
+            "placeholders": [
+              "请输入原料名称"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "原料编码",
+            "placeholders": [
+              "请输入原料编码"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "供应商",
+            "placeholders": [
+              "请输入供应商"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索",
+      "新增",
+      "导出Excel"
+    ],
+    "tableColumns": [
+      "原料名称",
+      "原料编码",
+      "供应商",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 2 条 1 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 7
+  },
+  {
+    "route": "enterprise",
+    "url": "https://dev.mtkj.fun/org/#/enterprise",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_enterprise.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理",
+      "原料信息",
+      "维护企业"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "维护企业"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26"
+    ],
+    "forms": [],
+    "toolbarButtons": [
+      "修改"
+    ],
+    "tableColumns": [
+      "企业名称",
+      "备案号",
+      "域名",
+      "电话",
+      "定点生产企业许可证编号",
+      "定点生产企业许可证有效期",
+      "企业简码",
+      "食品生产许可证编码",
+      "食品生产许可证有效期",
+      "操作"
+    ],
+    "rowActions": [
+      "修改"
+    ],
+    "pagination": [],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 2
+  },
+  {
+    "route": "sysconfig",
+    "url": "https://dev.mtkj.fun/org/#/sysconfig",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_sysconfig.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理",
+      "原料信息",
+      "维护企业",
+      "维护config表"
+    ],
+    "breadcrumb": [
+      "基础信息 /",
+      "基础信息",
+      "/",
+      "维护config表"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "config配置列表"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "conf_key",
+            "placeholders": [
+              "请输入"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "conf_key",
+            "placeholders": [
+              "请输入"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "备注",
+            "placeholders": [
+              "请输入"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索"
+    ],
+    "tableColumns": [
+      "conf_key",
+      "conf_value",
+      "配置描述",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 31 条 1234 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 7
+  },
+  {
+    "route": "systemminiprogram",
+    "url": "https://dev.mtkj.fun/org/#/systemminiprogram",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_systemminiprogram.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理",
+      "原料信息",
+      "维护企业",
+      "维护config表",
+      "小程序配置"
+    ],
+    "breadcrumb": [
+      "营销模块 /",
+      "营销模块",
+      "/",
+      "小程序配置"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26",
+      "小程序配置"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "小程序appID",
+            "placeholders": [
+              "请输入"
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索",
+      "添加小程序配置"
+    ],
+    "tableColumns": [
+      "小程序类型",
+      "小程序地址",
+      "appID",
+      "参数格式",
+      "创建时间",
+      "备注",
+      "状态",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 2 条 1 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 5
+  },
+  {
+    "route": "industrialcomputer",
+    "url": "https://dev.mtkj.fun/org/#/industrialcomputer",
+    "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\org_industrialcomputer.png",
+    "title": "系统基础信息",
+    "routeTag": [
+      "首页",
+      "产品列表",
+      "品牌设置",
+      "包装单位",
+      "包装关系",
+      "包装关系(树)",
+      "包装单位转换",
+      "仓库管理",
+      "原料信息",
+      "维护企业",
+      "维护config表",
+      "小程序配置",
+      "工控机信息"
+    ],
+    "breadcrumb": [
+      "基础信息/",
+      "基础信息",
+      "/",
+      "工控机信息"
+    ],
+    "headings": [
+      "系统布局配置",
+      "V26"
+    ],
+    "forms": [
+      {
+        "index": 0,
+        "fields": [
+          {
+            "label": "工控机编码",
+            "placeholders": [
+              ""
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "工控机名称",
+            "placeholders": [
+              ""
+            ],
+            "values": [],
+            "selects": [],
+            "options": []
+          },
+          {
+            "label": "状态",
+            "placeholders": [
+              "全部"
+            ],
+            "values": [],
+            "selects": [
+              "全部"
+            ],
+            "options": []
+          }
+        ]
+      }
+    ],
+    "toolbarButtons": [
+      "重置",
+      "搜索",
+      "新增"
+    ],
+    "tableColumns": [
+      "工控机编码",
+      "工控机名称",
+      "IP地址",
+      "MAC地址",
+      "状态",
+      "备注",
+      "操作"
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 1 条 1 前往页"
+    ],
+    "treeNodes": [],
+    "hasTree": false,
+    "tabs": [],
+    "dialogs": [],
+    "panelTitles": [],
+    "splitCols": 6
+  }
+]

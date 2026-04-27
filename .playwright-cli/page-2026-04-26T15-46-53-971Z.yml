@@ -1,0 +1,83 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "logo" [ref=e6]
+      - generic [ref=e7]: V26
+    - menubar [ref=e9]:
+      - menuitem " 首页" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+        - text: 首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 
+          - text: 产品追溯系统
+          - generic [ref=e15]: 
+        - menu [ref=e16]:
+          - menuitem "生产管理 " [expanded] [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e19]: 
+            - menu [ref=e20]:
+              - menuitem "工厂信息 " [expanded] [ref=e21]:
+                - generic [ref=e22] [cursor=pointer]:
+                  - text: 工厂信息
+                  - generic [ref=e23]: 
+                - menu [ref=e24]:
+                  - menuitem "工厂管理 " [expanded] [ref=e25]:
+                    - generic [ref=e26] [cursor=pointer]:
+                      - text: 工厂管理
+                      - generic [ref=e27]: 
+                    - menu [ref=e28]:
+                      - menuitem "工厂列表" [ref=e29] [cursor=pointer]
+                      - menuitem "车间列表" [ref=e30] [cursor=pointer]
+                      - menuitem "产线列表" [ref=e31] [cursor=pointer]
+                  - menuitem "班组管理" [ref=e32] [cursor=pointer]
+              - menuitem "生产信息 " [ref=e33]:
+                - generic [ref=e34] [cursor=pointer]:
+                  - text: 生产信息
+                  - generic [ref=e35]: 
+          - menuitem "工厂物流 " [ref=e36]:
+            - generic [ref=e37] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e38]: 
+            - text: 
+          - menuitem "渠道物流 " [ref=e39]:
+            - generic [ref=e40] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e41]: 
+            - text:    
+          - menuitem "稽查管理 " [ref=e42]:
+            - generic [ref=e43] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e44]: 
+          - menuitem "查询管理 " [ref=e45]:
+            - generic [ref=e46] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e47]: 
+          - menuitem "看板 " [ref=e48]:
+            - generic [ref=e49] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e50]: 
+  - generic [ref=e51]:
+    - banner [ref=e52]:
+      - generic [ref=e53]:
+        - button "" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 
+        - navigation [ref=e56]:
+          - link "系统基础信息" [ref=e57] [cursor=pointer]:
+            - /url: javascript:;
+          - link "产品追溯系统" [ref=e58] [cursor=pointer]:
+            - /url: javascript:;
+          - link "码库管理" [ref=e59] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e60]:
+        - button "" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: 
+        - button "Tt" [ref=e63] [cursor=pointer]
+        - button "⌁ " [ref=e65]:
+          - generic [ref=e66]: ⌁
+          - generic [ref=e67]: 
+    - button "车间列表 ×" [ref=e70] [cursor=pointer]:
+      - generic [ref=e72]: 车间列表
+      - generic [ref=e73]: ×
+    - main [ref=e74]

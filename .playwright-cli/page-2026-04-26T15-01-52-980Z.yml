@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic:
+      - generic:
+        - link:
+          - /url: "#/"
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - menubar:
+              - generic:
+                - link:
+                  - /url: "#/dashboard"
+                  - menuitem
+              - generic:
+                - menuitem:
+                  - generic:
+                    - img
+                    - text: 
+                  - text:               
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e71] [cursor=pointer]
+          - menubar [ref=e73]:
+            - menuitem "系统基础信息" [ref=e74] [cursor=pointer]:
+              - link "系统基础信息" [ref=e75]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e76] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e77]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e78] [cursor=pointer]:
+              - link "码库管理" [ref=e79]:
+                - /url: /org//#/readycreate
+          - button "" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e84]: 
+        - generic [ref=e89] [cursor=pointer]:
+          - text: 箱码查询
+          - generic [ref=e90]: 
+      - generic [ref=e96]:
+        - navigation "Breadcrumb" [ref=e98]:
+          - generic [ref=e99]:
+            - link "物流管理" [ref=e100]: 物流管理
+            - text: /
+          - link "箱码查询" [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e106]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: 运单号
+              - textbox "请输入运单号" [ref=e112]
+            - generic [ref=e114]:
+              - generic [ref=e115]: 批次号
+              - textbox "请输入批次号" [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]: 出库单号
+              - textbox "请输入出库单号" [ref=e124]
+            - generic [ref=e126]:
+              - generic [ref=e127]: 产品编码
+              - textbox "请输入产品名称模糊匹配或者下拉选择" [ref=e131] [cursor=pointer]
+            - generic [ref=e135]:
+              - generic [ref=e136]: 箱码
+              - textbox "请输入箱码" [ref=e139]
+            - generic [ref=e141]:
+              - generic [ref=e142]: 年份
+              - generic [ref=e144]:
+                - textbox "选择年" [ref=e145]: "2025"
+                - generic [ref=e147]: 
+            - generic [ref=e148]:
+              - button "重置" [ref=e149] [cursor=pointer]
+              - button " 搜索" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: 
+                - text: 搜索
+              - button "导出Excel" [ref=e152] [cursor=pointer]: 导出Excel
+          - generic [ref=e154]:
+            - heading "箱码查询" [level=4] [ref=e155]
+            - generic [ref=e157]:
+              - table [ref=e159]:
+                - rowgroup [ref=e172]:
+                  - row "运单号 出库单号 发货仓库 客户 产品 码 包装级别 父级码 包装单位 最小单位数量 出库批次" [ref=e173]:
+                    - columnheader "运单号" [ref=e174]:
+                      - generic [ref=e175]: 运单号
+                    - columnheader "出库单号" [ref=e176]:
+                      - generic [ref=e177]: 出库单号
+                    - columnheader "发货仓库" [ref=e178]:
+                      - generic [ref=e179]: 发货仓库
+                    - columnheader "客户" [ref=e180]:
+                      - generic [ref=e181]: 客户
+                    - columnheader "产品" [ref=e182]:
+                      - generic [ref=e183]: 产品
+                    - columnheader "码" [ref=e184]:
+                      - generic [ref=e185]: 码
+                    - columnheader "包装级别" [ref=e186]:
+                      - generic [ref=e187]: 包装级别
+                    - columnheader "父级码" [ref=e188]:
+                      - generic [ref=e189]: 父级码
+                    - columnheader "包装单位" [ref=e190]:
+                      - generic [ref=e191]: 包装单位
+                    - columnheader "最小单位数量" [ref=e192]:
+                      - generic [ref=e193]: 最小单位数量
+                    - columnheader "出库批次" [ref=e194]:
+                      - generic [ref=e195]: 出库批次
+                    - columnheader
+              - generic [ref=e196]:
+                - table:
+                  - rowgroup
+                - generic [ref=e198]: 暂无数据
+            - generic [ref=e199]:
+              - generic [ref=e200]: 共 1 条
+              - button "" [disabled] [ref=e201]:
+                - generic [ref=e202]: 
+              - list [ref=e203]:
+                - listitem [ref=e204]: "1"
+              - button "" [disabled] [ref=e205]:
+                - generic [ref=e206]: 
+              - generic [ref=e207]:
+                - text: 前往
+                - spinbutton [ref=e209]: "1"
+                - text: 页
+              - generic [ref=e212]:
+                - textbox "请选择" [ref=e213] [cursor=pointer]: 10条/页
+                - generic [ref=e215] [cursor=pointer]: 
+  - alert [ref=e216]:
+    - generic [ref=e217]:
+      - heading "页面提示" [level=2] [ref=e218]
+      - generic [ref=e219]: 数据量较大，请输入搜索条件进行筛选
+      - generic [ref=e220] [cursor=pointer]: 

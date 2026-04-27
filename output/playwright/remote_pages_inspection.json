@@ -1,0 +1,2218 @@
+{
+  "sidebarTree": [],
+  "pages": [
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/forensics",
+      "routeHash": "#/forensics",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 76
+          },
+          "fieldCount": 2,
+          "fields": [
+            {
+              "label": "商品名称",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入商品名称"
+              ],
+              "values": [],
+              "options": [],
+              "text": "商品名称",
+              "box": {
+                "x": 241,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "条码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入条码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "条码",
+              "box": {
+                "x": 533,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "重置",
+        "搜索",
+        "导出Excel"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 294,
+            "w": 1146,
+            "h": 500
+          },
+          "columns": [
+            "流水编号",
+            "稽查账号",
+            "稽查人员",
+            "商品名称",
+            "商品条码",
+            "规格",
+            "备注",
+            "上传时间",
+            "取证图片"
+          ],
+          "rowPreview": [
+            [
+              "8",
+              "laoliu",
+              "老六",
+              "纯净水500ml",
+              "2_134144789942854011",
+              "500ml",
+              "2026-02-28 11:54:00"
+            ],
+            [
+              "7",
+              "laoliu",
+              "老六",
+              "纯净水500ml",
+              "2_134144789942854011",
+              "500ml",
+              "xxxx",
+              "2026-02-06 11:03:49"
+            ],
+            [
+              "6",
+              "纯净水500ml",
+              "2_134122298513615363",
+              "500ml",
+              "2026-01-28 10:53:12"
+            ]
+          ]
+        }
+      ],
+      "paginations": [
+        {
+          "text": "共 8 条 1 前往页",
+          "box": {
+            "x": 252,
+            "y": 812,
+            "w": 1146,
+            "h": 32
+          }
+        }
+      ],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "取证记录"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "商品名称 条码",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 47
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "商品名称",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "条码",
+          "box": {
+            "x": 533,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 1168,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 290,
+            "y": 196,
+            "w": 389,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        },
+        {
+          "text": "取证记录 流水编号 稽查账号 稽查人员 商品名称 商品条码 规格 备注 上传时间 8 laoliu 老六 纯净水500ml 2_134144789942854011 500ml 2026-02-28 11:54:00 7 laoliu 老六 纯净水500ml 2_134144789942854011 500ml xxxx 2026-02-06 11:03:4",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 612
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "取证记录 流水编号 稽查账号 稽查人员 商品名称 商品条码 规格 备注 上传时间 8 laoliu 老六 纯净水500ml 2_134144789942854011 500ml 2026-02-28 11:54:00 7 laoliu 老六 纯净水500ml 2_134144789942854011 500ml xxxx 2026-02-06 11:03:4",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 612
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "forensics",
+      "label": "????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\forensics.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/inspectrecord",
+      "routeHash": "#/inspectrecord",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 123
+          },
+          "fieldCount": 7,
+          "fields": [
+            {
+              "label": "产品编码",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请输入产品名称模糊匹配或者下拉选择"
+              ],
+              "values": [],
+              "options": [
+                "1234565 4565645",
+                "1AQN-JM001 爱’荃能净肤洁面泡泡(ALM-210)",
+                "312312 1312312321",
+                "469851 0255-独翠-200g*10包*4盒\\南方田园经作杀菌病毒-JF-DFL",
+                "469852 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC-aaa",
+                "469853 0179-阿牛哥-(50g*4小包)*30袋\\南方田园甘蔗除草-ZC-a",
+                "469858 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC",
+                "469859 0179-阿牛哥-(60g*10包)*10袋\\南方田园甘蔗除草-ZC-a",
+                "469860 0141-阿维.毒死蜱-280ml*20瓶\\南方田园现款水稻杀虫卷叶-E",
+                "469861 0112-阿维菌素金级-300ml*20瓶\\南方田园水稻杀虫卷叶-P-a"
+              ],
+              "text": "产品编码",
+              "box": {
+                "x": 241,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "稽查码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入稽查码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "稽查码",
+              "box": {
+                "x": 533,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "出库码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入出库码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "出库码",
+              "box": {
+                "x": 825,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "生产批次",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入生产批次"
+              ],
+              "values": [],
+              "options": [],
+              "text": "生产批次",
+              "box": {
+                "x": 1117,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "稽查人员",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入稽查人员"
+              ],
+              "values": [],
+              "options": [],
+              "text": "稽查人员",
+              "box": {
+                "x": 241,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "稽查年份",
+              "types": [
+                "date",
+                "text"
+              ],
+              "placeholders": [
+                "选择年"
+              ],
+              "values": [
+                "2026"
+              ],
+              "options": [],
+              "text": "稽查年份",
+              "box": {
+                "x": 533,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "稽查时间",
+              "types": [
+                "date",
+                "input"
+              ],
+              "placeholders": [
+                "开始日期",
+                "结束日期"
+              ],
+              "values": [],
+              "options": [],
+              "text": "稽查时间 -",
+              "box": {
+                "x": 825,
+                "y": 196,
+                "w": 292,
+                "h": 28
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "重置",
+        "搜索",
+        "导出Excel",
+        "gdfc"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 341,
+            "w": 1146,
+            "h": 447
+          },
+          "columns": [
+            "稽查人员",
+            "产品",
+            "生产批次",
+            "稽查码",
+            "出库码",
+            "经销商编码",
+            "经销商名称",
+            "出库单号",
+            "出库时间",
+            "稽查时间",
+            "稽查扫码区域",
+            "系统判断",
+            "人工判断"
+          ],
+          "rowPreview": [
+            [
+              "老六",
+              "cjs1纯净水500ml",
+              "cs262201",
+              "2_134144789942854011",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "yd26020401",
+              "2026-02-04 15:10:31",
+              "2026-02-28 11:48:58",
+              "广东省广州市",
+              "正常",
+              "疑似窜货"
+            ],
+            [
+              "老六",
+              "cjs1纯净水500ml",
+              "cs262201",
+              "2_134144789942854011",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "yd26020401",
+              "2026-02-04 15:10:31",
+              "2026-02-28 11:45:30",
+              "广东省广州市",
+              "正常"
+            ],
+            [
+              "老六",
+              "cjs1纯净水500ml",
+              "cs262201",
+              "2_134144789942854011",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "yd26020401",
+              "2026-02-04 15:10:31",
+              "2026-02-28 11:44:16",
+              "广东省广州市",
+              "正常"
+            ]
+          ]
+        }
+      ],
+      "paginations": [
+        {
+          "text": "共 12 条 12 前往页",
+          "box": {
+            "x": 252,
+            "y": 806,
+            "w": 1146,
+            "h": 32
+          }
+        }
+      ],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "稽查记录流水"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "产品编码 稽查码 出库码 生产批次 稽查人员 稽查年份 稽查时间 -",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 94
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "产品编码",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "稽查码",
+          "box": {
+            "x": 533,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "出库码",
+          "box": {
+            "x": 825,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "生产批次",
+          "box": {
+            "x": 1117,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "稽查人员",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "稽查年份",
+          "box": {
+            "x": 533,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "稽查时间 -",
+          "box": {
+            "x": 825,
+            "y": 196,
+            "w": 292,
+            "h": 46
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 290,
+            "y": 243,
+            "w": 389,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        },
+        {
+          "text": "稽查记录流水 稽查人员 产品 生产批次 稽查码 出库码 经销商编码 经销商名称 出库单号 出库时间 稽查时间 稽查扫码区域 系统判断 人工判断 老六 cjs1纯净水500ml cs262201 2_134144789942854011 2_134144789942854011 gdfc 广东发财商贸有限公司 yd26020401 2026-02-04 15:",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 559
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "稽查记录流水 稽查人员 产品 生产批次 稽查码 出库码 经销商编码 经销商名称 出库单号 出库时间 稽查时间 稽查扫码区域 系统判断 人工判断 老六 cjs1纯净水500ml cs262201 2_134144789942854011 2_134144789942854011 gdfc 广东发财商贸有限公司 yd26020401 2026-02-04 15:",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 559
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "inspectrecord",
+      "label": "????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\inspectrecord.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/qrcodescaninspectleveltwo",
+      "routeHash": "#/qrcodescaninspectleveltwo",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 123
+          },
+          "fieldCount": 8,
+          "fields": [
+            {
+              "label": "产品编码",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请输入产品名称模糊匹配或者下拉选择"
+              ],
+              "values": [],
+              "options": [
+                "1234565 4565645",
+                "1AQN-JM001 爱’荃能净肤洁面泡泡(ALM-210)",
+                "312312 1312312321",
+                "469851 0255-独翠-200g*10包*4盒\\南方田园经作杀菌病毒-JF-DFL",
+                "469852 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC-aaa",
+                "469853 0179-阿牛哥-(50g*4小包)*30袋\\南方田园甘蔗除草-ZC-a",
+                "469858 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC",
+                "469859 0179-阿牛哥-(60g*10包)*10袋\\南方田园甘蔗除草-ZC-a",
+                "469860 0141-阿维.毒死蜱-280ml*20瓶\\南方田园现款水稻杀虫卷叶-E",
+                "469861 0112-阿维菌素金级-300ml*20瓶\\南方田园水稻杀虫卷叶-P-a"
+              ],
+              "text": "产品编码",
+              "box": {
+                "x": 241,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "码",
+              "box": {
+                "x": 533,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "生产批次",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入生产批次"
+              ],
+              "values": [],
+              "options": [],
+              "text": "生产批次",
+              "box": {
+                "x": 825,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "经销商编码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入经销商编码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "经销商编码",
+              "box": {
+                "x": 1117,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "经销商名称",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入经销商名称"
+              ],
+              "values": [],
+              "options": [],
+              "text": "经销商名称",
+              "box": {
+                "x": 241,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "系统判断",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "系统判断"
+              ],
+              "values": [],
+              "options": [
+                "未判断",
+                "正常",
+                "窜货"
+              ],
+              "text": "系统判断",
+              "box": {
+                "x": 533,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "手工系统",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "手工系统"
+              ],
+              "values": [],
+              "options": [
+                "未判断",
+                "正常",
+                "窜货"
+              ],
+              "text": "手工系统",
+              "box": {
+                "x": 825,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "最终判断",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "最终判断"
+              ],
+              "values": [],
+              "options": [
+                "未判断",
+                "正常",
+                "窜货"
+              ],
+              "text": "最终判断",
+              "box": {
+                "x": 1117,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "重置",
+        "搜索",
+        "导出Excel",
+        "修改",
+        "查看取证图片"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 341,
+            "w": 1146,
+            "h": 163
+          },
+          "columns": [
+            "稽查人员",
+            "出库单号",
+            "产品",
+            "生产批次",
+            "码",
+            "经销商编码",
+            "经销商名称",
+            "出库时间",
+            "生产企业",
+            "生产工厂",
+            "生产产线",
+            "发货仓库",
+            "收货仓库",
+            "备注",
+            "系统判断",
+            "系统判断时间",
+            "人工判断",
+            "人工判断时间",
+            "最终判断",
+            "最终判断时间",
+            "操作"
+          ],
+          "rowPreview": [
+            [
+              "小程序测试账号2",
+              "CK20260107",
+              "cjs1纯净水500ml",
+              "2026010701",
+              "2_134122298513615363",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "2026-01-07 11:50:13",
+              "弥特测试",
+              "弥特纯净水工厂",
+              "cx01一号线",
+              "物流一仓",
+              "稽查人员判断为窜货",
+              "正常",
+              "2026-01-27 14:05:14",
+              "窜货",
+              "未判断 修改",
+              "查看取证图片"
+            ],
+            [
+              "test1",
+              "OB002",
+              "cjs1纯净水500ml",
+              "2026010701",
+              "2134122298233313700",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "弥特测试",
+              "弥特纯净水工厂",
+              "cx01一号线",
+              "物流一仓",
+              "稽查人员判断为窜货",
+              "正常",
+              "2026-02-02 14:57:45",
+              "窜货",
+              "2026-02-02 14:57:47",
+              "未判断 修改",
+              "查看取证图片"
+            ],
+            [
+              "老六",
+              "yd26020401",
+              "cjs1纯净水500ml",
+              "cs262201",
+              "2_134144789942854011",
+              "gdfc",
+              "广东发财商贸有限公司",
+              "2026-02-04 15:10:31",
+              "弥特测试",
+              "弥特纯净水工厂",
+              "cx01一号线",
+              "物流一仓",
+              "稽查人员判断为窜货",
+              "正常",
+              "2026-02-06 11:04:11",
+              "窜货",
+              "2026-02-28 11:49:06",
+              "未判断 修改",
+              "查看取证图片"
+            ]
+          ]
+        }
+      ],
+      "paginations": [
+        {
+          "text": "共 3 条 1 前往页",
+          "box": {
+            "x": 252,
+            "y": 522,
+            "w": 1146,
+            "h": 32
+          }
+        }
+      ],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "窜货记录"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "产品编码 码 生产批次 经销商编码 经销商名称 系统判断 手工系统 最终判断",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 94
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "产品编码",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "码",
+          "box": {
+            "x": 533,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "生产批次",
+          "box": {
+            "x": 825,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "经销商编码",
+          "box": {
+            "x": 1117,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "经销商名称",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "系统判断",
+          "box": {
+            "x": 533,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "手工系统",
+          "box": {
+            "x": 825,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "最终判断",
+          "box": {
+            "x": 1117,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 290,
+            "y": 243,
+            "w": 389,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        },
+        {
+          "text": "窜货记录 稽查人员 出库单号 产品 生产批次 码 经销商编码 经销商名称 出库时间 生产企业 生产工厂 生产产线 发货仓库 收货仓库 备注 小程序测试账号2 CK20260107 cjs1纯净水500ml 2026010701 2_134122298513615363 gdfc 广东发财商贸有限公司 2026-01-07 11:50:13 弥特测试 弥特纯净",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 275
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "窜货记录 稽查人员 出库单号 产品 生产批次 码 经销商编码 经销商名称 出库时间 生产企业 生产工厂 生产产线 发货仓库 收货仓库 备注 小程序测试账号2 CK20260107 cjs1纯净水500ml 2026010701 2_134122298513615363 gdfc 广东发财商贸有限公司 2026-01-07 11:50:13 弥特测试 弥特纯净",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 275
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "qrcodescaninspectleveltwo",
+      "label": "????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\qrcodescaninspectleveltwo.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/queryconsumerwarning",
+      "routeHash": "#/queryconsumerwarning",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 123
+          },
+          "fieldCount": 5,
+          "fields": [
+            {
+              "label": "产品编码",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请输入产品名称模糊匹配或者下拉选择"
+              ],
+              "values": [],
+              "options": [
+                "1234565 4565645",
+                "1AQN-JM001 爱’荃能净肤洁面泡泡(ALM-210)",
+                "312312 1312312321",
+                "469851 0255-独翠-200g*10包*4盒\\南方田园经作杀菌病毒-JF-DFL",
+                "469852 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC-aaa",
+                "469853 0179-阿牛哥-(50g*4小包)*30袋\\南方田园甘蔗除草-ZC-a",
+                "469858 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC",
+                "469859 0179-阿牛哥-(60g*10包)*10袋\\南方田园甘蔗除草-ZC-a",
+                "469860 0141-阿维.毒死蜱-280ml*20瓶\\南方田园现款水稻杀虫卷叶-E",
+                "469861 0112-阿维菌素金级-300ml*20瓶\\南方田园水稻杀虫卷叶-P-a"
+              ],
+              "text": "产品编码",
+              "box": {
+                "x": 241,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "码",
+              "box": {
+                "x": 533,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "出库单号",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入出库单号"
+              ],
+              "values": [],
+              "options": [],
+              "text": "出库单号",
+              "box": {
+                "x": 825,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "预警时间",
+              "types": [
+                "date",
+                "input"
+              ],
+              "placeholders": [
+                "开始日期",
+                "结束日期"
+              ],
+              "values": [],
+              "options": [],
+              "text": "预警时间 -",
+              "box": {
+                "x": 1117,
+                "y": 149,
+                "w": 292,
+                "h": 28
+              }
+            },
+            {
+              "label": "扫码类型",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请选择 "
+              ],
+              "values": [
+                "全部"
+              ],
+              "options": [
+                "追溯扫码",
+                "营销扫码",
+                "全部"
+              ],
+              "text": "扫码类型",
+              "box": {
+                "x": 241,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "重置",
+        "搜索",
+        "导出Excel"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 341,
+            "w": 1146,
+            "h": 97
+          },
+          "columns": [
+            "出库单号",
+            "码",
+            "openid",
+            "包装级别",
+            "产品",
+            "扫码类型",
+            "预警时间",
+            "发货到达区域",
+            "消费者扫码区域",
+            "经销商编码"
+          ],
+          "rowPreview": []
+        }
+      ],
+      "paginations": [
+        {
+          "text": "共 0 条 1 前往页",
+          "box": {
+            "x": 252,
+            "y": 456,
+            "w": 1146,
+            "h": 32
+          }
+        }
+      ],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "预警清单"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "产品编码 码 出库单号 预警时间 -",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 47
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "产品编码",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "码",
+          "box": {
+            "x": 533,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "出库单号",
+          "box": {
+            "x": 825,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "预警时间 -",
+          "box": {
+            "x": 1117,
+            "y": 149,
+            "w": 292,
+            "h": 46
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "扫码类型",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 1168,
+            "h": 47
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "扫码类型",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 290,
+            "y": 243,
+            "w": 389,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        },
+        {
+          "text": "预警清单 出库单号 码 openid 包装级别 产品 扫码类型 预警时间 发货到达区域 消费者扫码区域 经销商编码 暂无数据 共 0 条 1 前往页",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 209
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "预警清单 出库单号 码 openid 包装级别 产品 扫码类型 预警时间 发货到达区域 消费者扫码区域 经销商编码 暂无数据 共 0 条 1 前往页",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 209
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "queryconsumerwarning",
+      "label": "????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\queryconsumerwarning.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/warningparam",
+      "routeHash": "#/warningparam",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "配置预警参数",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [],
+      "toolbarButtons": [
+        "配置预警参数"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 218,
+            "w": 1146,
+            "h": 78
+          },
+          "columns": [
+            "配置key",
+            "配置值",
+            "中文描述",
+            "操作"
+          ],
+          "rowPreview": [
+            [
+              "threshold",
+              "0",
+              "追溯系统消费者扫码，非抵达区域阈值比例（按发货单号+产品计算）",
+              "配置预警参数"
+            ]
+          ]
+        }
+      ],
+      "paginations": [],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "配置预警参数"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "配置预警参数 配置key 配置值 中文描述 操作 threshold 0 追溯系统消费者扫码，非抵达区域阈值比例（按发货单号+产品计算） 配置预警参数",
+          "box": {
+            "x": 241,
+            "y": 167,
+            "w": 1168,
+            "h": 158
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "配置预警参数 配置key 配置值 中文描述 操作 threshold 0 追溯系统消费者扫码，非抵达区域阈值比例（按发货单号+产品计算） 配置预警参数",
+          "box": {
+            "x": 241,
+            "y": 167,
+            "w": 1168,
+            "h": 158
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "warningparam",
+      "label": "??????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\warningparam.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/informationinquiry",
+      "routeHash": "#/informationinquiry",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "配置预警参数",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "信息查询",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 694,
+            "h": 29
+          },
+          "fieldCount": 1,
+          "fields": [
+            {
+              "label": "请输入查询的码:",
+              "types": [
+                "text"
+              ],
+              "placeholders": [],
+              "values": [],
+              "options": [],
+              "text": "请输入查询的码:",
+              "box": {
+                "x": 230,
+                "y": 154,
+                "w": 694,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "搜索"
+      ],
+      "tables": [],
+      "paginations": [],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "请输入查询的码: 搜索",
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 1190,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "请输入查询的码:",
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 694,
+            "h": 29
+          },
+          "cls": "el-col el-col-14"
+        },
+        {
+          "text": "搜索",
+          "box": {
+            "x": 974,
+            "y": 154,
+            "w": 397,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        }
+      ],
+      "slug": "informationinquiry",
+      "label": "????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\informationinquiry.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/customerinquire",
+      "routeHash": "#/customerinquire",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "配置预警参数",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "信息查询",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "消费者查询页",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 694,
+            "h": 29
+          },
+          "fieldCount": 1,
+          "fields": [
+            {
+              "label": "请输入查询的码:",
+              "types": [
+                "text"
+              ],
+              "placeholders": [],
+              "values": [],
+              "options": [],
+              "text": "请输入查询的码:",
+              "box": {
+                "x": 230,
+                "y": 154,
+                "w": 694,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "搜索"
+      ],
+      "tables": [],
+      "paginations": [],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "请输入查询的码: 搜索",
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 1190,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "请输入查询的码:",
+          "box": {
+            "x": 230,
+            "y": 154,
+            "w": 694,
+            "h": 29
+          },
+          "cls": "el-col el-col-14"
+        },
+        {
+          "text": "搜索",
+          "box": {
+            "x": 974,
+            "y": 154,
+            "w": 397,
+            "h": 29
+          },
+          "cls": "el-col el-col-8 el-col-offset-1"
+        }
+      ],
+      "slug": "customerinquire",
+      "label": "??????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\customerinquire.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/customerquery",
+      "routeHash": "#/customerquery",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "配置预警参数",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "信息查询",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "消费者查询页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "消费者查询记录",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [
+        {
+          "index": 0,
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 123
+          },
+          "fieldCount": 5,
+          "fields": [
+            {
+              "label": "码",
+              "types": [
+                "text"
+              ],
+              "placeholders": [
+                "请输入码"
+              ],
+              "values": [],
+              "options": [],
+              "text": "码",
+              "box": {
+                "x": 241,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "产品编码",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请输入产品名称模糊匹配或者下拉选择"
+              ],
+              "values": [],
+              "options": [
+                "1234565 4565645",
+                "1AQN-JM001 爱’荃能净肤洁面泡泡(ALM-210)",
+                "312312 1312312321",
+                "469851 0255-独翠-200g*10包*4盒\\南方田园经作杀菌病毒-JF-DFL",
+                "469852 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC-aaa",
+                "469853 0179-阿牛哥-(50g*4小包)*30袋\\南方田园甘蔗除草-ZC-a",
+                "469858 0179-阿牛哥-(50g*12包)*10袋\\南方田园甘蔗除草-ZC",
+                "469859 0179-阿牛哥-(60g*10包)*10袋\\南方田园甘蔗除草-ZC-a",
+                "469860 0141-阿维.毒死蜱-280ml*20瓶\\南方田园现款水稻杀虫卷叶-E",
+                "469861 0112-阿维菌素金级-300ml*20瓶\\南方田园水稻杀虫卷叶-P-a"
+              ],
+              "text": "产品编码",
+              "box": {
+                "x": 533,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "品牌",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请选择"
+              ],
+              "values": [],
+              "options": [
+                "弥特",
+                "溯印",
+                "A品牌",
+                "1-弥特",
+                "广西田园"
+              ],
+              "text": "品牌",
+              "box": {
+                "x": 825,
+                "y": 149,
+                "w": 292,
+                "h": 29
+              }
+            },
+            {
+              "label": "扫码时间",
+              "types": [
+                "date",
+                "input"
+              ],
+              "placeholders": [
+                "开始日期",
+                "结束日期"
+              ],
+              "values": [],
+              "options": [],
+              "text": "扫码时间 -",
+              "box": {
+                "x": 1117,
+                "y": 149,
+                "w": 292,
+                "h": 28
+              }
+            },
+            {
+              "label": "扫码类型",
+              "types": [
+                "select",
+                "text"
+              ],
+              "placeholders": [
+                "请选择 "
+              ],
+              "values": [
+                "全部"
+              ],
+              "options": [
+                "追溯扫码",
+                "营销扫码",
+                "全部"
+              ],
+              "text": "扫码类型",
+              "box": {
+                "x": 241,
+                "y": 196,
+                "w": 292,
+                "h": 29
+              }
+            }
+          ]
+        }
+      ],
+      "toolbarButtons": [
+        "重置",
+        "搜索",
+        "导出Excel",
+        "gdfc"
+      ],
+      "tables": [
+        {
+          "index": 0,
+          "box": {
+            "x": 252,
+            "y": 341,
+            "w": 1146,
+            "h": 1252
+          },
+          "columns": [
+            "产品编码",
+            "码",
+            "openid",
+            "品牌ID",
+            "品牌名称",
+            "省份",
+            "城市",
+            "地区",
+            "扫码时间",
+            "扫码类型",
+            "经销商编码",
+            "省",
+            "市",
+            "区"
+          ],
+          "rowPreview": [
+            [
+              "cjs1纯净水500ml",
+              "1_134141441136415931",
+              "1",
+              "弥特",
+              "广东省",
+              "广州市",
+              "2026-04-20 16:01:57"
+            ],
+            [
+              "cjs1纯净水500ml",
+              "2_134141442627835870",
+              "1",
+              "弥特",
+              "广东省",
+              "广州市",
+              "2026-04-20 15:33:26",
+              "经销商(gdfc)区域 省市区暂无数据 gdfc",
+              "省",
+              "市",
+              "区"
+            ],
+            [
+              "省",
+              "市",
+              "区"
+            ]
+          ]
+        }
+      ],
+      "paginations": [
+        {
+          "text": "共 46 条 12345 前往页",
+          "box": {
+            "x": 252,
+            "y": 1611,
+            "w": 1146,
+            "h": 32
+          }
+        }
+      ],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "消费者扫码查询"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [
+        {
+          "text": "码 产品编码 品牌 扫码时间 -",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 1168,
+            "h": 47
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "码",
+          "box": {
+            "x": 241,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "产品编码",
+          "box": {
+            "x": 533,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "品牌",
+          "box": {
+            "x": 825,
+            "y": 149,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "扫码时间 -",
+          "box": {
+            "x": 1117,
+            "y": 149,
+            "w": 292,
+            "h": 46
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "扫码类型",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 1168,
+            "h": 47
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "扫码类型",
+          "box": {
+            "x": 241,
+            "y": 196,
+            "w": 292,
+            "h": 47
+          },
+          "cls": "el-col el-col-6"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 241,
+            "y": 243,
+            "w": 1168,
+            "h": 29
+          },
+          "cls": "el-row"
+        },
+        {
+          "text": "重置 搜索 导出Excel",
+          "box": {
+            "x": 290,
+            "y": 243,
+            "w": 779,
+            "h": 29
+          },
+          "cls": "el-col el-col-16 el-col-offset-1"
+        },
+        {
+          "text": "消费者扫码查询 产品编码 码 openid 品牌ID 品牌名称 省份 城市 地区 扫码时间 扫码类型 cjs1纯净水500ml 1_134141441136415931 1 弥特 广东省 广州市 2026-04-20 16:01:57 cjs1纯净水500ml 2_134141442627835870 1 弥特 广东省 广州市 2026-04-20 15:3",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 1364
+          },
+          "cls": "row-bg el-row el-row--flex"
+        },
+        {
+          "text": "消费者扫码查询 产品编码 码 openid 品牌ID 品牌名称 省份 城市 地区 扫码时间 扫码类型 cjs1纯净水500ml 1_134141441136415931 1 弥特 广东省 广州市 2026-04-20 16:01:57 cjs1纯净水500ml 2_134141442627835870 1 弥特 广东省 广州市 2026-04-20 15:3",
+          "box": {
+            "x": 241,
+            "y": 290,
+            "w": 1168,
+            "h": 1364
+          },
+          "cls": "border el-col el-col-24"
+        }
+      ],
+      "slug": "customerquery",
+      "label": "???????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\customerquery.png"
+    },
+    {
+      "title": "产品追溯系统",
+      "url": "https://dev.mtkj.fun/ts/#/dragpage",
+      "routeHash": "#/dragpage",
+      "routeChips": [
+        {
+          "text": "首页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "取证记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "稽查记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "窜货记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "预警清单",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "配置预警参数",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "信息查询",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "消费者查询页",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "消费者查询记录",
+          "active": false,
+          "href": ""
+        },
+        {
+          "text": "h5扫码页面自定义",
+          "active": true,
+          "href": ""
+        }
+      ],
+      "breadcrumbs": [],
+      "filterForms": [],
+      "toolbarButtons": [
+        "提交页面",
+        "上传图片",
+        "清空"
+      ],
+      "tables": [],
+      "paginations": [],
+      "dialogs": [],
+      "specialForms": [],
+      "cardTitles": [
+        "系统布局配置",
+        "V26",
+        "官方正品",
+        "页面"
+      ],
+      "iframes": [],
+      "visibleTextBlocks": [],
+      "slug": "dragpage",
+      "label": "h5???????",
+      "screenshot": "F:\\Studying\\V26TEST2\\output\\playwright\\dragpage.png"
+    }
+  ]
+}

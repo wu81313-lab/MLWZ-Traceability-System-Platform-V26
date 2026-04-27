@@ -1,0 +1,134 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "logo" [ref=e6]
+      - generic [ref=e7]: V26
+    - menubar [ref=e9]:
+      - menuitem " 首页" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 
+        - text: 首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 
+          - text: 产品追溯系统
+          - generic [ref=e15]: 
+        - menu [ref=e16]:
+          - menuitem "生产管理 " [ref=e17]:
+            - generic [ref=e18] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e19]: 
+            - text:   
+          - menuitem "工厂物流 " [ref=e20]:
+            - generic [ref=e21] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e22]: 
+          - menuitem "渠道物流 " [ref=e23]:
+            - generic [ref=e24] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e25]: 
+          - menuitem "稽查管理 " [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e28]: 
+          - menuitem "查询管理 " [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e31]: 
+          - menuitem "看板 " [expanded] [ref=e32]:
+            - generic [ref=e33] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e34]: 
+            - menu [ref=e35]:
+              - menuitem "总览首页" [ref=e36] [cursor=pointer]
+              - menuitem "生产监控" [ref=e37] [cursor=pointer]
+              - menuitem "SCADA监控大屏" [ref=e38] [cursor=pointer]
+              - menuitem "仓储物流" [ref=e39] [cursor=pointer]
+              - menuitem "稽查管理" [ref=e40] [cursor=pointer]
+  - generic [ref=e41]:
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - button "" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 
+        - navigation [ref=e46]:
+          - link "系统基础信息" [ref=e47] [cursor=pointer]:
+            - /url: javascript:;
+          - link "产品追溯系统" [ref=e48] [cursor=pointer]:
+            - /url: javascript:;
+          - link "码库管理" [ref=e49] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=e50]:
+        - button "" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 
+        - button "Tt" [ref=e53] [cursor=pointer]
+        - button "⌁ " [ref=e55]:
+          - generic [ref=e56]: ⌁
+          - generic [ref=e57]: 
+    - button "总览首页 ×" [ref=e60] [cursor=pointer]:
+      - generic [ref=e62]: 总览首页
+      - generic [ref=e63]: ×
+    - main [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 今日产量
+            - generic [ref=e70]: "0"
+            - generic [ref=e71]: 今日计划产量
+            - generic [ref=e72]: "0"
+          - generic [ref=e73]:
+            - generic [ref=e74]: 今日发货量
+            - generic [ref=e75]: "0"
+            - generic [ref=e76]: 今日计划发货量
+            - generic [ref=e77]: "0"
+          - generic [ref=e78]:
+            - generic [ref=e79]: 年度累计扫码量
+            - generic [ref=e80]: "5"
+            - generic [ref=e81]: 历史累计扫码次数
+            - generic [ref=e82]: "5"
+          - generic [ref=e83]:
+            - generic [ref=e84]: 今日用户扫码量
+            - generic [ref=e85]: "0"
+          - generic [ref=e86]:
+            - generic [ref=e87]: 今日用户预警数
+            - generic [ref=e88]: "0"
+          - generic [ref=e89]:
+            - generic [ref=e90]: 年度累计用户预警数
+            - generic [ref=e91]: "0"
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e100]: 30天扫码数量统计
+            - generic [ref=e101]:
+              - generic "2026-04-20【2】" [ref=e102]:
+                - generic [ref=e103]: 2026-04-20【2】
+              - generic "2026-04-16【1】" [ref=e104]:
+                - generic [ref=e105]: 2026-04-16【1】
+              - generic "2026-04-02【1】" [ref=e106]:
+                - generic [ref=e107]: 2026-04-02【1】
+              - generic "2026-03-27【2】" [ref=e108]:
+                - generic [ref=e109]: 2026-03-27【2】
+          - generic [ref=e115]:
+            - generic [ref=e117]: 30天扫码产品统计
+            - generic "cjs1【5】 纯净水500ml" [ref=e119]:
+              - generic [ref=e120]: cjs1【5】 纯净水500ml
+        - generic [ref=e122]:
+          - generic [ref=e125]: 30天异地扫码数量统计
+          - generic [ref=e134]: 30天异地扫码产品统计
+        - generic [ref=e137]:
+          - generic [ref=e140]: 30天窜货预警数量统计
+          - generic [ref=e149]: 30天窜货预警产品统计
+    - generic:
+      - button "" [ref=e159] [cursor=pointer]:
+        - generic [ref=e160]: 
+      - generic [ref=e161]:
+        - generic [ref=e162]: 系统布局配置
+        - generic [ref=e163]:
+          - generic [ref=e164]: 开启 Tags-View
+          - switch [checked] [ref=e165]:
+            - checkbox [checked]
+        - generic [ref=e167]:
+          - generic [ref=e168]: 固定 Header
+          - switch [ref=e169]:
+            - checkbox
+        - generic [ref=e171]:
+          - generic [ref=e172]: 侧边栏 Logo
+          - switch [checked] [ref=e173]:
+            - checkbox [checked]

@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic:
+      - generic:
+        - link:
+          - /url: "#/"
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - menubar:
+              - generic:
+                - link:
+                  - /url: "#/dashboard"
+                  - menuitem
+              - generic:
+                - menuitem:
+                  - generic:
+                    - img
+                    - text: 
+                  - text:               
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e71] [cursor=pointer]
+          - menubar [ref=e73]:
+            - menuitem "系统基础信息" [ref=e74] [cursor=pointer]:
+              - link "系统基础信息" [ref=e75]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e76] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e77]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e78] [cursor=pointer]:
+              - link "码库管理" [ref=e79]:
+                - /url: /org//#/readycreate
+          - button "" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e84]: 
+        - generic [ref=e89] [cursor=pointer]:
+          - text: 换货查询
+          - generic [ref=e90]: 
+      - generic [ref=e96]:
+        - navigation "Breadcrumb" [ref=e98]:
+          - generic [ref=e99]:
+            - link "物流管理" [ref=e100]: 物流管理
+            - text: /
+          - link "换货查询" [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e106]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: 运单号
+              - textbox "请输入运单号" [ref=e112]
+            - generic [ref=e114]:
+              - generic [ref=e115]: 出库单号
+              - textbox "请输入出库单号" [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]: 批次号
+              - textbox "请输入批次号" [ref=e124]
+            - generic [ref=e126]:
+              - generic [ref=e127]: 产品编码
+              - textbox "请输入产品名称模糊匹配或者下拉选择" [ref=e131] [cursor=pointer]
+            - generic [ref=e135]:
+              - generic [ref=e136]: 旧码
+              - textbox "请输入" [ref=e139]
+            - generic [ref=e141]:
+              - generic [ref=e142]: 新码
+              - textbox "请输入" [ref=e145]
+            - generic [ref=e147]:
+              - generic [ref=e148]: 包装级别
+              - generic [ref=e151]:
+                - textbox "请选择包装级别" [ref=e152] [cursor=pointer]
+                - generic [ref=e154] [cursor=pointer]: 
+            - generic [ref=e156]:
+              - generic [ref=e157]: 扫码日期
+              - generic [ref=e159]:
+                - generic [ref=e160]: 
+                - textbox "开始日期" [ref=e161]
+                - generic [ref=e162]: "-"
+                - textbox "结束日期" [ref=e163]
+            - generic [ref=e165]:
+              - button "重置" [ref=e166] [cursor=pointer]
+              - button " 搜索" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: 
+                - text: 搜索
+              - button "导出Excel" [ref=e169] [cursor=pointer]: 导出Excel
+          - generic [ref=e171]:
+            - heading "换货查询" [level=4] [ref=e172]
+            - generic [ref=e174]:
+              - table [ref=e176]:
+                - rowgroup [ref=e187]:
+                  - row "运单号 出库单号 批次号 客户 产品 旧码 新码 包装级别 扫码时间" [ref=e188]:
+                    - columnheader "运单号" [ref=e189]:
+                      - generic [ref=e190]: 运单号
+                    - columnheader "出库单号" [ref=e191]:
+                      - generic [ref=e192]: 出库单号
+                    - columnheader "批次号" [ref=e193]:
+                      - generic [ref=e194]: 批次号
+                    - columnheader "客户" [ref=e195]:
+                      - generic [ref=e196]: 客户
+                    - columnheader "产品" [ref=e197]:
+                      - generic [ref=e198]: 产品
+                    - columnheader "旧码" [ref=e199]:
+                      - generic [ref=e200]: 旧码
+                    - columnheader "新码" [ref=e201]:
+                      - generic [ref=e202]: 新码
+                    - columnheader "包装级别" [ref=e203]:
+                      - generic [ref=e204]: 包装级别
+                    - columnheader "扫码时间" [ref=e205]:
+                      - generic [ref=e206]: 扫码时间
+                    - columnheader
+              - generic [ref=e207]:
+                - table:
+                  - rowgroup
+                - generic [ref=e209]: 暂无数据
+            - generic [ref=e210]:
+              - generic [ref=e211]: 共 0 条
+              - button "" [disabled] [ref=e212]:
+                - generic [ref=e213]: 
+              - list [ref=e214]:
+                - listitem [ref=e215]: "1"
+              - button "" [disabled] [ref=e216]:
+                - generic [ref=e217]: 
+              - generic [ref=e218]:
+                - text: 前往
+                - spinbutton [ref=e220]: "1"
+                - text: 页
+              - generic [ref=e223]:
+                - textbox "请选择" [ref=e224] [cursor=pointer]: 10条/页
+                - generic [ref=e226] [cursor=pointer]: 

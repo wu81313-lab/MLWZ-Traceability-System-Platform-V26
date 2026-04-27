@@ -1,0 +1,244 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img "logo" [ref=e5]
+      - generic [ref=e6]: 产品追溯系统
+    - menubar [ref=e8]:
+      - menuitem " 总览首页" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 
+        - text: 总览首页
+      - menuitem " 产品追溯系统 " [expanded] [ref=e11]:
+        - generic [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 
+          - text: 产品追溯系统
+          - generic [ref=e14]: 
+        - menu:
+          - menuitem "生产管理 " [expanded] [ref=e16]:
+            - generic [ref=e17] [cursor=pointer]:
+              - text: 生产管理
+              - generic [ref=e18]: 
+            - menu:
+              - menuitem "工厂信息 " [expanded] [ref=e20]:
+                - generic [ref=e21] [cursor=pointer]:
+                  - text: 工厂信息
+                  - generic [ref=e22]: 
+                - menu:
+                  - menuitem "工厂管理 " [expanded] [ref=e24]:
+                    - generic [ref=e25] [cursor=pointer]:
+                      - text: 工厂管理
+                      - generic [ref=e26]: 
+                    - menu:
+                      - menuitem "工厂列表" [ref=e28] [cursor=pointer]
+                      - menuitem "车间列表" [ref=e29] [cursor=pointer]
+                      - menuitem "产线列表" [ref=e30] [cursor=pointer]
+                  - menuitem "班组管理" [ref=e31] [cursor=pointer]
+              - menuitem "生产信息 " [ref=e32]:
+                - generic [ref=e33] [cursor=pointer]:
+                  - text: 生产信息
+                  - generic [ref=e34]: 
+          - menuitem "工厂物流 " [ref=e35]:
+            - generic [ref=e36] [cursor=pointer]:
+              - text: 工厂物流
+              - generic [ref=e37]: 
+          - menuitem "渠道物流 " [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - text: 渠道物流
+              - generic [ref=e40]: 
+          - menuitem "稽查管理 " [ref=e41]:
+            - generic [ref=e42] [cursor=pointer]:
+              - text: 稽查管理
+              - generic [ref=e43]: 
+          - menuitem "查询管理 " [ref=e44]:
+            - generic [ref=e45] [cursor=pointer]:
+              - text: 查询管理
+              - generic [ref=e46]: 
+          - menuitem "看板 " [ref=e47]:
+            - generic [ref=e48] [cursor=pointer]:
+              - text: 看板
+              - generic [ref=e49]: 
+  - generic [ref=e50]:
+    - banner [ref=e51]:
+      - generic [ref=e52]:
+        - button "" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+        - generic [ref=e55]:
+          - generic [ref=e56]: 工厂列表
+          - generic [ref=e57]: 首页 / 生产管理 / 工厂列表
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - button "" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: 
+          - superscript [ref=e62]: "4"
+        - button "" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: 
+        - button "" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 
+        - button "系 系统管理员 平台管理中心 " [ref=e68]:
+          - generic [ref=e69]: 系
+          - generic [ref=e70]:
+            - generic [ref=e71]: 系统管理员
+            - generic [ref=e72]: 平台管理中心
+          - generic [ref=e73]: 
+    - main [ref=e74]:
+      - generic [ref=e576]:
+        - generic [ref=e578]: 工厂列表
+        - navigation "Breadcrumb" [ref=e580]:
+          - generic [ref=e581]:
+            - link "生产管理" [ref=e582]
+            - text: /
+          - link "工厂列表" [ref=e584]
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - generic [ref=e588]:
+                - generic [ref=e589]: 工厂编号
+                - textbox "请输入工厂编号" [ref=e591]
+              - generic [ref=e592]:
+                - generic [ref=e593]: 工厂类别
+                - generic [ref=e595]:
+                  - textbox "请选择工厂类别" [ref=e596] [cursor=pointer]
+                  - generic [ref=e598] [cursor=pointer]: 
+            - generic [ref=e599]:
+              - button " 搜索" [ref=e600] [cursor=pointer]:
+                - generic [ref=e601]: 
+                - text: 搜索
+              - button "重置" [ref=e602] [cursor=pointer]
+              - button " 新建工厂" [ref=e603] [cursor=pointer]:
+                - generic [ref=e604]: 
+                - text: 新建工厂
+              - button "导出Excel" [ref=e605] [cursor=pointer]
+          - generic [ref=e607]:
+            - table [ref=e609]:
+              - rowgroup [ref=e617]:
+                - row "工厂编号 工厂名称 工厂类别 地址 关联部门编码" [ref=e618]:
+                  - columnheader "工厂编号" [ref=e619]:
+                    - generic [ref=e620]: 工厂编号
+                  - columnheader "工厂名称" [ref=e621]:
+                    - generic [ref=e622]: 工厂名称
+                  - columnheader "工厂类别" [ref=e623]:
+                    - generic [ref=e624]: 工厂类别
+                  - columnheader "地址" [ref=e625]:
+                    - generic [ref=e626]: 地址
+                  - columnheader "关联部门编码" [ref=e627]:
+                    - generic [ref=e628]: 关联部门编码
+                  - columnheader [ref=e629]
+            - table [ref=e631]:
+              - rowgroup [ref=e639]:
+                - row "mt002 弥特纯净水工厂002 自有工厂 广东 scb" [ref=e640]:
+                  - cell "mt002" [ref=e641]:
+                    - generic [ref=e642]: mt002
+                  - cell "弥特纯净水工厂002" [ref=e643]:
+                    - generic [ref=e644]: 弥特纯净水工厂002
+                  - cell "自有工厂" [ref=e645]:
+                    - generic [ref=e646]: 自有工厂
+                  - cell "广东" [ref=e647]:
+                    - generic [ref=e648]: 广东
+                  - cell "scb" [ref=e649]:
+                    - generic [ref=e650]: scb
+                  - cell [ref=e651]
+                - row "MT001 弥特纯净水工厂 自有工厂 广东" [ref=e652]:
+                  - cell "MT001" [ref=e653]:
+                    - generic [ref=e654]: MT001
+                  - cell "弥特纯净水工厂" [ref=e655]:
+                    - generic [ref=e656]: 弥特纯净水工厂
+                  - cell "自有工厂" [ref=e657]:
+                    - generic [ref=e658]: 自有工厂
+                  - cell "广东" [ref=e659]:
+                    - generic [ref=e660]: 广东
+                  - cell [ref=e661]
+                  - cell [ref=e662]
+                - row "gxty01 广西田园生化股份有限公司 自有工厂 广西田园生化股份有限公司 001" [ref=e663]:
+                  - cell "gxty01" [ref=e664]:
+                    - generic [ref=e665]: gxty01
+                  - cell "广西田园生化股份有限公司" [ref=e666]:
+                    - generic [ref=e667]: 广西田园生化股份有限公司
+                  - cell "自有工厂" [ref=e668]:
+                    - generic [ref=e669]: 自有工厂
+                  - cell "广西田园生化股份有限公司" [ref=e670]:
+                    - generic [ref=e671]: 广西田园生化股份有限公司
+                  - cell "001" [ref=e672]:
+                    - generic [ref=e673]: "001"
+                  - cell [ref=e674]
+                - row "01 测试工厂 自有工厂 01 1000" [ref=e675]:
+                  - cell "01" [ref=e676]:
+                    - generic [ref=e677]: "01"
+                  - cell "测试工厂" [ref=e678]:
+                    - generic [ref=e679]: 测试工厂
+                  - cell "自有工厂" [ref=e680]:
+                    - generic [ref=e681]: 自有工厂
+                  - cell "01" [ref=e682]:
+                    - generic [ref=e683]: "01"
+                  - cell "1000" [ref=e684]:
+                    - generic [ref=e685]: "1000"
+                  - cell [ref=e686]
+            - generic [ref=e687]:
+              - table [ref=e689]:
+                - rowgroup [ref=e697]:
+                  - row "操作" [ref=e698]:
+                    - columnheader [ref=e699]
+                    - columnheader [ref=e700]
+                    - columnheader [ref=e701]
+                    - columnheader [ref=e702]
+                    - columnheader [ref=e703]
+                    - columnheader "操作" [ref=e704]:
+                      - generic [ref=e705]: 操作
+              - table [ref=e707]:
+                - rowgroup [ref=e715]:
+                  - row "修改 删除 车间列表" [ref=e716]:
+                    - cell [ref=e717]
+                    - cell [ref=e718]
+                    - cell [ref=e719]
+                    - cell [ref=e720]
+                    - cell [ref=e721]
+                    - cell "修改 删除 车间列表" [ref=e722]:
+                      - generic [ref=e724]:
+                        - button "修改" [ref=e725] [cursor=pointer]
+                        - button "删除" [ref=e726] [cursor=pointer]
+                        - button "车间列表" [ref=e727] [cursor=pointer]
+                  - row "修改 删除 车间列表" [ref=e728]:
+                    - cell [ref=e729]
+                    - cell [ref=e730]
+                    - cell [ref=e731]
+                    - cell [ref=e732]
+                    - cell [ref=e733]
+                    - cell "修改 删除 车间列表" [ref=e734]:
+                      - generic [ref=e736]:
+                        - button "修改" [ref=e737] [cursor=pointer]
+                        - button "删除" [ref=e738] [cursor=pointer]
+                        - button "车间列表" [ref=e739] [cursor=pointer]
+                  - row "修改 删除 车间列表" [ref=e740]:
+                    - cell [ref=e741]
+                    - cell [ref=e742]
+                    - cell [ref=e743]
+                    - cell [ref=e744]
+                    - cell [ref=e745]
+                    - cell "修改 删除 车间列表" [ref=e746]:
+                      - generic [ref=e748]:
+                        - button "修改" [ref=e749] [cursor=pointer]
+                        - button "删除" [ref=e750] [cursor=pointer]
+                        - button "车间列表" [ref=e751] [cursor=pointer]
+                  - row "修改 删除 车间列表" [ref=e752]:
+                    - cell [ref=e753]
+                    - cell [ref=e754]
+                    - cell [ref=e755]
+                    - cell [ref=e756]
+                    - cell [ref=e757]
+                    - cell "修改 删除 车间列表" [ref=e758]:
+                      - generic [ref=e760]:
+                        - button "修改" [ref=e761] [cursor=pointer]
+                        - button "删除" [ref=e762] [cursor=pointer]
+                        - button "车间列表" [ref=e763] [cursor=pointer]
+          - generic [ref=e764]:
+            - generic [ref=e765]: 共 4 条
+            - generic [ref=e766]:
+              - button "" [disabled] [ref=e767]:
+                - generic [ref=e768]: 
+              - list [ref=e769]:
+                - listitem [ref=e770]: "1"
+              - button "" [disabled] [ref=e771]:
+                - generic [ref=e772]: 
+              - generic [ref=e773]:
+                - text: 前往
+                - spinbutton [ref=e775]: "1"
+                - text: 页
+        - text: 

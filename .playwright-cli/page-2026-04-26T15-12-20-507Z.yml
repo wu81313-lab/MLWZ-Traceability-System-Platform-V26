@@ -1,0 +1,429 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - text:  
+            - menuitem "渠道物流 " [expanded] [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - menu [ref=e104]:
+                - menuitem "经销商物流 " [ref=e106]:
+                  - generic [ref=e107] [cursor=pointer]:
+                    - text: 经销商物流
+                    - generic [ref=e108]: 
+                  - text: 
+                - menuitem "终端物流 " [ref=e110]:
+                  - generic [ref=e111] [cursor=pointer]:
+                    - text: 终端物流
+                    - generic [ref=e112]: 
+                - menuitem "渠道库存 " [expanded] [ref=e114]:
+                  - generic [ref=e115] [cursor=pointer]:
+                    - text: 渠道库存
+                    - generic [ref=e116]: 
+                  - menu [ref=e117]:
+                    - link "渠道库存列表" [ref=e119] [cursor=pointer]:
+                      - /url: "#/channelinventorylist"
+                      - menuitem "渠道库存列表" [ref=e120]
+                    - link "渠道库存流水" [ref=e122] [cursor=pointer]:
+                      - /url: "#/channelinventorylogs"
+                      - menuitem "渠道库存流水" [ref=e123]
+            - menuitem "稽查管理 " [ref=e125]:
+              - generic [ref=e126] [cursor=pointer]:
+                - img [ref=e127]
+                - text: 稽查管理
+                - generic [ref=e129]: 
+            - menuitem "查询管理 " [ref=e131]:
+              - generic [ref=e132] [cursor=pointer]:
+                - img [ref=e133]
+                - text: 查询管理
+                - generic [ref=e135]: 
+            - menuitem "看板 " [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - img [ref=e139]
+                - text: 看板
+                - generic [ref=e141]: 
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - img [ref=e148] [cursor=pointer]
+          - menubar [ref=e150]:
+            - menuitem "系统基础信息" [ref=e151] [cursor=pointer]:
+              - link "系统基础信息" [ref=e152]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e153] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e154]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e155] [cursor=pointer]:
+              - link "码库管理" [ref=e156]:
+                - /url: /org//#/readycreate
+          - generic [ref=e157]:
+            - generic [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - button [ref=e160]:
+                  - img [ref=e162]
+                - superscript [ref=e164]
+              - text: 
+            - img [ref=e166] [cursor=pointer]
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - button "" [ref=e173] [cursor=pointer]:
+              - img [ref=e174]
+              - generic [ref=e175]: 
+        - generic [ref=e180] [cursor=pointer]:
+          - text: 渠道库存流水
+          - generic [ref=e181]: 
+      - generic [ref=e187]:
+        - navigation "Breadcrumb" [ref=e189]:
+          - generic [ref=e190]:
+            - link "渠道物流" [ref=e191]: 渠道物流
+            - text: /
+          - link "渠道库存流水" [ref=e193]
+        - generic [ref=e194]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: 渠道编码
+                - textbox "请输入渠道编码" [ref=e203]
+              - generic [ref=e205]:
+                - generic [ref=e206]: 产品编码
+                - textbox "请输入产品编码" [ref=e209]
+              - generic [ref=e211]:
+                - generic [ref=e212]: 产品名称
+                - textbox "请输入产品名称" [ref=e215]
+              - generic [ref=e217]:
+                - generic [ref=e218]: 单号
+                - textbox "请输入单号" [ref=e221]
+            - generic [ref=e222]:
+              - generic [ref=e224]:
+                - generic [ref=e225]: 单据类型
+                - generic [ref=e228]:
+                  - textbox "请选择" [ref=e229] [cursor=pointer]: 所有
+                  - generic [ref=e231] [cursor=pointer]: 
+              - generic [ref=e233]:
+                - generic [ref=e234]: 渠道类型
+                - generic [ref=e237]:
+                  - textbox "请选择" [ref=e238] [cursor=pointer]: 所有
+                  - generic [ref=e240] [cursor=pointer]: 
+              - generic [ref=e242]:
+                - generic [ref=e243]: 创建时间
+                - generic [ref=e245]:
+                  - generic [ref=e246]: 
+                  - textbox "开始日期" [ref=e247]
+                  - generic [ref=e248]: "-"
+                  - textbox "结束日期" [ref=e249]
+            - generic [ref=e252]:
+              - button "重置" [ref=e253] [cursor=pointer]
+              - button " 搜索" [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]: 
+                - text: 搜索
+          - generic [ref=e257]:
+            - heading "渠道库存流水" [level=4] [ref=e258]
+            - generic [ref=e260]:
+              - table [ref=e262]:
+                - rowgroup [ref=e275]:
+                  - row "单据号 单据类型 渠道名称 渠道类型 产品编码 产品名称 库存数量（变动前） 库存数量（变动后） 库存数量（变动数量） 包装单位 创建时间" [ref=e276]:
+                    - columnheader "单据号" [ref=e277]:
+                      - generic [ref=e278]: 单据号
+                    - columnheader "单据类型" [ref=e279]:
+                      - generic [ref=e280]: 单据类型
+                    - columnheader "渠道名称" [ref=e281]:
+                      - generic [ref=e282]: 渠道名称
+                    - columnheader "渠道类型" [ref=e283]:
+                      - generic [ref=e284]: 渠道类型
+                    - columnheader "产品编码" [ref=e285]:
+                      - generic [ref=e286]: 产品编码
+                    - columnheader "产品名称" [ref=e287]:
+                      - generic [ref=e288]: 产品名称
+                    - columnheader "库存数量（变动前）" [ref=e289]:
+                      - generic [ref=e290]: 库存数量（变动前）
+                    - columnheader "库存数量（变动后）" [ref=e291]:
+                      - generic [ref=e292]: 库存数量（变动后）
+                    - columnheader "库存数量（变动数量）" [ref=e293]:
+                      - generic [ref=e294]: 库存数量（变动数量）
+                    - columnheader "包装单位" [ref=e295]:
+                      - generic [ref=e296]: 包装单位
+                    - columnheader "创建时间" [ref=e297]:
+                      - generic [ref=e298]: 创建时间
+              - table [ref=e300]:
+                - rowgroup [ref=e313]:
+                  - row "RD202602284443000002 退货单 终端A 终端门店 cjs1 纯净水500ml 246 123 -123 ping 2026-02-28 13:15:10" [ref=e314]:
+                    - cell "RD202602284443000002" [ref=e315]:
+                      - generic [ref=e316]: RD202602284443000002
+                    - cell "退货单" [ref=e317]:
+                      - generic [ref=e318]: 退货单
+                    - cell "终端A" [ref=e319]:
+                      - generic [ref=e320]: 终端A
+                    - cell "终端门店" [ref=e321]:
+                      - generic [ref=e322]: 终端门店
+                    - cell "cjs1" [ref=e323]:
+                      - generic [ref=e324]: cjs1
+                    - cell "纯净水500ml" [ref=e325]:
+                      - generic [ref=e326]: 纯净水500ml
+                    - cell "246" [ref=e327]:
+                      - generic [ref=e328]: "246"
+                    - cell "123" [ref=e329]:
+                      - generic [ref=e330]: "123"
+                    - cell "-123" [ref=e331]:
+                      - generic [ref=e332]: "-123"
+                    - cell "ping" [ref=e333]:
+                      - generic [ref=e334]: ping
+                    - cell "2026-02-28 13:15:10" [ref=e335]:
+                      - generic [ref=e336]: 2026-02-28 13:15:10
+                  - row "RD202602284443000002 退货单 经销商 cjs1 纯净水500ml 17958 18081 123 ping 2026-02-28 13:15:10" [ref=e337]:
+                    - cell "RD202602284443000002" [ref=e338]:
+                      - generic [ref=e339]: RD202602284443000002
+                    - cell "退货单" [ref=e340]:
+                      - generic [ref=e341]: 退货单
+                    - cell [ref=e342]
+                    - cell "经销商" [ref=e343]:
+                      - generic [ref=e344]: 经销商
+                    - cell "cjs1" [ref=e345]:
+                      - generic [ref=e346]: cjs1
+                    - cell "纯净水500ml" [ref=e347]:
+                      - generic [ref=e348]: 纯净水500ml
+                    - cell "17958" [ref=e349]:
+                      - generic [ref=e350]: "17958"
+                    - cell "18081" [ref=e351]:
+                      - generic [ref=e352]: "18081"
+                    - cell "123" [ref=e353]:
+                      - generic [ref=e354]: "123"
+                    - cell "ping" [ref=e355]:
+                      - generic [ref=e356]: ping
+                    - cell "2026-02-28 13:15:10" [ref=e357]:
+                      - generic [ref=e358]: 2026-02-28 13:15:10
+                  - row "HP202602285801000001 销售单 经销商 cjs1 纯净水500ml 18081 17958 -123 ping 2026-02-28 13:05:37" [ref=e359]:
+                    - cell "HP202602285801000001" [ref=e360]:
+                      - generic [ref=e361]: HP202602285801000001
+                    - cell "销售单" [ref=e362]:
+                      - generic [ref=e363]: 销售单
+                    - cell [ref=e364]
+                    - cell "经销商" [ref=e365]:
+                      - generic [ref=e366]: 经销商
+                    - cell "cjs1" [ref=e367]:
+                      - generic [ref=e368]: cjs1
+                    - cell "纯净水500ml" [ref=e369]:
+                      - generic [ref=e370]: 纯净水500ml
+                    - cell "18081" [ref=e371]:
+                      - generic [ref=e372]: "18081"
+                    - cell "17958" [ref=e373]:
+                      - generic [ref=e374]: "17958"
+                    - cell "-123" [ref=e375]:
+                      - generic [ref=e376]: "-123"
+                    - cell "ping" [ref=e377]:
+                      - generic [ref=e378]: ping
+                    - cell "2026-02-28 13:05:37" [ref=e379]:
+                      - generic [ref=e380]: 2026-02-28 13:05:37
+                  - row "202602282c124912c5884159ac42463d74b022b5 销售单 经销商 cjs1 纯净水500ml 18204 18081 -123 ping 2026-02-28 12:56:00" [ref=e381]:
+                    - cell "202602282c124912c5884159ac42463d74b022b5" [ref=e382]:
+                      - generic [ref=e383]: 202602282c124912c5884159ac42463d74b022b5
+                    - cell "销售单" [ref=e384]:
+                      - generic [ref=e385]: 销售单
+                    - cell [ref=e386]
+                    - cell "经销商" [ref=e387]:
+                      - generic [ref=e388]: 经销商
+                    - cell "cjs1" [ref=e389]:
+                      - generic [ref=e390]: cjs1
+                    - cell "纯净水500ml" [ref=e391]:
+                      - generic [ref=e392]: 纯净水500ml
+                    - cell "18204" [ref=e393]:
+                      - generic [ref=e394]: "18204"
+                    - cell "18081" [ref=e395]:
+                      - generic [ref=e396]: "18081"
+                    - cell "-123" [ref=e397]:
+                      - generic [ref=e398]: "-123"
+                    - cell "ping" [ref=e399]:
+                      - generic [ref=e400]: ping
+                    - cell "2026-02-28 12:56:00" [ref=e401]:
+                      - generic [ref=e402]: 2026-02-28 12:56:00
+                  - row "CK20260224E 采购单 经销商 cjs1 纯净水500ml 16974 18204 1230 ping 2026-02-28 12:40:38" [ref=e403]:
+                    - cell "CK20260224E" [ref=e404]:
+                      - generic [ref=e405]: CK20260224E
+                    - cell "采购单" [ref=e406]:
+                      - generic [ref=e407]: 采购单
+                    - cell [ref=e408]
+                    - cell "经销商" [ref=e409]:
+                      - generic [ref=e410]: 经销商
+                    - cell "cjs1" [ref=e411]:
+                      - generic [ref=e412]: cjs1
+                    - cell "纯净水500ml" [ref=e413]:
+                      - generic [ref=e414]: 纯净水500ml
+                    - cell "16974" [ref=e415]:
+                      - generic [ref=e416]: "16974"
+                    - cell "18204" [ref=e417]:
+                      - generic [ref=e418]: "18204"
+                    - cell "1230" [ref=e419]:
+                      - generic [ref=e420]: "1230"
+                    - cell "ping" [ref=e421]:
+                      - generic [ref=e422]: ping
+                    - cell "2026-02-28 12:40:38" [ref=e423]:
+                      - generic [ref=e424]: 2026-02-28 12:40:38
+                  - row "202602052c124912c5884159ac42463d74b022b5 销售单 经销商 cjs1 纯净水500ml 17220 16974 -246 ping 2026-02-24 16:44:00" [ref=e425]:
+                    - cell "202602052c124912c5884159ac42463d74b022b5" [ref=e426]:
+                      - generic [ref=e427]: 202602052c124912c5884159ac42463d74b022b5
+                    - cell "销售单" [ref=e428]:
+                      - generic [ref=e429]: 销售单
+                    - cell [ref=e430]
+                    - cell "经销商" [ref=e431]:
+                      - generic [ref=e432]: 经销商
+                    - cell "cjs1" [ref=e433]:
+                      - generic [ref=e434]: cjs1
+                    - cell "纯净水500ml" [ref=e435]:
+                      - generic [ref=e436]: 纯净水500ml
+                    - cell "17220" [ref=e437]:
+                      - generic [ref=e438]: "17220"
+                    - cell "16974" [ref=e439]:
+                      - generic [ref=e440]: "16974"
+                    - cell "-246" [ref=e441]:
+                      - generic [ref=e442]: "-246"
+                    - cell "ping" [ref=e443]:
+                      - generic [ref=e444]: ping
+                    - cell "2026-02-24 16:44:00" [ref=e445]:
+                      - generic [ref=e446]: 2026-02-24 16:44:00
+                  - row "SN202602050246000008 采购单 终端2B 终端门店 cjs1 纯净水500ml 0 123 123 ping 2026-02-05 17:36:18" [ref=e447]:
+                    - cell "SN202602050246000008" [ref=e448]:
+                      - generic [ref=e449]: SN202602050246000008
+                    - cell "采购单" [ref=e450]:
+                      - generic [ref=e451]: 采购单
+                    - cell "终端2B" [ref=e452]:
+                      - generic [ref=e453]: 终端2B
+                    - cell "终端门店" [ref=e454]:
+                      - generic [ref=e455]: 终端门店
+                    - cell "cjs1" [ref=e456]:
+                      - generic [ref=e457]: cjs1
+                    - cell "纯净水500ml" [ref=e458]:
+                      - generic [ref=e459]: 纯净水500ml
+                    - cell "0" [ref=e460]:
+                      - generic [ref=e461]: "0"
+                    - cell "123" [ref=e462]:
+                      - generic [ref=e463]: "123"
+                    - cell "123" [ref=e464]:
+                      - generic [ref=e465]: "123"
+                    - cell "ping" [ref=e466]:
+                      - generic [ref=e467]: ping
+                    - cell "2026-02-05 17:36:18" [ref=e468]:
+                      - generic [ref=e469]: 2026-02-05 17:36:18
+                  - row "HP202602054506000005 销售单 经销商 cjs1 纯净水500ml -369 -492 -123 ping 2026-02-05 17:32:01" [ref=e470]:
+                    - cell "HP202602054506000005" [ref=e471]:
+                      - generic [ref=e472]: HP202602054506000005
+                    - cell "销售单" [ref=e473]:
+                      - generic [ref=e474]: 销售单
+                    - cell [ref=e475]
+                    - cell "经销商" [ref=e476]:
+                      - generic [ref=e477]: 经销商
+                    - cell "cjs1" [ref=e478]:
+                      - generic [ref=e479]: cjs1
+                    - cell "纯净水500ml" [ref=e480]:
+                      - generic [ref=e481]: 纯净水500ml
+                    - cell "-369" [ref=e482]:
+                      - generic [ref=e483]: "-369"
+                    - cell "-492" [ref=e484]:
+                      - generic [ref=e485]: "-492"
+                    - cell "-123" [ref=e486]:
+                      - generic [ref=e487]: "-123"
+                    - cell "ping" [ref=e488]:
+                      - generic [ref=e489]: ping
+                    - cell "2026-02-05 17:32:01" [ref=e490]:
+                      - generic [ref=e491]: 2026-02-05 17:32:01
+                  - row "HP202602057498000007 销售单 经销商 cjs1 纯净水500ml -246 -369 -123 ping 2026-02-05 17:31:52" [ref=e492]:
+                    - cell "HP202602057498000007" [ref=e493]:
+                      - generic [ref=e494]: HP202602057498000007
+                    - cell "销售单" [ref=e495]:
+                      - generic [ref=e496]: 销售单
+                    - cell [ref=e497]
+                    - cell "经销商" [ref=e498]:
+                      - generic [ref=e499]: 经销商
+                    - cell "cjs1" [ref=e500]:
+                      - generic [ref=e501]: cjs1
+                    - cell "纯净水500ml" [ref=e502]:
+                      - generic [ref=e503]: 纯净水500ml
+                    - cell "-246" [ref=e504]:
+                      - generic [ref=e505]: "-246"
+                    - cell "-369" [ref=e506]:
+                      - generic [ref=e507]: "-369"
+                    - cell "-123" [ref=e508]:
+                      - generic [ref=e509]: "-123"
+                    - cell "ping" [ref=e510]:
+                      - generic [ref=e511]: ping
+                    - cell "2026-02-05 17:31:52" [ref=e512]:
+                      - generic [ref=e513]: 2026-02-05 17:31:52
+                  - row "HP202602052641000006 销售单 经销商 cjs1 纯净水500ml 17589 17220 -369 ping 2026-02-05 17:30:18" [ref=e514]:
+                    - cell "HP202602052641000006" [ref=e515]:
+                      - generic [ref=e516]: HP202602052641000006
+                    - cell "销售单" [ref=e517]:
+                      - generic [ref=e518]: 销售单
+                    - cell [ref=e519]
+                    - cell "经销商" [ref=e520]:
+                      - generic [ref=e521]: 经销商
+                    - cell "cjs1" [ref=e522]:
+                      - generic [ref=e523]: cjs1
+                    - cell "纯净水500ml" [ref=e524]:
+                      - generic [ref=e525]: 纯净水500ml
+                    - cell "17589" [ref=e526]:
+                      - generic [ref=e527]: "17589"
+                    - cell "17220" [ref=e528]:
+                      - generic [ref=e529]: "17220"
+                    - cell "-369" [ref=e530]:
+                      - generic [ref=e531]: "-369"
+                    - cell "ping" [ref=e532]:
+                      - generic [ref=e533]: ping
+                    - cell "2026-02-05 17:30:18" [ref=e534]:
+                      - generic [ref=e535]: 2026-02-05 17:30:18
+            - generic [ref=e536]:
+              - generic [ref=e537]: 共 19 条
+              - button "" [disabled] [ref=e538]:
+                - generic [ref=e539]: 
+              - list [ref=e540]:
+                - listitem [ref=e541]: "1"
+                - listitem [ref=e542] [cursor=pointer]: "2"
+              - button "" [ref=e543] [cursor=pointer]:
+                - generic [ref=e544]: 
+              - generic [ref=e545]:
+                - text: 前往
+                - spinbutton [ref=e547]: "1"
+                - text: 页
+              - generic [ref=e550]:
+                - textbox "请选择" [ref=e551] [cursor=pointer]: 10条/页
+                - generic [ref=e553] [cursor=pointer]: 

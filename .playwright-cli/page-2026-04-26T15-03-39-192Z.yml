@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - text:  
+            - menuitem "渠道物流 " [expanded] [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - menu [ref=e104]:
+                - menuitem "经销商物流 " [ref=e106]:
+                  - generic [ref=e107] [cursor=pointer]:
+                    - text: 经销商物流
+                    - generic [ref=e108]: 
+                  - text: 
+                - menuitem "终端物流 " [expanded] [ref=e110]:
+                  - generic [ref=e111] [cursor=pointer]:
+                    - text: 终端物流
+                    - generic [ref=e112]: 
+                  - menu [ref=e113]:
+                    - link "单据签收记录" [ref=e115] [cursor=pointer]:
+                      - /url: "#/sttSsignWeblist"
+                      - menuitem "单据签收记录" [ref=e116]
+                    - link "扫码签收记录" [ref=e118] [cursor=pointer]:
+                      - /url: "#/sttSsignscancodelogs"
+                      - menuitem "扫码签收记录" [ref=e119]
+                - menuitem "渠道库存 " [ref=e121]:
+                  - generic [ref=e122] [cursor=pointer]:
+                    - text: 渠道库存
+                    - generic [ref=e123]: 
+            - menuitem "稽查管理 " [ref=e125]:
+              - generic [ref=e126] [cursor=pointer]:
+                - img [ref=e127]
+                - text: 稽查管理
+                - generic [ref=e129]: 
+            - menuitem "查询管理 " [ref=e131]:
+              - generic [ref=e132] [cursor=pointer]:
+                - img [ref=e133]
+                - text: 查询管理
+                - generic [ref=e135]: 
+            - menuitem "看板 " [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - img [ref=e139]
+                - text: 看板
+                - generic [ref=e141]: 
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - img [ref=e148] [cursor=pointer]
+          - menubar [ref=e150]:
+            - menuitem "系统基础信息" [ref=e151] [cursor=pointer]:
+              - link "系统基础信息" [ref=e152]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e153] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e154]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e155] [cursor=pointer]:
+              - link "码库管理" [ref=e156]:
+                - /url: /org//#/readycreate
+          - generic [ref=e157]:
+            - generic [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - button [ref=e160]:
+                  - img [ref=e162]
+                - superscript [ref=e164]
+              - text: 
+            - img [ref=e166] [cursor=pointer]
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - button "" [ref=e173] [cursor=pointer]:
+              - img [ref=e174]
+              - generic [ref=e175]: 
+        - generic [ref=e180] [cursor=pointer]:
+          - text: 单据签收记录
+          - generic [ref=e181]: 
+      - generic [ref=e187]:
+        - navigation "Breadcrumb" [ref=e189]:
+          - generic [ref=e190]:
+            - link "终端物流" [ref=e191]: 终端物流
+            - text: /
+          - link "单据签收记录" [ref=e193]
+        - generic [ref=e194]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: 出库单号
+                - textbox "请输入出库单号" [ref=e203]
+              - generic [ref=e205]:
+                - generic [ref=e206]: 收货编码
+                - textbox "请输入收货编码" [ref=e209]
+              - generic [ref=e211]:
+                - generic [ref=e212]: 经销商编码
+                - textbox "请输入经销商编码" [ref=e215]
+              - generic [ref=e217]:
+                - generic [ref=e218]: 建单日期
+                - generic [ref=e220]:
+                  - generic [ref=e221]: 
+                  - textbox "开始日期" [ref=e222]
+                  - generic [ref=e223]: "-"
+                  - textbox "结束日期" [ref=e224]
+            - generic [ref=e226]:
+              - generic [ref=e228]:
+                - generic [ref=e229]: 签收日期
+                - generic [ref=e231]:
+                  - generic [ref=e232]: 
+                  - textbox "开始日期" [ref=e233]
+                  - generic [ref=e234]: "-"
+                  - textbox "结束日期" [ref=e235]
+              - generic [ref=e237]:
+                - button "重置" [ref=e238] [cursor=pointer]
+                - button " 搜索" [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240]: 
+                  - text: 搜索
+                - button "导出" [ref=e241] [cursor=pointer]
+          - generic [ref=e243]:
+            - heading "单据签收记录" [level=4] [ref=e244]
+            - generic [ref=e246]:
+              - table [ref=e248]:
+                - rowgroup [ref=e266]:
+                  - row "经销商编码 经销商名称 客户编码 客户名称 签收人 签收人手机号 建单时间 签收时间 签收地址 送达时间 送达地址 出库单号 收货编码 状态" [ref=e267]:
+                    - columnheader [ref=e268]
+                    - columnheader "经销商编码" [ref=e269]:
+                      - generic [ref=e270]: 经销商编码
+                    - columnheader "经销商名称" [ref=e271]:
+                      - generic [ref=e272]: 经销商名称
+                    - columnheader "客户编码" [ref=e273]:
+                      - generic [ref=e274]: 客户编码
+                    - columnheader "客户名称" [ref=e275]:
+                      - generic [ref=e276]: 客户名称
+                    - columnheader "签收人" [ref=e277]:
+                      - generic [ref=e278]: 签收人
+                    - columnheader "签收人手机号" [ref=e279]:
+                      - generic [ref=e280]: 签收人手机号
+                    - columnheader "建单时间" [ref=e281]:
+                      - generic [ref=e282]: 建单时间
+                    - columnheader "签收时间" [ref=e283]:
+                      - generic [ref=e284]: 签收时间
+                    - columnheader "签收地址" [ref=e285]:
+                      - generic [ref=e286]: 签收地址
+                    - columnheader "送达时间" [ref=e287]:
+                      - generic [ref=e288]: 送达时间
+                    - columnheader "送达地址" [ref=e289]:
+                      - generic [ref=e290]: 送达地址
+                    - columnheader "出库单号" [ref=e291]:
+                      - generic [ref=e292]: 出库单号
+                    - columnheader "收货编码" [ref=e293]:
+                      - generic [ref=e294]: 收货编码
+                    - columnheader "状态" [ref=e295]:
+                      - generic [ref=e296]: 状态
+                    - columnheader [ref=e297]
+              - table [ref=e299]:
+                - rowgroup [ref=e317]:
+                  - row " 77acc51897a54fd6b1def6709ce050a5 二级经销商2 65950a59de0c4a3cbfea530347e4c82c 终端2B 老刘 13971072325 2026-02-05 17:29:11 2026-02-05 17:36:18 广东省广州市黄埔区西成中街 2026-02-05 17:32:02 广东省广州市黄埔区西成中街 HP202602054506000005 65950a59de0c4a3cbfea530347e4c82c 已签收" [ref=e318]:
+                    - cell "" [ref=e319]:
+                      - generic [ref=e322] [cursor=pointer]: 
+                    - cell "77acc51897a54fd6b1def6709ce050a5" [ref=e323]:
+                      - generic [ref=e324]: 77acc51897a54fd6b1def6709ce050a5
+                    - cell "二级经销商2" [ref=e325]:
+                      - generic [ref=e326]: 二级经销商2
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e327]:
+                      - generic [ref=e328]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "终端2B" [ref=e329]:
+                      - generic [ref=e330]: 终端2B
+                    - cell "老刘" [ref=e331]:
+                      - generic [ref=e332]: 老刘
+                    - cell "13971072325" [ref=e333]:
+                      - generic [ref=e334]: "13971072325"
+                    - cell "2026-02-05 17:29:11" [ref=e335]:
+                      - generic [ref=e336]: 2026-02-05 17:29:11
+                    - cell "2026-02-05 17:36:18" [ref=e337]:
+                      - generic [ref=e338]: 2026-02-05 17:36:18
+                    - cell "广东省广州市黄埔区西成中街" [ref=e339]:
+                      - generic [ref=e340]: 广东省广州市黄埔区西成中街
+                    - cell "2026-02-05 17:32:02" [ref=e341]:
+                      - generic [ref=e342]: 2026-02-05 17:32:02
+                    - cell "广东省广州市黄埔区西成中街" [ref=e343]:
+                      - generic [ref=e344]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602054506000005" [ref=e345]:
+                      - generic [ref=e346]: HP202602054506000005
+                    - cell "65950a59de0c4a3cbfea530347e4c82c" [ref=e347]:
+                      - generic [ref=e348]: 65950a59de0c4a3cbfea530347e4c82c
+                    - cell "已签收" [ref=e349]:
+                      - generic [ref=e350]: 已签收
+                    - cell [ref=e351]
+                  - row " gdfc 广东发财商贸有限公司 2c124912c5884159ac42463d74b022b5 终端A 用户A 13971072325 2026-02-05 17:26:37 2026-02-05 17:27:27 广东省广州市黄埔区西成中街 2026-02-05 17:27:09 广东省广州市黄埔区西成中街 HP202602050160000004 2c124912c5884159ac42463d74b022b5 已签收" [ref=e352]:
+                    - cell "" [ref=e353]:
+                      - generic [ref=e356] [cursor=pointer]: 
+                    - cell "gdfc" [ref=e357]:
+                      - generic [ref=e358]: gdfc
+                    - cell "广东发财商贸有限公司" [ref=e359]:
+                      - generic [ref=e360]: 广东发财商贸有限公司
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e361]:
+                      - generic [ref=e362]: 2c124912c5884159ac42463d74b022b5
+                    - cell "终端A" [ref=e363]:
+                      - generic [ref=e364]: 终端A
+                    - cell "用户A" [ref=e365]:
+                      - generic [ref=e366]: 用户A
+                    - cell "13971072325" [ref=e367]:
+                      - generic [ref=e368]: "13971072325"
+                    - cell "2026-02-05 17:26:37" [ref=e369]:
+                      - generic [ref=e370]: 2026-02-05 17:26:37
+                    - cell "2026-02-05 17:27:27" [ref=e371]:
+                      - generic [ref=e372]: 2026-02-05 17:27:27
+                    - cell "广东省广州市黄埔区西成中街" [ref=e373]:
+                      - generic [ref=e374]: 广东省广州市黄埔区西成中街
+                    - cell "2026-02-05 17:27:09" [ref=e375]:
+                      - generic [ref=e376]: 2026-02-05 17:27:09
+                    - cell "广东省广州市黄埔区西成中街" [ref=e377]:
+                      - generic [ref=e378]: 广东省广州市黄埔区西成中街
+                    - cell "HP202602050160000004" [ref=e379]:
+                      - generic [ref=e380]: HP202602050160000004
+                    - cell "2c124912c5884159ac42463d74b022b5" [ref=e381]:
+                      - generic [ref=e382]: 2c124912c5884159ac42463d74b022b5
+                    - cell "已签收" [ref=e383]:
+                      - generic [ref=e384]: 已签收
+                    - cell [ref=e385]
+              - generic [ref=e386]:
+                - table [ref=e388]:
+                  - rowgroup [ref=e406]:
+                    - row "操作" [ref=e407]:
+                      - columnheader [ref=e408]
+                      - columnheader [ref=e409]
+                      - columnheader [ref=e410]
+                      - columnheader [ref=e411]
+                      - columnheader [ref=e412]
+                      - columnheader [ref=e413]
+                      - columnheader [ref=e414]
+                      - columnheader [ref=e415]
+                      - columnheader [ref=e416]
+                      - columnheader [ref=e417]
+                      - columnheader [ref=e418]
+                      - columnheader [ref=e419]
+                      - columnheader [ref=e420]
+                      - columnheader [ref=e421]
+                      - columnheader [ref=e422]
+                      - columnheader "操作" [ref=e423]:
+                        - generic [ref=e424]: 操作
+                - table [ref=e426]:
+                  - rowgroup [ref=e444]:
+                    - row "查看箱码 查询签收照片" [ref=e445]:
+                      - cell [ref=e446]
+                      - cell [ref=e447]
+                      - cell [ref=e448]
+                      - cell [ref=e449]
+                      - cell [ref=e450]
+                      - cell [ref=e451]
+                      - cell [ref=e452]
+                      - cell [ref=e453]
+                      - cell [ref=e454]
+                      - cell [ref=e455]
+                      - cell [ref=e456]
+                      - cell [ref=e457]
+                      - cell [ref=e458]
+                      - cell [ref=e459]
+                      - cell [ref=e460]
+                      - cell "查看箱码 查询签收照片" [ref=e461]:
+                        - generic [ref=e462]:
+                          - button "查看箱码" [ref=e463] [cursor=pointer]
+                          - button "查询签收照片" [ref=e464] [cursor=pointer]
+                    - row "查看箱码 查询签收照片" [ref=e465]:
+                      - cell [ref=e466]
+                      - cell [ref=e467]
+                      - cell [ref=e468]
+                      - cell [ref=e469]
+                      - cell [ref=e470]
+                      - cell [ref=e471]
+                      - cell [ref=e472]
+                      - cell [ref=e473]
+                      - cell [ref=e474]
+                      - cell [ref=e475]
+                      - cell [ref=e476]
+                      - cell [ref=e477]
+                      - cell [ref=e478]
+                      - cell [ref=e479]
+                      - cell [ref=e480]
+                      - cell "查看箱码 查询签收照片" [ref=e481]:
+                        - generic [ref=e482]:
+                          - button "查看箱码" [ref=e483] [cursor=pointer]
+                          - button "查询签收照片" [ref=e484] [cursor=pointer]
+            - generic [ref=e485]:
+              - generic [ref=e486]: 共 2 条
+              - button "" [disabled] [ref=e487]:
+                - generic [ref=e488]: 
+              - list [ref=e489]:
+                - listitem [ref=e490]: "1"
+              - button "" [disabled] [ref=e491]:
+                - generic [ref=e492]: 
+              - generic [ref=e493]:
+                - text: 前往
+                - spinbutton [ref=e495]: "1"
+                - text: 页
+              - generic [ref=e498]:
+                - textbox "请选择" [ref=e499] [cursor=pointer]: 10条/页
+                - generic [ref=e501] [cursor=pointer]: 
+          - text: 

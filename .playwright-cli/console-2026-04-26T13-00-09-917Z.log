@@ -1,0 +1,18 @@
+[     361ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     481ms] [ERROR] need roles! Like v-permission="['admin','editor']" @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[     551ms] [ERROR] Mixed Content: The page at 'https://dev.mtkj.fun/ts/#/login?redirect=%2FinspectionManagement' was loaded over HTTPS, but requested an insecure script 'http://pv.sohu.com/cityjson?ie=utf-8'. This request has been blocked; the content must be served over HTTPS. @ https://dev.mtkj.fun/ts/static/js/chunk-libs.8ff2815c.js:38
+[    1083ms] ReferenceError: returnCitySN is not defined
+    at https://dev.mtkj.fun/ts/static/js/chunk-bf3436e8.14cf0a1c.js:1:5798
+[   37805ms] [LOG] Z1zgSQj719pAQEhEXCuqhQ== 测试 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   37831ms] [LOG] dev.mtkj.fun @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   37832ms] [LOG] 域名 @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   37832ms] [LOG] mtadmin @ https://dev.mtkj.fun/ts/static/js/app.0226496e.js:0
+[   37944ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   37944ms] [LOG] scanInspect: [] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   37944ms] [LOG] fullScanData: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38080ms] [LOG] 本周新增预警数.data 0 @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38081ms] [LOG] 疑似窜货事件总数.data 3 @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38093ms] [LOG] 窜货预警热力图 [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38094ms] [LOG] allCities: [济南市, 青岛市, 淄博市, 枣庄市, 东营市, 烟台市, 潍坊市, 济宁市, 泰安市, 威海市, 日照市, 临沂市, 德州市, 聊城市, 滨州市, 菏泽市, 莱芜市] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38094ms] [LOG] scanInspect: [Object] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0
+[   38094ms] [LOG] fullScanData: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev.mtkj.fun/ts/static/js/chunk-9e1f8e22.8d3d7618.js:0

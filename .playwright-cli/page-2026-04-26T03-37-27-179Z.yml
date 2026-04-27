@@ -1,0 +1,173 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e53]:
+    - generic [ref=e55] [cursor=pointer]: 
+    - generic [ref=e58]:
+      - heading "系统布局配置" [level=3] [ref=e59]
+      - generic [ref=e60]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e61]:
+          - checkbox [checked]
+      - generic [ref=e63]:
+        - text: 固定 Header
+        - switch [ref=e64]:
+          - checkbox
+      - generic [ref=e66]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e67]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e69]:
+    - generic [ref=e70]:
+      - link "V26" [ref=e72] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e73]
+        - heading "V26" [level=1] [ref=e74]
+      - menubar [ref=e78]:
+        - link "首页" [ref=e80] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e81]
+        - menuitem "产品追溯系统 " [expanded] [ref=e83]:
+          - generic [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - text: 产品追溯系统
+            - generic [ref=e87]: 
+          - menu [ref=e88]:
+            - menuitem "生产管理 " [expanded] [ref=e90]:
+              - generic [ref=e91] [cursor=pointer]:
+                - img [ref=e92]
+                - text: 生产管理
+                - generic [ref=e94]: 
+              - menu [ref=e95]:
+                - menuitem "工厂信息 " [expanded] [ref=e97]:
+                  - generic [ref=e98] [cursor=pointer]:
+                    - text: 工厂信息
+                    - generic [ref=e99]: 
+                  - menu [ref=e100]:
+                    - menuitem "工厂管理 " [expanded] [ref=e102]:
+                      - generic [ref=e103] [cursor=pointer]:
+                        - text: 工厂管理
+                        - generic [ref=e104]: 
+                      - menu [ref=e105]:
+                        - link "工厂列表" [ref=e107] [cursor=pointer]:
+                          - /url: "#/home/plant/plantinfo/plantmanage/plantlist"
+                          - menuitem "工厂列表" [ref=e108]
+                        - link "车间列表" [ref=e110] [cursor=pointer]:
+                          - /url: "#/workshoplist"
+                          - menuitem "车间列表" [ref=e111]
+                        - link "产线列表" [ref=e113] [cursor=pointer]:
+                          - /url: "#/workline"
+                          - menuitem "产线列表" [ref=e114]
+                    - link "班组管理" [ref=e116] [cursor=pointer]:
+                      - /url: "#/home/plant/plantinfo/classlist"
+                      - menuitem "班组管理" [ref=e117]
+                - menuitem "生产信息 " [ref=e119]:
+                  - generic [ref=e120] [cursor=pointer]:
+                    - text: 生产信息
+                    - generic [ref=e121]: 
+            - menuitem "工厂物流 " [ref=e123]:
+              - generic [ref=e124] [cursor=pointer]:
+                - img [ref=e125]
+                - text: 工厂物流
+                - generic [ref=e127]: 
+              - text:  
+            - menuitem "渠道物流 " [ref=e129]:
+              - generic [ref=e130] [cursor=pointer]:
+                - img [ref=e131]
+                - text: 渠道物流
+                - generic [ref=e133]: 
+              - text:    
+            - menuitem "稽查管理 " [ref=e135]:
+              - generic [ref=e136] [cursor=pointer]:
+                - img [ref=e137]
+                - text: 稽查管理
+                - generic [ref=e139]: 
+            - menuitem "查询管理 " [ref=e141]:
+              - generic [ref=e142] [cursor=pointer]:
+                - img [ref=e143]
+                - text: 查询管理
+                - generic [ref=e145]: 
+            - menuitem "看板 " [ref=e147]:
+              - generic [ref=e148] [cursor=pointer]:
+                - img [ref=e149]
+                - text: 看板
+                - generic [ref=e151]: 
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - img [ref=e158] [cursor=pointer]
+          - menubar [ref=e160]:
+            - menuitem "系统基础信息" [ref=e161] [cursor=pointer]:
+              - link "系统基础信息" [ref=e162]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e163] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e164]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e165] [cursor=pointer]:
+              - link "码库管理" [ref=e166]:
+                - /url: /org//#/readycreate
+          - generic [ref=e167]:
+            - img [ref=e169] [cursor=pointer]
+            - button [ref=e172] [cursor=pointer]:
+              - img [ref=e173]
+            - button "" [ref=e176] [cursor=pointer]:
+              - img [ref=e177]
+              - generic [ref=e178]: 
+        - generic [ref=e182]:
+          - generic [ref=e183] [cursor=pointer]:
+            - text: 工厂列表
+            - generic [ref=e184]: 
+          - generic [ref=e347] [cursor=pointer]:
+            - text: 车间列表
+            - generic [ref=e348]: 
+          - generic [ref=e517] [cursor=pointer]:
+            - text: 班组管理
+            - generic [ref=e518]: 
+      - generic [ref=e521]:
+        - navigation "Breadcrumb" [ref=e523]:
+          - generic [ref=e524]:
+            - link "生产管理" [ref=e525]: 生产管理
+            - text: /
+          - link "班组管理" [ref=e527]
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - generic [ref=e531]:
+              - generic [ref=e533]:
+                - generic [ref=e534]: 班组编码
+                - textbox "请输入班组编码" [ref=e537]
+              - generic [ref=e539]:
+                - generic [ref=e540]: 班组名称
+                - textbox "请输入班组名称" [ref=e543]
+              - generic [ref=e544]:
+                - button " 搜索" [ref=e545] [cursor=pointer]:
+                  - generic [ref=e546]: 
+                  - text: 搜索
+                - button "重置" [ref=e547] [cursor=pointer]
+            - button " 新建班组" [ref=e548] [cursor=pointer]:
+              - generic [ref=e549]: 
+              - text: 新建班组
+          - generic [ref=e552]:
+            - generic [ref=e553]:
+              - table [ref=e555]:
+                - rowgroup [ref=e560]:
+                  - row "班组编号 班组名称 操作" [ref=e561]:
+                    - columnheader "班组编号" [ref=e562]:
+                      - generic [ref=e563]: 班组编号
+                    - columnheader "班组名称" [ref=e564]:
+                      - generic [ref=e565]: 班组名称
+                    - columnheader "操作" [ref=e566]:
+                      - generic [ref=e567]: 操作
+              - table [ref=e569]:
+                - rowgroup [ref=e574]:
+                  - row "bz001 班组一 修改 删除" [ref=e575]:
+                    - cell "bz001" [ref=e576]:
+                      - generic [ref=e577]: bz001
+                    - cell "班组一" [ref=e578]:
+                      - generic [ref=e579]: 班组一
+                    - cell "修改 删除" [ref=e580]:
+                      - generic [ref=e582]:
+                        - button "修改" [ref=e583] [cursor=pointer]
+                        - button "删除" [ref=e584] [cursor=pointer]
+              - generic [ref=e586]:
+                - img [ref=e587]
+                - paragraph [ref=e589]: 拼命加载中
+            - text:  

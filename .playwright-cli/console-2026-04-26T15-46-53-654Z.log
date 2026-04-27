@@ -1,0 +1,33 @@
+[     207ms] [ERROR] SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at clone (http://127.0.0.1:8000/assets/js/app.js:3:17)
+    at a.data (http://127.0.0.1:8000/assets/js/app.js:3430:20)
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:30548
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:30608
+    at tr (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:30789)
+    at e._init (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:43117)
+    at new a (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:40564)
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:33508
+    at init (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:33539) @ http://127.0.0.1:8000/assets/vendor/vue.min.js:10
+[     207ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'factoryName')
+    at a.filteredList (http://127.0.0.1:8000/assets/js/app.js:3445:43)
+    at t.get (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28262)
+    at t.evaluate (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:29258)
+    at a.filteredList (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:31451)
+    at a.<anonymous> (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28090)
+    at t.get (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28262)
+    at new t (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28175)
+    at t.$watch (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:43746)
+    at ir (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:31635)
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:31136 @ http://127.0.0.1:8000/assets/vendor/vue.min.js:10
+[     211ms] [ERROR] ReferenceError: filterForm is not defined
+    at a.eval (eval at mc (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:105188), <anonymous>:3:612)
+    at t._render (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:45862)
+    at a.r (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:79765)
+    at t.get (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28262)
+    at new t (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:28175)
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:79779
+    at Er.$mount (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:79997)
+    at Er.$mount (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:107347)
+    at init (http://127.0.0.1:8000/assets/vendor/vue.min.js:11:33547)
+    at http://127.0.0.1:8000/assets/vendor/vue.min.js:11:68063 @ http://127.0.0.1:8000/assets/vendor/vue.min.js:10

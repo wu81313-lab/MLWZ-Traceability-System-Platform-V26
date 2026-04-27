@@ -1,0 +1,493 @@
+- generic [ref=e1]:
+  - generic [ref=e50]:
+    - generic [ref=e52] [cursor=pointer]: 
+    - generic [ref=e55]:
+      - heading "系统布局配置" [level=3] [ref=e56]
+      - generic [ref=e57]:
+        - text: 开启 Tags-View
+        - switch [checked] [ref=e58]:
+          - checkbox [checked]
+      - generic [ref=e60]:
+        - text: 固定 Header
+        - switch [ref=e61]:
+          - checkbox
+      - generic [ref=e63]:
+        - text: 侧边栏 Logo
+        - switch [checked] [ref=e64]:
+          - checkbox [checked]
+  - img
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - link "V26" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e70]
+        - heading "V26" [level=1] [ref=e71]
+      - menubar [ref=e75]:
+        - link "首页" [ref=e77] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - menuitem "首页" [ref=e78]
+        - menuitem "产品追溯系统 " [expanded] [ref=e80]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - text: 产品追溯系统
+            - generic [ref=e84]: 
+          - menu [ref=e85]:
+            - menuitem "生产管理 " [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+                - text: 生产管理
+                - generic [ref=e91]: 
+              - text:   
+            - menuitem "工厂物流 " [expanded] [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - img [ref=e95]
+                - text: 工厂物流
+                - generic [ref=e97]: 
+              - menu [ref=e934]:
+                - menuitem "工厂发货 " [ref=e936]:
+                  - generic [ref=e937] [cursor=pointer]:
+                    - text: 工厂发货
+                    - generic [ref=e938]: 
+                - link "退货日志" [ref=e940] [cursor=pointer]:
+                  - /url: "#/refund"
+                  - menuitem "退货日志" [ref=e941]
+                - menuitem "调拨出库 " [ref=e943]:
+                  - generic [ref=e944] [cursor=pointer]:
+                    - text: 调拨出库
+                    - generic [ref=e945]: 
+            - menuitem "渠道物流 " [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+                - text: 渠道物流
+                - generic [ref=e103]: 
+              - text:    
+            - menuitem "稽查管理 " [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]:
+                - img [ref=e107]
+                - text: 稽查管理
+                - generic [ref=e109]: 
+            - menuitem "查询管理 " [ref=e111]:
+              - generic [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+                - text: 查询管理
+                - generic [ref=e115]: 
+            - menuitem "看板 " [expanded] [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]:
+                - img [ref=e119]
+                - text: 看板
+                - generic [ref=e121]: 
+              - menu [ref=e122]:
+                - link "总览首页" [ref=e124] [cursor=pointer]:
+                  - /url: "#/dashboardOverview"
+                  - menuitem "总览首页" [ref=e125]
+                - link "生产监控" [ref=e127] [cursor=pointer]:
+                  - /url: "#/productionMonitoring"
+                  - menuitem "生产监控" [ref=e128]
+                - link "SCADA监控大屏" [ref=e130] [cursor=pointer]:
+                  - /url: "#/scada-dashboard"
+                  - menuitem "SCADA监控大屏" [ref=e131]
+                - link "仓储物流" [ref=e133] [cursor=pointer]:
+                  - /url: "#/warehouselogistics"
+                  - menuitem "仓储物流" [ref=e134]
+                - link "稽查管理" [ref=e136] [cursor=pointer]:
+                  - /url: "#/inspectionManagement"
+                  - menuitem "稽查管理" [ref=e137]
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - img [ref=e143] [cursor=pointer]
+          - menubar [ref=e145]:
+            - menuitem "系统基础信息" [ref=e146] [cursor=pointer]:
+              - link "系统基础信息" [ref=e147]:
+                - /url: /org/
+            - menuitem "产品追溯系统" [ref=e148] [cursor=pointer]:
+              - link "产品追溯系统" [ref=e149]:
+                - /url: /ts/
+            - menuitem "码库管理" [ref=e150] [cursor=pointer]:
+              - link "码库管理" [ref=e151]:
+                - /url: /org//#/readycreate
+          - generic [ref=e152]:
+            - img [ref=e154] [cursor=pointer]
+            - button [ref=e157] [cursor=pointer]:
+              - img [ref=e158]
+            - button "" [ref=e161] [cursor=pointer]:
+              - img [ref=e162]
+              - generic [ref=e163]: 
+        - generic [ref=e167]:
+          - generic [ref=e168] [cursor=pointer]:
+            - text: 生产监控
+            - generic [ref=e169]: 
+          - generic [ref=e645] [cursor=pointer]:
+            - text: 仓储物流
+            - generic [ref=e646]: 
+          - generic [ref=e946] [cursor=pointer]:
+            - text: 退货日志
+            - generic [ref=e947]: 
+      - generic [ref=e950]:
+        - navigation "Breadcrumb" [ref=e952]:
+          - generic [ref=e953]:
+            - link "物流管理" [ref=e954]: 物流管理
+            - text: /
+          - link "退货查询" [ref=e956]
+        - generic [ref=e957]:
+          - generic [ref=e960]:
+            - generic [ref=e962]:
+              - generic [ref=e963]: 退货客户编码
+              - textbox "请输入退货客户编码" [ref=e966]
+            - generic [ref=e968]:
+              - generic [ref=e969]: 退货客户名称
+              - textbox "请输入退货客户名称" [ref=e972]
+            - generic [ref=e974]:
+              - generic [ref=e975]: 退货单号
+              - textbox "请输入退货单号" [ref=e978]
+            - generic [ref=e980]:
+              - generic [ref=e981]: 单据类型
+              - generic [ref=e984]:
+                - textbox "请选择单据类型" [ref=e985] [cursor=pointer]: 销售退货
+                - generic [ref=e987] [cursor=pointer]: 
+            - generic [ref=e988]:
+              - button "重置" [ref=e989] [cursor=pointer]
+              - button " 搜索" [ref=e990] [cursor=pointer]:
+                - generic [ref=e991]: 
+                - text: 搜索
+          - generic [ref=e993]:
+            - heading "退货查询" [level=4] [ref=e994]
+            - generic [ref=e996]:
+              - table [ref=e998]:
+                - rowgroup [ref=e1015]:
+                  - row "退货单号 制单人账号 制单人时间 退货客户编码 退货客户名称 制单时间 实际退货时间 退货操作人 退回出库编码 退回仓库名称 建单来源 单据类型 状态 备注" [ref=e1016]:
+                    - columnheader "退货单号" [ref=e1017]:
+                      - generic [ref=e1018]: 退货单号
+                    - columnheader "制单人账号" [ref=e1019]:
+                      - generic [ref=e1020]: 制单人账号
+                    - columnheader "制单人时间" [ref=e1021]:
+                      - generic [ref=e1022]: 制单人时间
+                    - columnheader "退货客户编码" [ref=e1023]:
+                      - generic [ref=e1024]: 退货客户编码
+                    - columnheader "退货客户名称" [ref=e1025]:
+                      - generic [ref=e1026]: 退货客户名称
+                    - columnheader "制单时间" [ref=e1027]:
+                      - generic [ref=e1028]: 制单时间
+                    - columnheader "实际退货时间" [ref=e1029]:
+                      - generic [ref=e1030]: 实际退货时间
+                    - columnheader "退货操作人" [ref=e1031]:
+                      - generic [ref=e1032]: 退货操作人
+                    - columnheader "退回出库编码" [ref=e1033]:
+                      - generic [ref=e1034]: 退回出库编码
+                    - columnheader "退回仓库名称" [ref=e1035]:
+                      - generic [ref=e1036]: 退回仓库名称
+                    - columnheader "建单来源" [ref=e1037]:
+                      - generic [ref=e1038]: 建单来源
+                    - columnheader "单据类型" [ref=e1039]:
+                      - generic [ref=e1040]: 单据类型
+                    - columnheader "状态" [ref=e1041]:
+                      - generic [ref=e1042]: 状态
+                    - columnheader "备注" [ref=e1043]:
+                      - generic [ref=e1044]: 备注
+                    - columnheader [ref=e1045]
+                    - columnheader
+              - table [ref=e1047]:
+                - rowgroup [ref=e1064]:
+                  - row "TH260117135602 djz 邓剑章 gdfc 广东发财商贸有限公司 2026-01-17 13:56:41 wlyc001 物流一仓 系统建单 销售退货 处理中 test" [ref=e1065]:
+                    - cell "TH260117135602" [ref=e1066]:
+                      - generic [ref=e1067]: TH260117135602
+                    - cell "djz" [ref=e1068]:
+                      - generic [ref=e1069]: djz
+                    - cell "邓剑章" [ref=e1070]:
+                      - generic [ref=e1071]: 邓剑章
+                    - cell "gdfc" [ref=e1072]:
+                      - generic [ref=e1073]: gdfc
+                    - cell "广东发财商贸有限公司" [ref=e1074]:
+                      - generic [ref=e1075]: 广东发财商贸有限公司
+                    - cell "2026-01-17 13:56:41" [ref=e1076]:
+                      - generic [ref=e1077]: 2026-01-17 13:56:41
+                    - cell [ref=e1078]
+                    - cell [ref=e1079]
+                    - cell "wlyc001" [ref=e1080]:
+                      - generic [ref=e1081]: wlyc001
+                    - cell "物流一仓" [ref=e1082]:
+                      - generic [ref=e1083]: 物流一仓
+                    - cell "系统建单" [ref=e1084]:
+                      - generic [ref=e1085]: 系统建单
+                    - cell "销售退货" [ref=e1086]:
+                      - generic [ref=e1087]: 销售退货
+                    - cell "处理中" [ref=e1088]:
+                      - generic [ref=e1089]: 处理中
+                    - cell "test" [ref=e1090]:
+                      - generic [ref=e1091]: test
+                    - cell [ref=e1092]
+                  - row "TH260112175209 ls 李四 gdfc 广东发财商贸有限公司 2026-01-12 17:52:27 wlyc001 物流一仓 系统建单 销售退货 处理中" [ref=e1093]:
+                    - cell "TH260112175209" [ref=e1094]:
+                      - generic [ref=e1095]: TH260112175209
+                    - cell "ls" [ref=e1096]:
+                      - generic [ref=e1097]: ls
+                    - cell "李四" [ref=e1098]:
+                      - generic [ref=e1099]: 李四
+                    - cell "gdfc" [ref=e1100]:
+                      - generic [ref=e1101]: gdfc
+                    - cell "广东发财商贸有限公司" [ref=e1102]:
+                      - generic [ref=e1103]: 广东发财商贸有限公司
+                    - cell "2026-01-12 17:52:27" [ref=e1104]:
+                      - generic [ref=e1105]: 2026-01-12 17:52:27
+                    - cell [ref=e1106]
+                    - cell [ref=e1107]
+                    - cell "wlyc001" [ref=e1108]:
+                      - generic [ref=e1109]: wlyc001
+                    - cell "物流一仓" [ref=e1110]:
+                      - generic [ref=e1111]: 物流一仓
+                    - cell "系统建单" [ref=e1112]:
+                      - generic [ref=e1113]: 系统建单
+                    - cell "销售退货" [ref=e1114]:
+                      - generic [ref=e1115]: 销售退货
+                    - cell "处理中" [ref=e1116]:
+                      - generic [ref=e1117]: 处理中
+                    - cell [ref=e1118]
+                    - cell [ref=e1119]
+                  - row "TH260107120012 ls 李四 gdfc 广东发财商贸有限公司 2026-01-07 12:00:28 2026-01-07 12:00:47 wlyc001 物流一仓 系统建单 销售退货 已处理" [ref=e1120]:
+                    - cell "TH260107120012" [ref=e1121]:
+                      - generic [ref=e1122]: TH260107120012
+                    - cell "ls" [ref=e1123]:
+                      - generic [ref=e1124]: ls
+                    - cell "李四" [ref=e1125]:
+                      - generic [ref=e1126]: 李四
+                    - cell "gdfc" [ref=e1127]:
+                      - generic [ref=e1128]: gdfc
+                    - cell "广东发财商贸有限公司" [ref=e1129]:
+                      - generic [ref=e1130]: 广东发财商贸有限公司
+                    - cell "2026-01-07 12:00:28" [ref=e1131]:
+                      - generic [ref=e1132]: 2026-01-07 12:00:28
+                    - cell "2026-01-07 12:00:47" [ref=e1133]:
+                      - generic [ref=e1134]: 2026-01-07 12:00:47
+                    - cell [ref=e1135]
+                    - cell "wlyc001" [ref=e1136]:
+                      - generic [ref=e1137]: wlyc001
+                    - cell "物流一仓" [ref=e1138]:
+                      - generic [ref=e1139]: 物流一仓
+                    - cell "系统建单" [ref=e1140]:
+                      - generic [ref=e1141]: 系统建单
+                    - cell "销售退货" [ref=e1142]:
+                      - generic [ref=e1143]: 销售退货
+                    - cell "已处理" [ref=e1144]:
+                      - generic [ref=e1145]: 已处理
+                    - cell [ref=e1146]
+                    - cell [ref=e1147]
+                  - row "TH260107115114 ls 李四 gdfc 广东发财商贸有限公司 2026-01-07 11:54:15 2026-01-07 11:58:52 wlyc001 物流一仓 系统建单 销售退货 已处理" [ref=e1148]:
+                    - cell "TH260107115114" [ref=e1149]:
+                      - generic [ref=e1150]: TH260107115114
+                    - cell "ls" [ref=e1151]:
+                      - generic [ref=e1152]: ls
+                    - cell "李四" [ref=e1153]:
+                      - generic [ref=e1154]: 李四
+                    - cell "gdfc" [ref=e1155]:
+                      - generic [ref=e1156]: gdfc
+                    - cell "广东发财商贸有限公司" [ref=e1157]:
+                      - generic [ref=e1158]: 广东发财商贸有限公司
+                    - cell "2026-01-07 11:54:15" [ref=e1159]:
+                      - generic [ref=e1160]: 2026-01-07 11:54:15
+                    - cell "2026-01-07 11:58:52" [ref=e1161]:
+                      - generic [ref=e1162]: 2026-01-07 11:58:52
+                    - cell [ref=e1163]
+                    - cell "wlyc001" [ref=e1164]:
+                      - generic [ref=e1165]: wlyc001
+                    - cell "物流一仓" [ref=e1166]:
+                      - generic [ref=e1167]: 物流一仓
+                    - cell "系统建单" [ref=e1168]:
+                      - generic [ref=e1169]: 系统建单
+                    - cell "销售退货" [ref=e1170]:
+                      - generic [ref=e1171]: 销售退货
+                    - cell "已处理" [ref=e1172]:
+                      - generic [ref=e1173]: 已处理
+                    - cell [ref=e1174]
+                    - cell [ref=e1175]
+              - generic [ref=e1176]:
+                - table [ref=e1178]:
+                  - rowgroup [ref=e1195]:
+                    - row "操作" [ref=e1196]:
+                      - columnheader [ref=e1197]
+                      - columnheader [ref=e1198]
+                      - columnheader [ref=e1199]
+                      - columnheader [ref=e1200]
+                      - columnheader [ref=e1201]
+                      - columnheader [ref=e1202]
+                      - columnheader [ref=e1203]
+                      - columnheader [ref=e1204]
+                      - columnheader [ref=e1205]
+                      - columnheader [ref=e1206]
+                      - columnheader [ref=e1207]
+                      - columnheader [ref=e1208]
+                      - columnheader [ref=e1209]
+                      - columnheader [ref=e1210]
+                      - columnheader "操作" [ref=e1211]:
+                        - generic [ref=e1212]: 操作
+                - table [ref=e1214]:
+                  - rowgroup [ref=e1231]:
+                    - row "产品明细" [ref=e1232]:
+                      - cell [ref=e1233]
+                      - cell [ref=e1234]
+                      - cell [ref=e1235]
+                      - cell [ref=e1236]
+                      - cell [ref=e1237]
+                      - cell [ref=e1238]
+                      - cell [ref=e1239]
+                      - cell [ref=e1240]
+                      - cell [ref=e1241]
+                      - cell [ref=e1242]
+                      - cell [ref=e1243]
+                      - cell [ref=e1244]
+                      - cell [ref=e1245]
+                      - cell [ref=e1246]
+                      - cell "产品明细" [ref=e1247]:
+                        - button "产品明细" [active] [ref=e1250] [cursor=pointer]
+                    - row "产品明细" [ref=e1251]:
+                      - cell [ref=e1252]
+                      - cell [ref=e1253]
+                      - cell [ref=e1254]
+                      - cell [ref=e1255]
+                      - cell [ref=e1256]
+                      - cell [ref=e1257]
+                      - cell [ref=e1258]
+                      - cell [ref=e1259]
+                      - cell [ref=e1260]
+                      - cell [ref=e1261]
+                      - cell [ref=e1262]
+                      - cell [ref=e1263]
+                      - cell [ref=e1264]
+                      - cell [ref=e1265]
+                      - cell "产品明细" [ref=e1266]:
+                        - button "产品明细" [ref=e1269] [cursor=pointer]
+                    - row "产品明细" [ref=e1270]:
+                      - cell [ref=e1271]
+                      - cell [ref=e1272]
+                      - cell [ref=e1273]
+                      - cell [ref=e1274]
+                      - cell [ref=e1275]
+                      - cell [ref=e1276]
+                      - cell [ref=e1277]
+                      - cell [ref=e1278]
+                      - cell [ref=e1279]
+                      - cell [ref=e1280]
+                      - cell [ref=e1281]
+                      - cell [ref=e1282]
+                      - cell [ref=e1283]
+                      - cell [ref=e1284]
+                      - cell "产品明细" [ref=e1285]:
+                        - button "产品明细" [ref=e1288] [cursor=pointer]
+                    - row "产品明细" [ref=e1289]:
+                      - cell [ref=e1290]
+                      - cell [ref=e1291]
+                      - cell [ref=e1292]
+                      - cell [ref=e1293]
+                      - cell [ref=e1294]
+                      - cell [ref=e1295]
+                      - cell [ref=e1296]
+                      - cell [ref=e1297]
+                      - cell [ref=e1298]
+                      - cell [ref=e1299]
+                      - cell [ref=e1300]
+                      - cell [ref=e1301]
+                      - cell [ref=e1302]
+                      - cell [ref=e1303]
+                      - cell "产品明细" [ref=e1304]:
+                        - button "产品明细" [ref=e1307] [cursor=pointer]
+              - generic [ref=e1326]:
+                - img [ref=e1327]
+                - paragraph [ref=e1329]: 拼命加载中
+            - generic [ref=e1308]:
+              - generic [ref=e1309]: 共 4 条
+              - button "" [disabled] [ref=e1310]:
+                - generic [ref=e1311]: 
+              - list [ref=e1312]:
+                - listitem [ref=e1313]: "1"
+              - button "" [disabled] [ref=e1314]:
+                - generic [ref=e1315]: 
+              - generic [ref=e1316]:
+                - text: 前往
+                - spinbutton [ref=e1318]: "1"
+                - text: 页
+              - generic [ref=e1321]:
+                - textbox "请选择" [ref=e1322] [cursor=pointer]: 10条/页
+                - generic [ref=e1324] [cursor=pointer]: 
+          - dialog "产品明细" [ref=e1331]:
+            - generic [ref=e1332]:
+              - text: 产品明细
+              - button "Close" [ref=e1333] [cursor=pointer]:
+                - generic [ref=e1334]: 
+            - generic [ref=e1337]:
+              - table [ref=e1339]:
+                - rowgroup [ref=e1352]:
+                  - row "退货单号 产品编码 产品名称 计划数量 单位编码(计划数量) 单位名称(计划数量) 退货数量 单位编码(退货数量) 单位名称(退货数量) 创建时间" [ref=e1353]:
+                    - columnheader "退货单号" [ref=e1354]:
+                      - generic [ref=e1355]: 退货单号
+                    - columnheader "产品编码" [ref=e1356]:
+                      - generic [ref=e1357]: 产品编码
+                    - columnheader "产品名称" [ref=e1358]:
+                      - generic [ref=e1359]: 产品名称
+                    - columnheader "计划数量" [ref=e1360]:
+                      - generic [ref=e1361]: 计划数量
+                    - columnheader "单位编码(计划数量)" [ref=e1362]:
+                      - generic [ref=e1363]: 单位编码(计划数量)
+                    - columnheader "单位名称(计划数量)" [ref=e1364]:
+                      - generic [ref=e1365]: 单位名称(计划数量)
+                    - columnheader "退货数量" [ref=e1366]:
+                      - generic [ref=e1367]: 退货数量
+                    - columnheader "单位编码(退货数量)" [ref=e1368]:
+                      - generic [ref=e1369]: 单位编码(退货数量)
+                    - columnheader "单位名称(退货数量)" [ref=e1370]:
+                      - generic [ref=e1371]: 单位名称(退货数量)
+                    - columnheader "创建时间" [ref=e1372]:
+                      - generic [ref=e1373]: 创建时间
+                    - columnheader [ref=e1374]
+                    - columnheader
+              - table [ref=e1376]:
+                - rowgroup [ref=e1389]:
+                  - row "TH260117135602 cjs1 纯净水500ml 1 xiang 箱 2026-01-17 13:57:27" [ref=e1390]:
+                    - cell "TH260117135602" [ref=e1391]:
+                      - generic [ref=e1392]: TH260117135602
+                    - cell "cjs1" [ref=e1393]:
+                      - generic [ref=e1394]: cjs1
+                    - cell "纯净水500ml" [ref=e1395]:
+                      - generic [ref=e1396]: 纯净水500ml
+                    - cell "1" [ref=e1397]:
+                      - generic [ref=e1398]: "1"
+                    - cell "xiang" [ref=e1399]:
+                      - generic [ref=e1400]: xiang
+                    - cell "箱" [ref=e1401]:
+                      - generic [ref=e1402]: 箱
+                    - cell [ref=e1403]
+                    - cell [ref=e1404]
+                    - cell [ref=e1405]
+                    - cell "2026-01-17 13:57:27" [ref=e1406]:
+                      - generic [ref=e1407]: 2026-01-17 13:57:27
+                    - cell [ref=e1408]
+              - generic [ref=e1409]:
+                - table [ref=e1411]:
+                  - rowgroup [ref=e1424]:
+                    - row "操作" [ref=e1425]:
+                      - columnheader [ref=e1426]
+                      - columnheader [ref=e1427]
+                      - columnheader [ref=e1428]
+                      - columnheader [ref=e1429]
+                      - columnheader [ref=e1430]
+                      - columnheader [ref=e1431]
+                      - columnheader [ref=e1432]
+                      - columnheader [ref=e1433]
+                      - columnheader [ref=e1434]
+                      - columnheader [ref=e1435]
+                      - columnheader "操作" [ref=e1436]:
+                        - generic [ref=e1437]: 操作
+                - table [ref=e1439]:
+                  - rowgroup [ref=e1452]:
+                    - row "码列表" [ref=e1453]:
+                      - cell [ref=e1454]
+                      - cell [ref=e1455]
+                      - cell [ref=e1456]
+                      - cell [ref=e1457]
+                      - cell [ref=e1458]
+                      - cell [ref=e1459]
+                      - cell [ref=e1460]
+                      - cell [ref=e1461]
+                      - cell [ref=e1462]
+                      - cell [ref=e1463]
+                      - cell "码列表" [ref=e1464]:
+                        - button "码列表" [ref=e1467] [cursor=pointer]
+          - text: 

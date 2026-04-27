@@ -1,0 +1,774 @@
+[
+  {
+    "route": "readycreate",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/readycreate",
+    "title": "预生码管理",
+    "breadcrumb": [
+      "赋码管理 /",
+      "赋码管理",
+      "/",
+      "预生码管理"
+    ],
+    "filters": [
+      {
+        "label": "订单",
+        "placeholders": [
+          "请输入订单"
+        ],
+        "values": []
+      },
+      {
+        "label": "供应商编码",
+        "placeholders": [
+          "请输入供应商编码"
+        ],
+        "values": []
+      },
+      {
+        "label": "生码状态",
+        "placeholders": [
+          "请选择码状态"
+        ],
+        "values": []
+      },
+      {
+        "label": "类型",
+        "placeholders": [
+          "请选择数据类型"
+        ],
+        "values": []
+      },
+      {
+        "label": "创建时间",
+        "placeholders": [
+          "开始日期",
+          "结束日期"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "新增",
+      "导出Excel"
+    ],
+    "tables": [
+      {
+        "title": "",
+        "columns": [
+          "编码",
+          "品牌编码",
+          "产品",
+          "类型",
+          "订单",
+          "供应商",
+          "生码规则",
+          "计划生码数量",
+          "实际生码数量",
+          "损耗率",
+          "生码状态",
+          "是否加密",
+          "创建时间",
+          "修改时间",
+          "营销扫码是否激活",
+          "操作"
+        ]
+      }
+    ],
+    "rowActions": [
+      "生码"
+    ],
+    "pagination": [
+      "共 27 条 123 前往页",
+      "共 27 条",
+      "前往页",
+      "10条/页30条/页40条/页50条/页100条/页"
+    ],
+    "chips": [
+      "首页 预生码管理",
+      "首页",
+      "预生码管理"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理 非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页 预生码管理 \n 赋码管理 /\n预生码管理\n订单\n供应商编码\n生码状态\n类型\n创建时间\n-\n搜索 重置 新增 导出Excel\n\n\n编码\t品牌编码\t产品\t类型\t订单\t供应商\t生码规则\t计划生码数量\t实际生码数量\t损耗率\t生码状态\t是否加密\t创建时间\t修改时间\t\t\n27\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260402999\n\t\n\t\n优度测试\n\t\n500\n\t\n500\n\t\n0\n\t\n已下载\n\t\n不加密\n\t\n2026-04-02 11:36:56\n\t\n2026-04-02 11:37:13\n\t\t\n\n26\n\t\nmt\n\t\n0\n\t\n手工创建\n\t\nY20260402315\n\t\n\t\ntest_test\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n不加密\n\t\n2026-04-02 11:10:38\n\t\n2026-04-02 11:15:02\n\t\t\n\n25\n\t\nmt\n\t\nB001test\n\t\n手工创建\n\t\nY20260402313\n\t\n11\n\t\n213213213\n\t\n100\n\t\n105\n\t\n0.05\n\t\n生码中\n\t\n不加密\n\t\n2026-04-02 10:56:16\n\t\n2026-04-02 10:56:34\n\t\t\n\n24\n\t\nmt\n\t\nB001test\n\t\n手工创建\n\t\nY21312312312\n\t\n\t\n测试\n\t\n100\n\t\n105\n\t\n0.05\n\t\n生码中\n\t\n不加密\n\t\n2026-04-02 10:00:50\n\t\n2026-04-02 10:40:11\n\t\t\n\n23\n\t\nmt\n\t\nB001test\n\t\n手工创建\n\t\nY20260402001\n\t\n1213\n\t\n测试\n\t\n10\n\t\n10\n\t\n0.05\n\t\n已关闭\n\t\n不加密\n\t\n2026-04-02 10:00:10\n\t\n\t\t\n\n22\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260331001\n\t\n\t\n规则测试\n\t\n100\n\t\n105\n\t\n0.05\n\t\n已下载\n\t\n不加密\n\t\n2026-03-31 19:22:31\n\t\n2026-03-31 19:22:36\n\t\t\n\n21\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260326001\n\t\n\t\n纯净水瓶码自增长2\n\t\n10,000\n\t\n10,500\n\t\n0.05\n\t\n已下载\n\t\n不加密\n\t\n2026-03-26 12:01:03\n\t\n2026-03-26 12:01:05\n\t\t\n\n20\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260209001\n\t\n\t\n随机数测试\n\t\n100\n\t\n105\n\t\n0.05\n\t\n已下载\n\t\n不加密\n\t\n2026-02-09 15:15:35\n\t\n2026-02-09 15:15:36\n\t\t\n\n19\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260130003\n\t\n\t\n规则测试\n\t\n1,000\n\t\n1,050\n\t\n0.05\n\t\n已关闭\n\t\n不加密\n\t\n2026-01-30 15:37:45\n\t\n2026-01-30 15:37:49\n\t\t\n\n18\n\t\n\t\n0\n\t\n手工创建\n\t\nY20260130002\n\t\n\t\n规则测试\n\t\n100,000\n\t\n105,000\n\t\n0.05\n\t\n已关闭\n\t\n不加密\n\t\n2026-01-30 14:50:02\n\t\n2026-01-30 15:08:26\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t营销扫码是否激活\t操作\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n生码\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n生码\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\n共 27 条\n123\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": false,
+      "emptyStates": [],
+      "headings": [
+        "系统布局配置",
+        "V26"
+      ]
+    }
+  },
+  {
+    "route": "tagging/rulenews",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tagging/rulenews",
+    "title": "生码查询表",
+    "breadcrumb": [
+      "赋码管理 /",
+      "赋码管理",
+      "/",
+      "生码查询表"
+    ],
+    "filters": [
+      {
+        "label": "订单",
+        "placeholders": [
+          "请输入订单"
+        ],
+        "values": []
+      },
+      {
+        "label": "供应商编号",
+        "placeholders": [
+          "请输入供应商编号"
+        ],
+        "values": []
+      },
+      {
+        "label": "追溯码",
+        "placeholders": [
+          "请输入追溯码"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "导出Excel"
+    ],
+    "tables": [
+      {
+        "title": "生码查询表",
+        "columns": [
+          "编号",
+          "产品编码",
+          "订单",
+          "供应商",
+          "营销码",
+          "追溯码",
+          "生码时间"
+        ]
+      }
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 1 条 1 前往页",
+      "共 1 条",
+      "前往页",
+      "20条/页30条/页40条/页5000条/页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询",
+      "首页",
+      "预生码管理",
+      "生码查询"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理 非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理  生码查询 \n 赋码管理 /\n生码查询表\n订单\n供应商编号\n追溯码\n搜索 重置 导出Excel请输入查询条件，否则只显示前1000条数据\n\n\n生码查询表\n编号\t产品编码\t订单\t供应商\t营销码\t追溯码\t生码时间\n暂无数据\n\n\n共 1 条\n1\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": true,
+      "emptyStates": [
+        "暂无数据"
+      ],
+      "headings": [
+        "系统布局配置",
+        "V26",
+        "生码查询表"
+      ]
+    }
+  },
+  {
+    "route": "tagging/coderule",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tagging/coderule",
+    "title": "生码规则",
+    "breadcrumb": [
+      "赋码管理 /",
+      "赋码管理",
+      "/",
+      "生码规则"
+    ],
+    "filters": [
+      {
+        "label": "规则名称",
+        "placeholders": [
+          "请输入规则名称"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "新增规则"
+    ],
+    "tables": [
+      {
+        "title": "",
+        "columns": [
+          "规则名称",
+          "链接",
+          "单次最大生码量",
+          "产品编码",
+          "创建时间",
+          "操作"
+        ]
+      }
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 10 条 1 前往页",
+      "共 10 条",
+      "前往页",
+      "20条/页30条/页40条/页100条/页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询 生码规则",
+      "首页",
+      "预生码管理",
+      "生码查询",
+      "生码规则"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理 非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则 套标生码管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理 生码查询  生码规则 \n 赋码管理 /\n生码规则\n规则名称\n搜索 重置 新增规则\n\n\n\n规则名称\t链接\t单次最大生码量\t产品编码\t创建时间\t\n优度测试\n\t\nhttps://ydzsm.youdo-bio.com/x/\n\t\n1000000\n\t\n\t\n2026-04-02 11:18:29\n\t\n\ntest_test\n\t\nhttp://8.163.11.25/c/\n\t\n1\n\t\n\t\n2026-04-02 11:10:14\n\t\n\n213213213\n\t\nhttp://8.163.11.25/c/\n\t\n1\n\t\nB001\n\t\n2026-04-02 10:49:18\n\t\n\n测试\n\t\nhttp://8.163.11.25/c/\n\t\n1\n\t\nB001\n\t\n2026-04-02 09:57:49\n\t\n\n随机数测试\n\t\nhttp://8.163.11.25/c/\n\t\n100000\n\t\n\t\n2026-02-09 15:15:22\n\t\n\n规则测试\n\t\nhttp://8.163.11.25/c/\n\t\n1\n\t\n\t\n2026-01-27 08:19:48\n\t\n\n箱码\n\t\nhttps://sq.scnty.com/c/\n\t\n1000000\n\t\n\t\n2026-01-06 17:49:31\n\t\n\n纯净水瓶码自增长2\n\t\nhttps://sq.scnty.com/c/\n\t\n1000000\n\t\n\t\n2026-01-06 17:47:23\n\t\n\n纯净水瓶码自增长\n\t\nhttps://sq.scnty.com/c/\n\t\n1000000\n\t\n\t\n2026-01-06 17:43:14\n\t\n\n纯净水瓶码\n\t\nhttps://sq.scnty.com/c/\n\t\n1000000\n\t\ncjs1\n\t\n2026-01-06 17:37:56\n\t\n\t\t\t\t\t操作\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\n共 10 条\n1\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": false,
+      "emptyStates": [],
+      "headings": [
+        "系统布局配置",
+        "V26"
+      ]
+    }
+  },
+  {
+    "route": "tlmQrcode/tlmreadycreate",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tlmQrcode/tlmreadycreate",
+    "title": "预生码管理",
+    "breadcrumb": [
+      "赋码管理 /",
+      "赋码管理",
+      "/",
+      "预生码管理"
+    ],
+    "filters": [
+      {
+        "label": "订单",
+        "placeholders": [
+          "请输入订单"
+        ],
+        "values": []
+      },
+      {
+        "label": "原单号",
+        "placeholders": [
+          "请输入原单号"
+        ],
+        "values": []
+      },
+      {
+        "label": "供应商编码",
+        "placeholders": [
+          "请输入供应商编码"
+        ],
+        "values": []
+      },
+      {
+        "label": "生码状态",
+        "placeholders": [
+          "请选择码状态"
+        ],
+        "values": []
+      },
+      {
+        "label": "类型",
+        "placeholders": [
+          "请选择数据类型"
+        ],
+        "values": [
+          "手工创建"
+        ]
+      },
+      {
+        "label": "创建时间",
+        "placeholders": [
+          "开始日期",
+          "结束日期"
+        ],
+        "values": []
+      },
+      {
+        "label": "工厂",
+        "placeholders": [
+          "请输入工厂"
+        ],
+        "values": []
+      },
+      {
+        "label": "规格",
+        "placeholders": [
+          "请输入规格"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "新增",
+      "导出Excel"
+    ],
+    "tables": [
+      {
+        "title": "",
+        "columns": [
+          "编码",
+          "产品编码",
+          "产品名称",
+          "品牌编码",
+          "订单",
+          "原单号",
+          "供应商",
+          "计划生码数量",
+          "实际生码数量",
+          "损耗率",
+          "ERP行号",
+          "工厂",
+          "规格",
+          "生码状态",
+          "是否加密",
+          "下载次数",
+          "上传时间",
+          "创建时间",
+          "操作"
+        ]
+      }
+    ],
+    "rowActions": [
+      "下载",
+      "生码",
+      "修改",
+      "关闭"
+    ],
+    "pagination": [
+      "共 25 条 12 前往页",
+      "共 25 条",
+      "前往页",
+      "20条/页30条/页40条/页50条/页100条/页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询 生码规则 预生码管理",
+      "首页",
+      "预生码管理",
+      "生码查询",
+      "生码规则"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理 预生码管理 校验查询 生码规则 生码查询",
+      "套标生码管理",
+      "预生码管理 校验查询 生码规则 生码查询",
+      "校验查询",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n预生码管理\n校验查询\n生码规则\n生码查询\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理 生码查询 生码规则  预生码管理 \n 赋码管理 /\n预生码管理\n订单\n原单号\n供应商编码\n生码状态\n类型\n创建时间\n-\n工厂\n规格\n搜索 重置 新增 导出Excel\n\n\n编码\t产品编码\t产品名称\t品牌编码\t订单\t原单号\t供应商\t计划生码数量\t实际生码数量\t损耗率\tERP行号\t工厂\t规格\t生码状态\t是否加密\t下载次数\t上传时间\t创建时间\t\n25\n\t\n\t\n\t\nmt\n\t\nTY20260410143628\n\t\n\t\n\t\n200\n\t\n210\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-10 14:36:53\n\t\n\n24\n\t\n\t\n\t\nmt\n\t\nTY20260410143218\n\t\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n写入txt文件成功\n\t\n加密\n\t\n0\n\t\n\t\n2026-04-10 14:32:33\n\t\n\n23\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408191414\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n写入txt文件成功\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 19:14:25\n\t\n\n22\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408181124\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n写入txt文件成功\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 18:11:35\n\t\n\n21\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408175203\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n写入txt文件成功\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 17:52:14\n\t\n\n20\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408174444\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n未生码\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 17:44:53\n\t\n\n19\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408172232\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n未生码\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 17:22:57\n\t\n\n18\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408172119\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n已生码\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 17:21:31\n\t\n\n17\n\t\n\t\n\t\nGXTY123\n\t\nTY20260408171926\n\t\n排除字母测试\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n已生码\n\t\n不加密\n\t\n0\n\t\n\t\n2026-04-08 17:20:05\n\t\n\n16\n\t\n\t\n\t\nGXTY123\n\t\nTY20260328175127\n\t\n\t\n\t\n11,000\n\t\n11,550\n\t\n0.05\n\t\n\t\n\t\n\t\n未生码\n\t\n加密\n\t\n0\n\t\n\t\n2026-03-28 17:52:51\n\t\n\n15\n\t\n\t\n\t\nsy\n\t\nTY20260209102001\n\t\n\t\n\t\n1,400\n\t\n1,470\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-02-09 10:20:13\n\t\n\n14\n\t\n\t\n\t\nmt\n\t\nTY20260130144048\n\t\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n未生码\n\t\n加密\n\t\n0\n\t\n\t\n2026-01-30 14:41:02\n\t\n\n13\n\t\n\t\n\t\naa\n\t\nTY20260127142129\n\t\n\t\n\t\n1,000\n\t\n1,050\n\t\n0.05\n\t\n\t\n\t\n\t\n生码中\n\t\n加密\n\t\n0\n\t\n\t\n2026-01-27 14:21:54\n\t\n\n12\n\t\n\t\n\t\nsy\n\t\nTY20260127113236\n\t\n\t\n\t\n10,000\n\t\n10,500\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 11:32:50\n\t\n\n11\n\t\n\t\n\t\nmt\n\t\nTY20260127112856\n\t\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 11:29:10\n\t\n\n10\n\t\n\t\n\t\nsy\n\t\nTY20260127111303\n\t\n\t\n\t\n10\n\t\n10\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 11:13:13\n\t\n\n9\n\t\n\t\n\t\nsy\n\t\nTY20260127110516\n\t\n\t\n\t\n10\n\t\n10\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 11:05:30\n\t\n\n8\n\t\n\t\n\t\nsy\n\t\nTY20260127105401\n\t\n\t\n\t\n10,000\n\t\n10,500\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 10:54:15\n\t\n\n7\n\t\n\t\n\t\nmt\n\t\nTY20260127095050\n\t\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 09:51:07\n\t\n\n6\n\t\n\t\n\t\nmt\n\t\nTY20260127094801\n\t\n\t\n\t\n100\n\t\n105\n\t\n0.05\n\t\n\t\n\t\n\t\n已下载\n\t\n不加密\n\t\n0\n\t\n\t\n2026-01-27 09:48:22\n\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t操作\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n生码 修改 关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n生码 修改 关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n生码 修改 关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n生码 修改 关闭 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n 生码 下载\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n共 25 条\n12\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": false,
+      "emptyStates": [],
+      "headings": [
+        "系统布局配置",
+        "V26"
+      ]
+    }
+  },
+  {
+    "route": "tlmQrcode/tlmQrcodelogs",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tlmQrcode/tlmQrcodelogs",
+    "title": "内外码查询",
+    "breadcrumb": [
+      "套标生码 /",
+      "套标生码",
+      "/",
+      "内外码查询"
+    ],
+    "filters": [
+      {
+        "label": "内码",
+        "placeholders": [
+          "请输入内码"
+        ],
+        "values": []
+      },
+      {
+        "label": "外码",
+        "placeholders": [
+          "请输入外码"
+        ],
+        "values": []
+      },
+      {
+        "label": "是否匹配",
+        "placeholders": [
+          "请选择数据类型"
+        ],
+        "values": [
+          "是"
+        ]
+      },
+      {
+        "label": "创建时间",
+        "placeholders": [
+          "开始日期",
+          "结束日期"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "导出Excel"
+    ],
+    "tables": [
+      {
+        "title": "",
+        "columns": [
+          "编码",
+          "创建人账号",
+          "创建人名称",
+          "内码",
+          "外码",
+          "是否匹配",
+          "创建时间"
+        ]
+      }
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 1 条 1 前往页",
+      "共 1 条",
+      "前往页",
+      "20条/页30条/页40条/页50条/页100条/页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询 生码规则 预生码管理 校验查询",
+      "首页",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "校验查询"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理 预生码管理 校验查询 生码规则 生码查询",
+      "套标生码管理",
+      "预生码管理 校验查询 生码规则 生码查询",
+      "校验查询",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n预生码管理\n校验查询\n生码规则\n生码查询\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理 生码查询 生码规则 预生码管理  校验查询 \n 套标生码 /\n内外码查询\n内码\n外码\n是否匹配\n创建时间\n-\n搜索 重置 导出Excel\n\n\n编码\t创建人账号\t创建人名称\t内码\t外码\t是否匹配\t创建时间\n2\n\t\nls\n\t\n李四\n\t\n601061A24DF3E67RE713\n\t\n601061B9C7AEC07SFHTN\n\t\n是\n\t\n2026-01-07T15:06:56\n\n\n共 1 条\n1\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": false,
+      "emptyStates": [],
+      "headings": [
+        "系统布局配置",
+        "V26"
+      ]
+    }
+  },
+  {
+    "route": "tlmQrcode/tlmQrcoderule",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tlmQrcode/tlmQrcoderule",
+    "title": "生码规则",
+    "breadcrumb": [
+      "赋码管理 /",
+      "赋码管理",
+      "/",
+      "生码规则"
+    ],
+    "filters": [
+      {
+        "label": "规则名称",
+        "placeholders": [
+          "请输入规则名称"
+        ],
+        "values": []
+      },
+      {
+        "label": "品牌",
+        "placeholders": [
+          "请选择品牌类别"
+        ],
+        "values": []
+      },
+      {
+        "label": "产品编码",
+        "placeholders": [
+          "请输入产品编码"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置",
+      "新增规则"
+    ],
+    "tables": [
+      {
+        "title": "",
+        "columns": [
+          "规则id",
+          "规则名称",
+          "最大包装级别",
+          "最大包装级别生码量",
+          "产品编码",
+          "包装比例",
+          "操作"
+        ]
+      }
+    ],
+    "rowActions": [
+      "生码详情"
+    ],
+    "pagination": [
+      "共 4 条 1 前往页",
+      "共 4 条",
+      "前往页",
+      "20条/页30条/页40条/页100条/页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询 生码规则 预生码管理 校验查询 生码规则",
+      "首页",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "校验查询"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理 预生码管理 校验查询 生码规则 生码查询",
+      "套标生码管理",
+      "预生码管理 校验查询 生码规则 生码查询",
+      "校验查询",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n预生码管理\n校验查询\n生码规则\n生码查询\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理 生码查询 生码规则 预生码管理 校验查询  生码规则 \n 赋码管理 /\n生码规则\n规则名称\n品牌\n产品编码\n搜索 重置 新增规则\n\n\n\n规则id\t规则名称\t最大包装级别\t最大包装级别生码量\t产品编码\t包装比例\t\n1\n\t\n瓶盖内外码\n\t\n2\n\t\n10000\n\t\n\t\n1:1\n\t\n\n2\n\t\n拉芳测试\n\t\n2\n\t\n1000000\n\t\n\t\n1:1\n\t\n\n3\n\t\nTEST RULES\n\t\n2\n\t\n1000000\n\t\n\t\n1:1\n\t\n\n4\n\t\n广西田园生码测试\n\t\n2\n\t\n10000\n\t\n\t\n1:1\n\t\n\t\t\t\t\t\t操作\n\t\t\t\t\t\t\n 生码详情\n\n\t\t\t\t\t\t\n 生码详情\n\n\t\t\t\t\t\t\n 生码详情\n\n\t\t\t\t\t\t\n 生码详情\n\n\n共 4 条\n1\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": false,
+      "emptyStates": [],
+      "headings": [
+        "系统布局配置",
+        "V26"
+      ]
+    }
+  },
+  {
+    "route": "tlmQrcode/codelogs",
+    "pageTitle": "系统基础信息",
+    "url": "https://dev.mtkj.fun/org/#/tlmQrcode/codelogs",
+    "title": "生码查询表",
+    "breadcrumb": [
+      "套标生码管理 /",
+      "套标生码管理",
+      "/",
+      "生码查询表"
+    ],
+    "filters": [
+      {
+        "label": "内码",
+        "placeholders": [
+          "请输入内码"
+        ],
+        "values": []
+      },
+      {
+        "label": "外码",
+        "placeholders": [
+          "请输入外码"
+        ],
+        "values": []
+      },
+      {
+        "label": "工单号",
+        "placeholders": [
+          "请输入工单号"
+        ],
+        "values": []
+      },
+      {
+        "label": "产品编码",
+        "placeholders": [
+          "请输入产品编码"
+        ],
+        "values": []
+      }
+    ],
+    "toolbarButtons": [
+      "搜索",
+      "重置"
+    ],
+    "tables": [
+      {
+        "title": "生码查询表",
+        "columns": [
+          "哈希ID",
+          "ID",
+          "市场",
+          "订单号",
+          "包装级别",
+          "产品代码",
+          "内码",
+          "外码",
+          "供应商ID",
+          "表名",
+          "表编号",
+          "创建时间"
+        ]
+      }
+    ],
+    "rowActions": [],
+    "pagination": [
+      "共 1 条 1 前往页",
+      "共 1 条",
+      "前往页"
+    ],
+    "chips": [
+      "首页预生码管理 生码查询 生码规则 预生码管理 校验查询 生码规则 生码查询",
+      "首页",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "校验查询"
+    ],
+    "sidebarText": [
+      "V26",
+      "首页",
+      "码库管理",
+      "非套标生码管理 预生码管理 生码查询 生码规则",
+      "非套标生码管理",
+      "预生码管理 生码查询 生码规则",
+      "预生码管理",
+      "生码查询",
+      "生码规则",
+      "套标生码管理 预生码管理 校验查询 生码规则 生码查询",
+      "套标生码管理",
+      "预生码管理 校验查询 生码规则 生码查询",
+      "校验查询",
+      "基础信息",
+      "内部组织",
+      "外部组织"
+    ],
+    "bodyText": "系统布局配置\n开启 Tags-View\n固定 Header\n侧边栏 Logo\n V26\n首页\n码库管理\n非套标生码管理\n预生码管理\n生码查询\n生码规则\n套标生码管理\n预生码管理\n校验查询\n生码规则\n生码查询\n基础信息\n内部组织\n外部组织\n系统基础信息\n产品追溯系统\n码库管理\n \n \n首页预生码管理 生码查询 生码规则 预生码管理 校验查询 生码规则  生码查询 \n 套标生码管理 /\n生码查询表\n内码\n外码\n工单号\n产品编码\n搜索 重置\n\n\n生码查询表\n哈希ID\tID\t市场\t订单号\t包装级别\t产品代码\t内码\t外码\t供应商ID\t表名\t表编号\t创建时间\n暂无数据\n\n\n共 1 条\n1\n前往页",
+    "specialLayout": {
+      "tableCount": 1,
+      "hasHorizontalScroll": true,
+      "hasEmptyState": true,
+      "emptyStates": [
+        "暂无数据"
+      ],
+      "headings": [
+        "系统布局配置",
+        "V26",
+        "生码查询表"
+      ]
+    }
+  }
+]

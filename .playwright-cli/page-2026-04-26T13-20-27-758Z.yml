@@ -1,0 +1,530 @@
+- generic [active] [ref=e1]:
+  - img
+  - generic [ref=e51]:
+    - generic [ref=e93]:
+      - img "Logo" [ref=e95]
+      - heading "弥特采集关联系统 SCADA 监控大屏" [level=1] [ref=e97]
+      - generic [ref=e98]:
+        - generic [ref=e99]: 👤 弥特测试
+        - generic [ref=e100]: 2026-04-26 21:20:27
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: "工厂:"
+          - generic [ref=e105]: 弥特纯净水工厂
+        - generic [ref=e106]: "|"
+        - generic [ref=e107]:
+          - generic [ref=e108]: "车间:"
+          - generic [ref=e109]: 纯净水一车间
+        - generic [ref=e110]: "|"
+        - generic [ref=e111]:
+          - generic [ref=e112]: "产线:"
+          - generic [ref=e113]: 一号线
+        - generic [ref=e114]: "|"
+        - generic [ref=e115]:
+          - generic [ref=e116]: "工单号:"
+          - generic [ref=e117]: ces260409
+        - generic [ref=e118]: "|"
+        - generic [ref=e119]:
+          - generic [ref=e120]: "产品:"
+          - generic [ref=e121]: 纯净水500ml
+        - generic [ref=e122]: "|"
+        - generic [ref=e123]:
+          - generic [ref=e124]: "批次:"
+          - generic [ref=e125]: "260409"
+        - generic [ref=e126]: "|"
+        - generic [ref=e127]:
+          - generic [ref=e128]: "日期:"
+          - generic [ref=e129]: 2026-04-09
+      - button " 返回产线列表" [ref=e131] [cursor=pointer]:
+        - generic [ref=e132]: 
+        - text: 返回产线列表
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: 生产进度
+            - generic [ref=e138]:
+              - generic [ref=e142]: 50%
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: "已采集:"
+                  - generic [ref=e146]: 50 箱
+                - generic [ref=e147]:
+                  - generic [ref=e148]: "计划数量:"
+                  - generic [ref=e149]: 100 箱
+          - generic [ref=e150]:
+            - generic [ref=e151]: 设备关联率
+            - generic [ref=e152]:
+              - generic [ref=e157]: 工控机1号
+              - generic [ref=e162]: 工控机2号
+              - generic [ref=e167]: 工控机3号
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: 工控机1号
+              - generic [ref=e173]: 运行中
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e178]: 
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 关联级别
+                    - generic [ref=e181]: 瓶箱关联
+                - generic [ref=e182]:
+                  - generic [ref=e184]: 
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 采集数量
+                    - generic [ref=e187]: "40"
+                - generic [ref=e188]:
+                  - generic [ref=e190]: 
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: 关联率
+                    - generic [ref=e193]: 99.5%
+                - generic [ref=e194]:
+                  - generic [ref=e196]: 
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: 报警次数
+                    - generic [ref=e199]: "10"
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]: 
+                  - text: 相机监控
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]:
+                      - generic [ref=e206]:
+                        - generic [ref=e207]: 
+                        - generic [ref=e208]: 相机1号
+                      - generic [ref=e209]: 在线
+                    - generic [ref=e210]:
+                      - generic [ref=e211]:
+                        - img [ref=e212]
+                        - generic [ref=e215]:
+                          - generic [ref=e216]: 55%
+                          - generic [ref=e217]: 采集率
+                      - generic [ref=e218]:
+                        - generic [ref=e219]:
+                          - generic [ref=e220]: 
+                          - generic [ref=e221]:
+                            - generic [ref=e222]: "100"
+                            - generic [ref=e223]: 采集数
+                        - generic [ref=e224]:
+                          - generic [ref=e225]: 
+                          - generic [ref=e226]:
+                            - generic [ref=e227]: "45"
+                            - generic [ref=e228]: 失败数
+                  - generic [ref=e229]:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]:
+                        - generic [ref=e232]: 
+                        - generic [ref=e233]: 相机2号
+                      - generic [ref=e234]: 在线
+                    - generic [ref=e235]:
+                      - generic [ref=e236]:
+                        - img [ref=e237]
+                        - generic [ref=e240]:
+                          - generic [ref=e241]: 98%
+                          - generic [ref=e242]: 采集率
+                      - generic [ref=e243]:
+                        - generic [ref=e244]:
+                          - generic [ref=e245]: 
+                          - generic [ref=e246]:
+                            - generic [ref=e247]: "98"
+                            - generic [ref=e248]: 采集数
+                        - generic [ref=e249]:
+                          - generic [ref=e250]: 
+                          - generic [ref=e251]:
+                            - generic [ref=e252]: "2"
+                            - generic [ref=e253]: 失败数
+          - generic [ref=e254]:
+            - generic [ref=e255]:
+              - generic [ref=e256]: 工控机2号
+              - generic [ref=e258]: 运行中
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]:
+                  - generic [ref=e263]: 
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: 关联级别
+                    - generic [ref=e266]: 箱托关联
+                - generic [ref=e267]:
+                  - generic [ref=e269]: 
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: 采集数量
+                    - generic [ref=e272]: "50"
+                - generic [ref=e273]:
+                  - generic [ref=e275]: 
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: 关联率
+                    - generic [ref=e278]: 95.5%
+                - generic [ref=e279]:
+                  - generic [ref=e281]: 
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: 报警次数
+                    - generic [ref=e284]: "2"
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]: 
+                  - text: 相机监控
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - generic [ref=e290]:
+                      - generic [ref=e291]:
+                        - generic [ref=e292]: 
+                        - generic [ref=e293]: 相机1号
+                      - generic [ref=e294]: 在线
+                    - generic [ref=e295]:
+                      - generic [ref=e296]:
+                        - img [ref=e297]
+                        - generic [ref=e300]:
+                          - generic [ref=e301]: 95%
+                          - generic [ref=e302]: 采集率
+                      - generic [ref=e303]:
+                        - generic [ref=e304]:
+                          - generic [ref=e305]: 
+                          - generic [ref=e306]:
+                            - generic [ref=e307]: "100"
+                            - generic [ref=e308]: 采集数
+                        - generic [ref=e309]:
+                          - generic [ref=e310]: 
+                          - generic [ref=e311]:
+                            - generic [ref=e312]: "5"
+                            - generic [ref=e313]: 失败数
+                  - generic [ref=e314]:
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - generic [ref=e317]: 
+                        - generic [ref=e318]: 相机2号
+                      - generic [ref=e319]: 在线
+                    - generic [ref=e320]:
+                      - generic [ref=e321]:
+                        - img [ref=e322]
+                        - generic [ref=e325]:
+                          - generic [ref=e326]: 98%
+                          - generic [ref=e327]: 采集率
+                      - generic [ref=e328]:
+                        - generic [ref=e329]:
+                          - generic [ref=e330]: 
+                          - generic [ref=e331]:
+                            - generic [ref=e332]: "98"
+                            - generic [ref=e333]: 采集数
+                        - generic [ref=e334]:
+                          - generic [ref=e335]: 
+                          - generic [ref=e336]:
+                            - generic [ref=e337]: "2"
+                            - generic [ref=e338]: 失败数
+          - generic [ref=e339]:
+            - generic [ref=e340]:
+              - generic [ref=e341]: 工控机3号
+              - generic [ref=e343]: 运行中
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e348]: 
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: 关联级别
+                    - generic [ref=e351]: 托级别4关联
+                - generic [ref=e352]:
+                  - generic [ref=e354]: 
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: 采集数量
+                    - generic [ref=e357]: "60"
+                - generic [ref=e358]:
+                  - generic [ref=e360]: 
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: 关联率
+                    - generic [ref=e363]: 95.5%
+                - generic [ref=e364]:
+                  - generic [ref=e366]: 
+                  - generic [ref=e367]:
+                    - generic [ref=e368]: 报警次数
+                    - generic [ref=e369]: "34"
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: 
+                  - text: 相机监控
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - generic [ref=e375]:
+                      - generic [ref=e376]:
+                        - generic [ref=e377]: 
+                        - generic [ref=e378]: 相机1号
+                      - generic [ref=e379]: 在线
+                    - generic [ref=e380]:
+                      - generic [ref=e381]:
+                        - img [ref=e382]
+                        - generic [ref=e385]:
+                          - generic [ref=e386]: 95%
+                          - generic [ref=e387]: 采集率
+                      - generic [ref=e388]:
+                        - generic [ref=e389]:
+                          - generic [ref=e390]: 
+                          - generic [ref=e391]:
+                            - generic [ref=e392]: "100"
+                            - generic [ref=e393]: 采集数
+                        - generic [ref=e394]:
+                          - generic [ref=e395]: 
+                          - generic [ref=e396]:
+                            - generic [ref=e397]: "5"
+                            - generic [ref=e398]: 失败数
+                  - generic [ref=e399]:
+                    - generic [ref=e400]:
+                      - generic [ref=e401]:
+                        - generic [ref=e402]: 
+                        - generic [ref=e403]: 相机2号
+                      - generic [ref=e404]: 在线
+                    - generic [ref=e405]:
+                      - generic [ref=e406]:
+                        - img [ref=e407]
+                        - generic [ref=e410]:
+                          - generic [ref=e411]: 98%
+                          - generic [ref=e412]: 采集率
+                      - generic [ref=e413]:
+                        - generic [ref=e414]:
+                          - generic [ref=e415]: 
+                          - generic [ref=e416]:
+                            - generic [ref=e417]: "98"
+                            - generic [ref=e418]: 采集数
+                        - generic [ref=e419]:
+                          - generic [ref=e420]: 
+                          - generic [ref=e421]:
+                            - generic [ref=e422]: "2"
+                            - generic [ref=e423]: 失败数
+      - generic [ref=e425]:
+        - generic [ref=e426]:
+          - generic [ref=e427]: 
+          - text: 最新预警信息
+        - generic [ref=e428]:
+          - generic [ref=e429] [cursor=pointer]:
+            - generic [ref=e430]:
+              - generic [ref=e431]: 工控机1号
+              - generic [ref=e432]: 04-09 14:55:00
+            - generic [ref=e434]: 压力异常报警
+          - generic [ref=e435] [cursor=pointer]:
+            - generic [ref=e436]:
+              - generic [ref=e437]: 工控机1号
+              - generic [ref=e438]: 04-09 14:55:00
+            - generic [ref=e440]: 压力异常报警
+          - generic [ref=e441] [cursor=pointer]:
+            - generic [ref=e442]:
+              - generic [ref=e443]: 工控机1号
+              - generic [ref=e444]: 04-09 14:55:00
+            - generic [ref=e446]: 压力异常报警
+        - generic [ref=e447]: 历史预警
+        - generic [ref=e448]:
+          - generic [ref=e449] [cursor=pointer]:
+            - generic [ref=e450]:
+              - generic [ref=e451]: 工控机1号
+              - generic [ref=e452]: 04-09 14:55:00
+            - generic [ref=e454]: 压力异常报警
+          - generic [ref=e455] [cursor=pointer]:
+            - generic [ref=e456]:
+              - generic [ref=e457]: 工控机1号
+              - generic [ref=e458]: 04-09 14:40:00
+            - generic [ref=e460]: 温度过高警告
+          - generic [ref=e461] [cursor=pointer]:
+            - generic [ref=e462]:
+              - generic [ref=e463]: 工控机1号
+              - generic [ref=e464]: 04-09 14:40:00
+            - generic [ref=e466]: 温度过高警告
+          - generic [ref=e467] [cursor=pointer]:
+            - generic [ref=e468]:
+              - generic [ref=e469]: 工控机1号
+              - generic [ref=e470]: 04-09 14:40:00
+            - generic [ref=e472]: 温度过高警告
+          - generic [ref=e473] [cursor=pointer]:
+            - generic [ref=e474]:
+              - generic [ref=e475]: 工控机1号
+              - generic [ref=e476]: 04-09 14:40:00
+            - generic [ref=e478]: 温度过高警告
+          - generic [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]:
+              - generic [ref=e481]: 工控机1号
+              - generic [ref=e482]: 04-09 14:30:00
+            - generic [ref=e484]: 温度过高警告
+          - generic [ref=e485] [cursor=pointer]:
+            - generic [ref=e486]:
+              - generic [ref=e487]: 工控机2号
+              - generic [ref=e488]: 04-09 14:30:00
+            - generic [ref=e490]: 温度过高警告
+          - generic [ref=e491] [cursor=pointer]:
+            - generic [ref=e492]:
+              - generic [ref=e493]: 工控机3号
+              - generic [ref=e494]: 04-09 14:30:00
+            - generic [ref=e496]: 温度过高警告
+          - generic [ref=e497] [cursor=pointer]:
+            - generic [ref=e498]:
+              - generic [ref=e499]: 工控机3号
+              - generic [ref=e500]: 04-09 14:30:00
+            - generic [ref=e502]: 温度过高警告
+          - generic [ref=e503] [cursor=pointer]:
+            - generic [ref=e504]:
+              - generic [ref=e505]: 工控机3号
+              - generic [ref=e506]: 04-09 14:30:00
+            - generic [ref=e508]: 温度过高警告
+          - generic [ref=e509] [cursor=pointer]:
+            - generic [ref=e510]:
+              - generic [ref=e511]: 工控机3号
+              - generic [ref=e512]: 04-09 14:30:00
+            - generic [ref=e514]: 温度过高警告
+          - generic [ref=e515] [cursor=pointer]:
+            - generic [ref=e516]:
+              - generic [ref=e517]: 工控机3号
+              - generic [ref=e518]: 04-09 14:30:00
+            - generic [ref=e520]: 温度过高警告
+          - generic [ref=e521] [cursor=pointer]:
+            - generic [ref=e522]:
+              - generic [ref=e523]: 工控机3号
+              - generic [ref=e524]: 04-09 14:30:00
+            - generic [ref=e526]: 温度过高警告
+          - generic [ref=e527] [cursor=pointer]:
+            - generic [ref=e528]:
+              - generic [ref=e529]: 工控机3号
+              - generic [ref=e530]: 04-09 14:30:00
+            - generic [ref=e532]: 温度过高警告
+          - generic [ref=e533] [cursor=pointer]:
+            - generic [ref=e534]:
+              - generic [ref=e535]: 工控机3号
+              - generic [ref=e536]: 04-09 14:30:00
+            - generic [ref=e538]: 温度过高警告
+          - generic [ref=e539] [cursor=pointer]:
+            - generic [ref=e540]:
+              - generic [ref=e541]: 工控机3号
+              - generic [ref=e542]: 04-09 14:30:00
+            - generic [ref=e544]: 温度过高警告
+          - generic [ref=e545] [cursor=pointer]:
+            - generic [ref=e546]:
+              - generic [ref=e547]: 工控机3号
+              - generic [ref=e548]: 04-09 14:30:00
+            - generic [ref=e550]: 温度过高警告
+          - generic [ref=e551] [cursor=pointer]:
+            - generic [ref=e552]:
+              - generic [ref=e553]: 工控机3号
+              - generic [ref=e554]: 04-09 14:30:00
+            - generic [ref=e556]: 温度过高警告
+          - generic [ref=e557] [cursor=pointer]:
+            - generic [ref=e558]:
+              - generic [ref=e559]: 工控机3号
+              - generic [ref=e560]: 04-09 14:30:00
+            - generic [ref=e562]: 温度过高警告
+          - generic [ref=e563] [cursor=pointer]:
+            - generic [ref=e564]:
+              - generic [ref=e565]: 工控机3号
+              - generic [ref=e566]: 04-09 14:30:00
+            - generic [ref=e568]: 温度过高警告
+          - generic [ref=e569] [cursor=pointer]:
+            - generic [ref=e570]:
+              - generic [ref=e571]: 工控机3号
+              - generic [ref=e572]: 04-09 14:30:00
+            - generic [ref=e574]: 温度过高警告
+          - generic [ref=e575] [cursor=pointer]:
+            - generic [ref=e576]:
+              - generic [ref=e577]: 工控机3号
+              - generic [ref=e578]: 04-09 14:30:00
+            - generic [ref=e580]: 温度过高警告
+          - generic [ref=e581] [cursor=pointer]:
+            - generic [ref=e582]:
+              - generic [ref=e583]: 工控机3号
+              - generic [ref=e584]: 04-09 14:30:00
+            - generic [ref=e586]: 温度过高警告
+          - generic [ref=e587] [cursor=pointer]:
+            - generic [ref=e588]:
+              - generic [ref=e589]: 工控机3号
+              - generic [ref=e590]: 04-09 14:30:00
+            - generic [ref=e592]: 温度过高警告
+          - generic [ref=e593] [cursor=pointer]:
+            - generic [ref=e594]:
+              - generic [ref=e595]: 工控机1号
+              - generic [ref=e596]: 04-09 14:25:00
+            - generic [ref=e598]: 压力异常报警
+          - generic [ref=e599] [cursor=pointer]:
+            - generic [ref=e600]:
+              - generic [ref=e601]: 工控机2号
+              - generic [ref=e602]: 04-09 14:25:00
+            - generic [ref=e604]: 压力异常报警
+          - generic [ref=e605] [cursor=pointer]:
+            - generic [ref=e606]:
+              - generic [ref=e607]: 工控机3号
+              - generic [ref=e608]: 04-09 14:25:00
+            - generic [ref=e610]: 压力异常报警
+          - generic [ref=e611] [cursor=pointer]:
+            - generic [ref=e612]:
+              - generic [ref=e613]: 工控机3号
+              - generic [ref=e614]: 04-09 14:25:00
+            - generic [ref=e616]: 压力异常报警
+          - generic [ref=e617] [cursor=pointer]:
+            - generic [ref=e618]:
+              - generic [ref=e619]: 工控机3号
+              - generic [ref=e620]: 04-09 14:25:00
+            - generic [ref=e622]: 压力异常报警
+          - generic [ref=e623] [cursor=pointer]:
+            - generic [ref=e624]:
+              - generic [ref=e625]: 工控机3号
+              - generic [ref=e626]: 04-09 14:25:00
+            - generic [ref=e628]: 压力异常报警
+          - generic [ref=e629] [cursor=pointer]:
+            - generic [ref=e630]:
+              - generic [ref=e631]: 工控机3号
+              - generic [ref=e632]: 04-09 14:25:00
+            - generic [ref=e634]: 压力异常报警
+          - generic [ref=e635] [cursor=pointer]:
+            - generic [ref=e636]:
+              - generic [ref=e637]: 工控机3号
+              - generic [ref=e638]: 04-09 14:25:00
+            - generic [ref=e640]: 压力异常报警
+          - generic [ref=e641] [cursor=pointer]:
+            - generic [ref=e642]:
+              - generic [ref=e643]: 工控机3号
+              - generic [ref=e644]: 04-09 14:25:00
+            - generic [ref=e646]: 压力异常报警
+          - generic [ref=e647] [cursor=pointer]:
+            - generic [ref=e648]:
+              - generic [ref=e649]: 工控机3号
+              - generic [ref=e650]: 04-09 14:25:00
+            - generic [ref=e652]: 压力异常报警
+          - generic [ref=e653] [cursor=pointer]:
+            - generic [ref=e654]:
+              - generic [ref=e655]: 工控机3号
+              - generic [ref=e656]: 04-09 14:25:00
+            - generic [ref=e658]: 压力异常报警
+          - generic [ref=e659] [cursor=pointer]:
+            - generic [ref=e660]:
+              - generic [ref=e661]: 工控机3号
+              - generic [ref=e662]: 04-09 14:25:00
+            - generic [ref=e664]: 压力异常报警
+          - generic [ref=e665] [cursor=pointer]:
+            - generic [ref=e666]:
+              - generic [ref=e667]: 工控机3号
+              - generic [ref=e668]: 04-09 14:25:00
+            - generic [ref=e670]: 压力异常报警
+          - generic [ref=e671] [cursor=pointer]:
+            - generic [ref=e672]:
+              - generic [ref=e673]: 工控机3号
+              - generic [ref=e674]: 04-09 14:25:00
+            - generic [ref=e676]: 压力异常报警
+          - generic [ref=e677] [cursor=pointer]:
+            - generic [ref=e678]:
+              - generic [ref=e679]: 工控机3号
+              - generic [ref=e680]: 04-09 14:25:00
+            - generic [ref=e682]: 压力异常报警
+          - generic [ref=e683] [cursor=pointer]:
+            - generic [ref=e684]:
+              - generic [ref=e685]: 工控机3号
+              - generic [ref=e686]: 04-09 14:25:00
+            - generic [ref=e688]: 压力异常报警
+          - generic [ref=e689] [cursor=pointer]:
+            - generic [ref=e690]:
+              - generic [ref=e691]: 工控机3号
+              - generic [ref=e692]: 04-09 14:25:00
+            - generic [ref=e694]: 压力异常报警
+          - generic [ref=e695] [cursor=pointer]:
+            - generic [ref=e696]:
+              - generic [ref=e697]: 工控机3号
+              - generic [ref=e698]: 04-09 14:25:00
+            - generic [ref=e700]: 压力异常报警
+          - generic [ref=e701] [cursor=pointer]:
+            - generic [ref=e702]:
+              - generic [ref=e703]: 工控机3号
+              - generic [ref=e704]: 04-09 14:25:00
+            - generic [ref=e706]: 压力异常报警
