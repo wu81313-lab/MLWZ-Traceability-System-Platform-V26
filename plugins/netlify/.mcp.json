@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "netlify": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@netlify/mcp"
+      ],
+      "note": "Official Netlify MCP server. Requires Node.js 22+ and Netlify authentication. If interactive auth fails, set NETLIFY_PERSONAL_ACCESS_TOKEN locally instead of committing it."
+    }
+  }
+}

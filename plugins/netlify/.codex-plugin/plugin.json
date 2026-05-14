@@ -1,0 +1,43 @@
+{
+  "name": "netlify",
+  "version": "0.1.0",
+  "description": "Deploy and manage Netlify sites with the official Netlify MCP server.",
+  "author": {
+    "name": "OpenAI Codex",
+    "url": "https://openai.com/chatgpt"
+  },
+  "homepage": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/",
+  "repository": "https://github.com/netlify/netlify-mcp",
+  "license": "Proprietary",
+  "keywords": [
+    "netlify",
+    "deployment",
+    "mcp",
+    "hosting",
+    "static-site"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Netlify",
+    "shortDescription": "Build, deploy, and manage Netlify projects from Codex",
+    "longDescription": "Connect Codex to Netlify's official MCP server so it can create, deploy, inspect, and manage Netlify projects and static sites.",
+    "developerName": "Netlify + OpenAI Codex",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.netlify.com/",
+    "privacyPolicyURL": "https://www.netlify.com/privacy/",
+    "termsOfServiceURL": "https://www.netlify.com/tos/",
+    "defaultPrompt": [
+      "Deploy this project to Netlify",
+      "Link this repo to a Netlify site",
+      "Check my latest Netlify deployment"
+    ],
+    "brandColor": "#00AD9F",
+    "screenshots": []
+  }
+}
