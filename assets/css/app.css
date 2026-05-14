@@ -150,6 +150,23 @@ a {
   color: inherit;
 }
 
+.sidebar-menu .menu-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 10px;
+  color: inherit;
+  fill: currentColor;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: -0.15em;
+  overflow: hidden;
+}
+
+.sidebar-menu .menu-icon[class*="el-icon-"] {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
 .dashboard-app.is-collapsed .sidebar-menu .menu-label,
 .dashboard-app.is-collapsed .sidebar-menu .el-submenu__icon-arrow {
   display: none;
@@ -164,6 +181,10 @@ a {
 
 .dashboard-app.is-collapsed .sidebar-menu.el-menu .el-menu-item [class^="el-icon-"],
 .dashboard-app.is-collapsed .sidebar-menu.el-menu .el-submenu__title [class^="el-icon-"] {
+  margin-right: 0;
+}
+
+.dashboard-app.is-collapsed .sidebar-menu .menu-icon {
   margin-right: 0;
 }
 
@@ -1454,6 +1475,354 @@ a {
   font-size: 22px;
   cursor: pointer;
   box-shadow: 0 8px 18px rgba(45, 140, 240, 0.24);
+}
+
+.org-tree-card {
+  display: flex;
+  gap: 20px;
+  min-height: 560px;
+  padding: 30px 20px 16px;
+  border: 1px solid #dfe5ee;
+  background: #fff;
+}
+
+.org-tree-sidebar {
+  flex: 0 0 310px;
+  min-height: 494px;
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.org-person-search {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.org-person-search .el-input {
+  width: 180px;
+}
+
+.org-person-search .el-input__inner,
+.org-tree-filter .el-input__inner {
+  height: 28px;
+  line-height: 28px;
+  border-color: #d7dce5;
+  border-radius: 4px;
+  color: #606266;
+}
+
+.org-person-search .el-button--mini {
+  width: 46px;
+  height: 28px;
+  padding: 7px 0;
+  border-color: #1890ff;
+  background: #1890ff;
+}
+
+.org-import-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0 10px 10px;
+}
+
+.org-import-actions .el-button--mini {
+  height: 29px;
+  min-width: 104px;
+  padding: 7px 14px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.org-import-actions .el-button--primary {
+  border-color: #1890ff;
+  background: #1890ff;
+}
+
+.org-import-actions .el-button--success {
+  border-color: #00c86f;
+  background: #00c86f;
+}
+
+.org-template-link,
+.org-template-link:hover,
+.org-template-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.org-upload {
+  display: inline-block;
+}
+
+.org-tree-filter {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.org-tree-list {
+  background: transparent;
+  color: #555;
+  font-size: 16px;
+}
+
+.org-tree-list .el-tree-node__content {
+  height: 33px;
+  padding-right: 4px;
+}
+
+.org-tree-list .el-tree-node__content:hover,
+.org-tree-list .el-tree-node:focus > .el-tree-node__content {
+  background: #e9eef5;
+}
+
+.org-tree-list .el-tree-node__expand-icon {
+  color: #b3bbc7;
+  font-size: 14px;
+}
+
+.org-tree-list .el-tree-node__expand-icon.is-leaf {
+  color: transparent;
+}
+
+.org-tree-node {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-width: 0;
+  color: #565f69;
+}
+
+.org-tree-node i {
+  color: #555;
+  font-size: 15px;
+}
+
+.org-tree-node.is-active span {
+  color: #1890ff;
+}
+
+.org-tree-main {
+  flex: 1;
+  min-width: 0;
+  padding-right: 20px;
+}
+
+.org-dept-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 52px;
+  margin-bottom: 6px;
+}
+
+.org-dept-header h3 {
+  margin: 0;
+  color: #303133;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.org-dept-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.org-dept-header__actions .el-button--mini {
+  min-width: 72px;
+  height: 30px;
+  padding: 7px 14px;
+  border-radius: 3px;
+  color: #303133;
+}
+
+.org-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 0 14px;
+  color: #303133;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.org-section-title i {
+  font-size: 22px;
+}
+
+.org-section-title--members {
+  margin-top: 14px;
+}
+
+.org-action-strip {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 39px;
+  padding: 0 30px;
+  background: #dfe3e8;
+}
+
+.org-action-strip .el-button--mini {
+  height: 27px;
+  min-width: 108px;
+  padding: 6px 13px;
+  border-radius: 2px;
+  border-color: #d8dce3;
+  background: #fff;
+  color: #505963;
+  font-size: 12px;
+}
+
+.org-action-strip--members {
+  gap: 14px;
+}
+
+.org-danger-button,
+.org-danger-button:hover,
+.org-danger-button:focus {
+  color: #ff4d4f !important;
+  border-color: #ffd6d9 !important;
+}
+
+.org-child-list {
+  margin-bottom: 16px;
+}
+
+.org-child-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 33px;
+  padding: 0 24px;
+  border: 0;
+  border-bottom: 1px solid #dcdfe6;
+  background: #fff;
+  color: #4f5964;
+  text-align: left;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.org-child-row:hover {
+  color: #1890ff;
+  background: #f7fbff;
+}
+
+.org-child-row i {
+  font-size: 15px;
+}
+
+.org-empty-line {
+  height: 33px;
+  padding: 8px 24px;
+  border-bottom: 1px solid #dcdfe6;
+  color: #909399;
+  font-size: 13px;
+}
+
+.org-member-table.el-table {
+  border: none;
+  color: #555;
+  font-size: 12px;
+}
+
+.org-member-table.el-table::before,
+.org-member-table.el-table::after {
+  display: none;
+}
+
+.org-member-table.el-table th,
+.org-member-table.el-table td {
+  padding: 7px 0;
+  border-right: none;
+}
+
+.org-member-table.el-table th {
+  background: #fff;
+  color: #7d8796;
+  font-weight: 600;
+}
+
+.org-member-table.el-table .cell {
+  line-height: 22px;
+}
+
+.org-member-table .el-checkbox__inner {
+  width: 14px;
+  height: 14px;
+  border-radius: 0;
+}
+
+.org-member-name {
+  margin-right: 6px;
+  color: #303133;
+}
+
+.org-role-tag {
+  display: inline-flex;
+  align-items: center;
+  height: 19px;
+  padding: 0 6px;
+  border: 1px solid #f6c55a;
+  border-radius: 3px;
+  background: #fff8e6;
+  color: #f59a00;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.org-member-table .el-switch.is-disabled {
+  opacity: 1;
+}
+
+.org-member-table .el-switch.is-checked .el-switch__core {
+  border-color: #5bd58d;
+  background: #5bd58d;
+}
+
+.org-member-table .el-button--text {
+  color: #ff4d4f;
+}
+
+.org-pagination {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 4px;
+  color: #606266;
+  font-size: 13px;
+}
+
+.org-pagination .el-pagination {
+  padding: 0;
+}
+
+.org-pagination .btn-prev,
+.org-pagination .btn-next,
+.org-pagination .el-pager li {
+  min-width: 30px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 2px;
+}
+
+.org-pagination .el-pagination__jump {
+  margin-left: 12px;
+}
+
+.org-pagination .el-pagination__editor.el-input {
+  width: 46px;
+}
+
+.org-pagination .el-pagination__editor.el-input .el-input__inner {
+  height: 28px;
+  line-height: 28px;
 }
 
 .module-list-card,

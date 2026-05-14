@@ -173,7 +173,7 @@
   }
 
   function resolveSchemaTitleField(row) {
-    var keys = ['orderNo', 'subtaskNo', 'batchNo', 'receiptNo', 'scanNo', 'relationNo', 'replaceNo', 'billNo', 'warningNo', 'caseNo', 'recordNo', 'traceNo', 'transferNo', 'refundNo', 'customerName', 'dealerName', 'storeName', 'productName'];
+    var keys = ['logNo', 'orderNo', 'subtaskNo', 'batchNo', 'receiptNo', 'scanNo', 'relationNo', 'replaceNo', 'billNo', 'warningNo', 'caseNo', 'recordNo', 'traceNo', 'transferNo', 'refundNo', 'customerName', 'dealerName', 'storeName', 'productName'];
     for (var index = 0; index < keys.length; index += 1) {
       if (row[keys[index]]) {
         return row[keys[index]];
@@ -312,7 +312,7 @@
 
   function normalizeOrgShellData() {
     return {
-      brandName: '系统基础信息',
+      brandName: 'V26',
       userName: '系统管理员',
       userRole: '平台管理中心',
       menus: [
@@ -348,7 +348,8 @@
         menuGroup('org-internal-root', '内部组织', [
           menuLeaf('tree', '组织机构', '内部组织 / 组织机构'),
           menuLeaf('organ/departmentjob', '权限管理', '内部组织 / 权限管理'),
-          menuLeaf('stafflist', '账号管理', '内部组织 / 账号管理')
+          menuLeaf('stafflist', '账号管理', '内部组织 / 账号管理'),
+          menuLeaf('operationlogs', '日志管理', '内部组织 / 日志管理')
         ], 'el-icon-s-operation'),
         menuGroup('org-external-root', '外部组织', [
           menuGroup('org-dealer-group', '经销商管理', [
@@ -397,12 +398,14 @@
         basicInfo: {
           key: 'basicInfo',
           title: '系统基础信息',
+          brandName: orgShell.brandName,
           menus: orgShell.menus,
           defaultRoute: '#/readycreate'
         },
         traceSystem: {
           key: 'traceSystem',
           title: '产品追溯系统',
+          brandName: traceShell.brandName,
           menus: traceShell.menus,
           defaultRoute: '#/dashboard'
         },
@@ -451,6 +454,7 @@
 
     var productionNode = take('production');
     productionNode.title = '生产管理';
+    productionNode.icon = 'list';
 
     var factoryLogisticsNode = group('factory-logistics', '工厂物流', [
       leaf('freight', '运单管理', '首页 / 工厂物流 / 运单管理'),
@@ -462,7 +466,7 @@
         leaf('transferOutOrder', '调拨记录', '首页 / 工厂物流 / 调拨出库 / 调拨记录'),
         leaf('transferOutOrderScan', '调拨扫码记录', '首页 / 工厂物流 / 调拨出库 / 调拨扫码记录')
       ])
-    ]);
+    ], 'table');
 
     var channelLogisticsNode = group('channel-logistics', '渠道物流', [
       group('dealer-logistics-group', '经销商物流', [
@@ -481,7 +485,7 @@
         leaf('channelinventorylist', '渠道库存列表', '首页 / 渠道物流 / 渠道库存 / 渠道库存列表'),
         leaf('channelinventorylogs', '渠道库存流水', '首页 / 渠道物流 / 渠道库存 / 渠道库存流水')
       ])
-    ]);
+    ], 'table');
 
     var inspectionNode = group('inspection', '稽查管理', [
       leaf('forensics', '取证记录', '首页 / 稽查管理 / 取证记录'),
@@ -490,13 +494,13 @@
       leaf('queryconsumerwarning', '预警清单', '首页 / 稽查管理 / 预警清单'),
       leaf('warningparam', '配置预警参数', '首页 / 稽查管理 / 配置预警参数'),
       leaf('informationinquiry', '信息查询', '首页 / 稽查管理 / 信息查询')
-    ]);
+    ], 'table');
 
     var queryNode = group('query', '查询管理', [
       leaf('customerinquire', '消费者查询页', '首页 / 查询管理 / 消费者查询页'),
       leaf('customerquery', '消费者查询记录', '首页 / 查询管理 / 消费者查询记录'),
       leaf('dragpage', 'h5扫码页面自定义', '首页 / 查询管理 / h5扫码页面自定义')
-    ]);
+    ], 'table');
 
     var boardsNode = group('boards', '看板', [
       leaf('dashboardOverview', '总览首页', '首页 / 看板 / 总览首页'),
@@ -504,7 +508,7 @@
       leaf('scada-dashboard', 'SCADA监控大屏', '首页 / 看板 / SCADA监控大屏'),
       leaf('warehouselogistics', '仓储物流', '首页 / 看板 / 仓储物流'),
       leaf('inspectionManagement', '稽查管理', '首页 / 看板 / 稽查管理')
-    ]);
+    ], 'table');
 
     shellData.menus = [
       leaf('dashboard', '首页', '首页 / 首页'),
@@ -515,7 +519,7 @@
         inspectionNode,
         queryNode,
         boardsNode
-      ], 'el-icon-menu')
+      ], 'tree-table')
     ];
     return shellData;
   }
@@ -585,6 +589,7 @@
       '#/tree': { title: '组织机构', tags: ['系统基础信息', '内部组织', '组织机构'], legacyBreadcrumb: '内部组织 / 组织机构', tsStyle: true },
       '#/organ/departmentjob': { title: '权限管理', tags: ['系统基础信息', '内部组织', '权限管理'], legacyBreadcrumb: '内部组织 / 权限管理', tsStyle: true },
       '#/stafflist': { title: '账号管理', tags: ['系统基础信息', '内部组织', '账号管理'], legacyBreadcrumb: '内部组织 / 账号管理', tsStyle: true },
+      '#/operationlogs': { title: '日志管理', tags: ['系统基础信息', '内部组织', '日志管理'], legacyBreadcrumb: '内部组织 / 日志管理', tsStyle: true },
       '#/dealer': { title: '经销商列表', tags: ['系统基础信息', '外部组织', '经销商管理', '经销商列表'], legacyBreadcrumb: '外部组织 / 经销商管理 / 经销商列表', tsStyle: true },
       '#/dealeraddresslist': { title: '经销商区域', tags: ['系统基础信息', '外部组织', '经销商管理', '经销商区域'], legacyBreadcrumb: '外部组织 / 经销商管理 / 经销商区域', tsStyle: true },
       '#/dealeruserlist': { title: '会员信息', tags: ['系统基础信息', '外部组织', '经销商管理', '会员信息'], legacyBreadcrumb: '外部组织 / 经销商管理 / 会员信息', tsStyle: true },
@@ -1370,7 +1375,65 @@
       { route: '#/sysconfig', filters: [{ key: 'configKey', label: '配置Key', type: 'input', placeholder: '请输入配置Key', searchKeys: ['configKey'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }], columns: [{ key: 'configKey', label: '配置Key', minWidth: 160 }, { key: 'configValue', label: '配置值', minWidth: 160 }, { key: 'description', label: '描述', minWidth: 280 }], rows: [{ id: 1, configKey: 'miniapp.name', configValue: '弥特溯源', description: '小程序名称' }, { id: 2, configKey: 'qrcode.expire.day', configValue: '365', description: '码有效期（天）' }] },
       { route: '#/systemminiprogram', filters: [{ key: 'appName', label: '小程序名称', type: 'input', placeholder: '请输入小程序名称', searchKeys: ['appName'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增配置', buttonType: 'primary' }], columns: [{ key: 'appName', label: '小程序名称', minWidth: 150 }, { key: 'appId', label: 'AppID', minWidth: 180 }, { key: 'appSecret', label: 'AppSecret', minWidth: 200 }, { key: 'status', label: '状态', minWidth: 90 }], rows: [{ id: 1, appName: '弥特溯源小程序', appId: 'wx1234567890abcd', appSecret: '******', status: '启用' }] },
       { route: '#/industrialcomputer', filters: [{ key: 'deviceCode', label: '设备编码', type: 'input', placeholder: '请输入设备编码', searchKeys: ['deviceCode'] }, { key: 'lineName', label: '产线名称', type: 'input', placeholder: '请输入产线名称', searchKeys: ['lineName'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增设备', buttonType: 'primary' }], columns: [{ key: 'deviceCode', label: '设备编码', minWidth: 120 }, { key: 'deviceName', label: '设备名称', minWidth: 140 }, { key: 'lineName', label: '所属产线', minWidth: 140 }, { key: 'ip', label: 'IP地址', minWidth: 130 }, { key: 'status', label: '状态', minWidth: 90 }, { key: 'lastOnlineAt', label: '最后在线时间', minWidth: 150 }], rows: [{ id: 1, deviceCode: 'IPC-001', deviceName: '灌装线工控机1', lineName: '一号线', ip: '192.168.1.21', status: '在线', lastOnlineAt: '2026-04-26 14:28:00' }] },
-      { route: '#/tree', filters: [{ key: 'orgName', label: '组织名称', type: 'input', placeholder: '请输入组织名称', searchKeys: ['orgName'] }], toolbarButtons: [{ key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增组织', buttonType: 'primary' }], columns: [{ key: 'orgCode', label: '组织编码', minWidth: 120 }, { key: 'orgName', label: '组织名称', minWidth: 160 }, { key: 'orgType', label: '组织类型', minWidth: 100 }, { key: 'parentName', label: '上级组织', minWidth: 140 }, { key: 'principal', label: '负责人', minWidth: 100 }], rows: [{ id: 1, orgCode: 'ORG001', orgName: '总部', orgType: '公司', parentName: '--', principal: '张总' }, { id: 2, orgCode: 'ORG002', orgName: '华东事业部', orgType: '部门', parentName: '总部', principal: '李华' }] },
+      {
+        route: '#/tree',
+        title: '组织机构',
+        variant: 'org-tree',
+        legacyBreadcrumb: '基础资料 / 组织机构',
+        tsStyle: false,
+        showSettingsButton: true,
+        orgTree: [
+          {
+            id: 'mit',
+            name: '弥特科技',
+            count: 1,
+            locked: true,
+            members: [
+              { id: 1, name: '管理员', role: '主管', account: 'admin', phone: '', createdAt: '2024-11-18 11:14:55', enabled: true }
+            ],
+            children: [
+              {
+                id: 'marketing',
+                name: '市场部',
+                count: 6,
+                members: [
+                  { id: 2, name: '市场管理员', role: '主管', account: 'market01', phone: '13800010001', createdAt: '2025-01-08 09:12:31', enabled: true },
+                  { id: 3, name: '推广专员', role: '成员', account: 'market02', phone: '13800010002', createdAt: '2025-01-11 14:08:20', enabled: true },
+                  { id: 4, name: '陈敏', role: '成员', account: 'chenmin', phone: '13800010003', createdAt: '2025-03-19 10:22:04', enabled: false },
+                  { id: 5, name: '周洋', role: '成员', account: 'zhouyang', phone: '13800010004', createdAt: '2025-04-02 11:42:58', enabled: true },
+                  { id: 6, name: '刘静', role: '成员', account: 'liujing', phone: '13800010005', createdAt: '2025-04-09 16:30:12', enabled: true },
+                  { id: 7, name: '王楠', role: '成员', account: 'wangnan', phone: '13800010006', createdAt: '2025-05-21 13:18:47', enabled: true }
+                ],
+                children: [
+                  { id: 'tuoxin', name: '拓新部', count: 0, members: [], children: [] }
+                ]
+              },
+              { id: 'dealer', name: '经销商', count: 0, members: [], children: [] },
+              {
+                id: 'production-mgmt',
+                name: '生产管理部',
+                count: 1,
+                members: [
+                  { id: 8, name: '生产主管', role: '主管', account: 'produce01', phone: '13800020001', createdAt: '2025-02-18 08:35:16', enabled: true }
+                ],
+                children: []
+              },
+              {
+                id: 'logistics',
+                name: '物流部',
+                count: 4,
+                members: [
+                  { id: 9, name: '物流主管', role: '主管', account: 'logis01', phone: '13800030001', createdAt: '2025-02-21 09:12:44', enabled: true },
+                  { id: 10, name: '仓储员', role: '成员', account: 'store01', phone: '13800030002', createdAt: '2025-02-23 10:05:17', enabled: true },
+                  { id: 11, name: '调度员', role: '成员', account: 'dispatch01', phone: '13800030003', createdAt: '2025-03-01 15:49:28', enabled: true },
+                  { id: 12, name: '司机管理员', role: '成员', account: 'driver01', phone: '13800030004', createdAt: '2025-03-04 17:26:11', enabled: false }
+                ],
+                children: []
+              }
+            ]
+          }
+        ]
+      },
       { route: '#/organ/departmentjob', filters: [{ key: 'roleName', label: '权限名称', type: 'input', placeholder: '请输入权限名称', searchKeys: ['roleName'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增权限', buttonType: 'primary' }], columns: [{ key: 'roleCode', label: '权限编码', minWidth: 120 }, { key: 'roleName', label: '权限名称', minWidth: 160 }, { key: 'dataRange', label: '数据范围', minWidth: 120 }, { key: 'status', label: '状态', minWidth: 90 }, { key: 'createdAt', label: '创建时间', minWidth: 150 }], rows: [{ id: 1, roleCode: 'ROLE_ADMIN', roleName: '平台管理员', dataRange: '全部数据', status: '启用', createdAt: '2026-02-01 10:00:00' }] },
       { route: '#/stafflist', filters: [{ key: 'account', label: '账号', type: 'input', placeholder: '请输入账号', searchKeys: ['account'] }, { key: 'staffName', label: '姓名', type: 'input', placeholder: '请输入姓名', searchKeys: ['staffName'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增账号', buttonType: 'primary' }], columns: [{ key: 'account', label: '账号', minWidth: 120 }, { key: 'staffName', label: '姓名', minWidth: 120 }, { key: 'department', label: '所属部门', minWidth: 140 }, { key: 'phone', label: '手机号', minWidth: 120 }, { key: 'status', label: '状态', minWidth: 90 }, { key: 'lastLoginAt', label: '最后登录时间', minWidth: 150 }], rows: [{ id: 1, account: 'mtadmin', staffName: '管理员', department: '总部', phone: '13900000000', status: '启用', lastLoginAt: '2026-04-26 08:01:11' }] },
       { route: '#/dealer', filters: [{ key: 'dealerCode', label: '经销商编码', type: 'input', placeholder: '请输入经销商编码', searchKeys: ['dealerCode'] }, { key: 'dealerName', label: '经销商名称', type: 'input', placeholder: '请输入经销商名称', searchKeys: ['dealerName'] }], toolbarButtons: [{ key: 'reset', label: '重置' }, { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' }, { key: 'create', label: '新增经销商', buttonType: 'primary' }], columns: [{ key: 'dealerCode', label: '经销商编码', minWidth: 120 }, { key: 'dealerName', label: '经销商名称', minWidth: 180 }, { key: 'level', label: '等级', minWidth: 90 }, { key: 'contact', label: '联系人', minWidth: 100 }, { key: 'phone', label: '联系电话', minWidth: 120 }, { key: 'status', label: '状态', minWidth: 90 }], rows: [{ id: 1, dealerCode: 'gdfc', dealerName: '广东发财商贸有限公司', level: '一级', contact: '刘总', phone: '13800112233', status: '启用' }] },
@@ -1384,10 +1447,133 @@
       ensureSchema(config.route, config);
     });
 
+    ensureSchema('#/operationlogs', {
+      title: '日志管理',
+      tags: ['系统基础信息', '内部组织', '日志管理'],
+      legacyBreadcrumb: '内部组织 / 日志管理',
+      tsStyle: true,
+      filters: [
+        { key: 'operationTime', label: '操作时间', type: 'daterange' },
+        { key: 'operationType', label: '操作类型', type: 'select', options: ['用户登录', '用户退出', '工单创建', '工单修改', '工单关闭', '追溯码关联', '追溯码作废', '追溯码置换', '设备状态变更', '数据备份', '数据还原'] },
+        { key: 'userAccount', label: '用户账号', type: 'input', placeholder: '请输入用户账号或操作人', searchKeys: ['userAccount', 'operatorName'] }
+      ],
+      toolbarButtons: [
+        { key: 'reset', label: '重置' },
+        { key: 'search', label: '搜索', buttonType: 'primary', icon: 'el-icon-search' },
+        { key: 'export', label: '导出Excel', buttonType: 'primary' }
+      ],
+      rowActions: [{ key: 'detail', label: '详情', buttonType: 'primary' }],
+      actionWidth: 98,
+      pageSize: 10,
+      columns: [
+        { key: 'logNo', label: '日志编号', minWidth: 150 },
+        { key: 'operationTime', label: '操作时间', minWidth: 160 },
+        { key: 'operationType', label: '操作类型', minWidth: 120 },
+        { key: 'userAccount', label: '用户账号', minWidth: 120 },
+        { key: 'operatorName', label: '操作人', minWidth: 100 },
+        { key: 'operationContent', label: '操作内容', minWidth: 260 },
+        { key: 'result', label: '执行结果', minWidth: 100 },
+        { key: 'relatedObject', label: '关联对象', minWidth: 170 },
+        { key: 'exceptionHint', label: '异常线索', minWidth: 220 }
+      ],
+      detailFields: [
+        'logNo',
+        'operationTime',
+        'operationType',
+        'userAccount',
+        'operatorName',
+        'operationContent',
+        'result',
+        'relatedObject',
+        'exceptionHint',
+        { key: 'businessModule', label: '业务模块' },
+        { key: 'sourceTerminal', label: '来源终端' },
+        { key: 'ipAddress', label: 'IP地址' },
+        { key: 'failureReason', label: '失败原因' },
+        { key: 'suggestion', label: '处理建议' },
+        { key: 'requestSummary', label: '请求摘要' }
+      ],
+      rows: [
+        { id: 1, logNo: 'LOG20260514001', operationTime: '2026-05-14 08:02:11', operationType: '用户登录', userAccount: 'mtadmin', operatorName: '管理员', operationContent: '登录平台管理中心', result: '成功', relatedObject: '后台门户', exceptionHint: '--', businessModule: '内部组织', sourceTerminal: 'Web后台', ipAddress: '10.10.8.21', failureReason: '--', suggestion: '--', requestSummary: '账号 mtadmin 完成密码登录并进入系统基础信息。' },
+        { id: 2, logNo: 'LOG20260514002', operationTime: '2026-05-14 08:27:36', operationType: '工单创建', userAccount: 'zhangsan', operatorName: '张三', operationContent: '创建生产批次加工单 GD-20260514-001', result: '成功', relatedObject: '工单 GD-20260514-001', exceptionHint: '--', businessModule: '生产管理', sourceTerminal: 'Web后台', ipAddress: '10.10.8.34', failureReason: '--', suggestion: '--', requestSummary: '产品 cjs1，计划数量 1200，生产线 一号线。' },
+        { id: 3, logNo: 'LOG20260514003', operationTime: '2026-05-14 09:06:18', operationType: '追溯码关联', userAccount: 'wangwu', operatorName: '王五', operationContent: '提交父子码包装关联任务', result: '失败', relatedObject: '父码 3134122298185281148', exceptionHint: '关联错误：子码层级与父码包装关系不一致', businessModule: '生产管理', sourceTerminal: 'PDA-包装线02', ipAddress: '10.10.18.52', failureReason: '关联错误，码值 2134122298206018269 已存在上一层包装关系。', suggestion: '复核父子码层级和包装关系配置，确认后重新上传关联任务。', requestSummary: '父码 3134122298185281148，子码 2134122298206018269，包装级别 2。' },
+        { id: 4, logNo: 'LOG20260514004', operationTime: '2026-05-14 09:42:05', operationType: '设备状态变更', userAccount: 'system', operatorName: '系统', operationContent: '读码器离线，自动记录设备状态', result: '异常', relatedObject: '读码器 RC-02 / 包装二线', exceptionHint: '读码器离线：最近心跳 09:39:11，连续 3 次未响应', businessModule: '设备看板', sourceTerminal: 'SCADA监控', ipAddress: '192.168.1.42', failureReason: '设备心跳超时，扫码上传通道不可用。', suggestion: '检查读码器电源、网线和工控机采集服务，再观察心跳恢复情况。', requestSummary: '设备 RC-02 状态从 在线 变更为 离线。' },
+        { id: 5, logNo: 'LOG20260514005', operationTime: '2026-05-14 10:15:27', operationType: '工单修改', userAccount: 'lisi', operatorName: '李四', operationContent: '修改工单 GD-20260514-001 的计划数量', result: '成功', relatedObject: '工单 GD-20260514-001', exceptionHint: '--', businessModule: '生产管理', sourceTerminal: 'Web后台', ipAddress: '10.10.8.35', failureReason: '--', suggestion: '--', requestSummary: '计划数量由 1200 调整为 1500。' },
+        { id: 6, logNo: 'LOG20260514006', operationTime: '2026-05-14 11:03:49', operationType: '追溯码作废', userAccount: 'mtadmin', operatorName: '管理员', operationContent: '作废异常追溯码 2_134144789942854011', result: '成功', relatedObject: '追溯码 2_134144789942854011', exceptionHint: '重码风险已关闭', businessModule: '码库管理', sourceTerminal: 'Web后台', ipAddress: '10.10.8.21', failureReason: '--', suggestion: '--', requestSummary: '作废原因：稽查复核确认重复查询异常。' },
+        { id: 7, logNo: 'LOG20260514007', operationTime: '2026-05-14 13:28:32', operationType: '追溯码置换', userAccount: 'zhaoliu', operatorName: '赵六', operationContent: '将旧码 2134122298270512682 置换为新码 2134122298270512999', result: '成功', relatedObject: '换码单 REP-20260514-003', exceptionHint: '--', businessModule: '生产管理', sourceTerminal: 'Web后台', ipAddress: '10.10.8.48', failureReason: '--', suggestion: '--', requestSummary: '旧码已解除关联，新码已写入包装关系。' },
+        { id: 8, logNo: 'LOG20260514008', operationTime: '2026-05-14 14:06:44', operationType: '数据备份', userAccount: 'backup', operatorName: '备份任务', operationContent: '执行平台关键数据备份', result: '成功', relatedObject: 'backup-20260514-1400.zip', exceptionHint: '--', businessModule: '系统维护', sourceTerminal: '定时任务', ipAddress: '10.10.2.10', failureReason: '--', suggestion: '--', requestSummary: '备份范围：组织、账号、工单、码库、关联关系。' },
+        { id: 9, logNo: 'LOG20260514009', operationTime: '2026-05-14 14:31:20', operationType: '工单修改', userAccount: 'wangwu', operatorName: '王五', operationContent: 'PDA 回传工单采集结果', result: '失败', relatedObject: '工单 GD-20260514-002', exceptionHint: '数据上传失败：PDA 离线缓存未同步', businessModule: '生产管理', sourceTerminal: 'PDA-包装线01', ipAddress: '10.10.18.41', failureReason: '网络超时，工控机同步队列积压 12 条。', suggestion: '检查 PDA 网络和工控机采集服务，确认离线缓存重新上传。', requestSummary: '上传批次 2026051402，采集数量 360，失败节点 sync/upload。' },
+        { id: 10, logNo: 'LOG20260514010', operationTime: '2026-05-14 15:12:58', operationType: '工单关闭', userAccount: 'zhangsan', operatorName: '张三', operationContent: '关闭生产批次加工单 GD-20260514-001', result: '成功', relatedObject: '工单 GD-20260514-001', exceptionHint: '--', businessModule: '生产管理', sourceTerminal: 'Web后台', ipAddress: '10.10.8.34', failureReason: '--', suggestion: '--', requestSummary: '关闭前已完成采集率校验和入库确认。' },
+        { id: 11, logNo: 'LOG20260514011', operationTime: '2026-05-14 16:25:16', operationType: '数据还原', userAccount: 'mtadmin', operatorName: '管理员', operationContent: '还原测试环境码库数据', result: '异常', relatedObject: 'restore-20260513-2200.zip', exceptionHint: '还原完成但发现 2 条关联记录需复核', businessModule: '系统维护', sourceTerminal: 'Web后台', ipAddress: '10.10.8.21', failureReason: '还原后校验发现关联关系版本不一致。', suggestion: '核对还原包版本和当前包装关系配置，必要时重新执行校验任务。', requestSummary: '还原范围：码库、包装关系、工单快照。' },
+        { id: 12, logNo: 'LOG20260514012', operationTime: '2026-05-14 17:40:03', operationType: '用户退出', userAccount: 'lisi', operatorName: '李四', operationContent: '退出平台管理中心', result: '成功', relatedObject: '后台门户', exceptionHint: '--', businessModule: '内部组织', sourceTerminal: 'Web后台', ipAddress: '10.10.8.35', failureReason: '--', suggestion: '--', requestSummary: '用户主动退出登录。' }
+      ]
+    });
+
     return schemas;
   }
 
   window.staticModuleSchemas = normalizeStaticModuleSchemas(window.staticModuleSchemas || {});
+
+  var MENU_SVG_ICONS = {
+    list: {
+      viewBox: '0 0 128 128',
+      paths: [
+        'M1.585 12.087c0 6.616 3.974 11.98 8.877 11.98 4.902 0 8.877-5.364 8.877-11.98 0-6.616-3.975-11.98-8.877-11.98-4.903 0-8.877 5.364-8.877 11.98zM125.86.107H35.613c-1.268 0-2.114 1.426-2.114 2.852v18.255c0 1.712 1.057 2.853 2.114 2.853h90.247c1.268 0 2.114-1.426 2.114-2.853V2.96c0-1.711-1.057-2.852-2.114-2.852zM.106 62.86c0 6.615 3.974 11.979 8.876 11.979 4.903 0 8.877-5.364 8.877-11.98 0-6.616-3.974-11.98-8.877-11.98-4.902 0-8.876 5.364-8.876 11.98zM124.17 50.88H33.921c-1.268 0-2.114 1.425-2.114 2.851v18.256c0 1.711 1.057 2.852 2.114 2.852h90.247c1.268 0 2.114-1.426 2.114-2.852V53.73c0-1.426-.846-2.852-2.114-2.852zM.106 115.913c0 6.616 3.974 11.98 8.876 11.98 4.903 0 8.877-5.364 8.877-11.98 0-6.616-3.974-11.98-8.877-11.98-4.902 0-8.876 5.364-8.876 11.98zm124.064-11.98H33.921c-1.268 0-2.114 1.426-2.114 2.853v18.255c0 1.711 1.057 2.852 2.114 2.852h90.247c1.268 0 2.114-1.426 2.114-2.852v-18.255c0-1.427-.846-2.853-2.114-2.853z'
+      ]
+    },
+    table: {
+      viewBox: '0 0 128 128',
+      paths: [
+        'M.006.064h127.988v31.104H.006V.064zm0 38.016h38.396v41.472H.006V38.08zm0 48.384h38.396v41.472H.006V86.464zM44.802 38.08h38.396v41.472H44.802V38.08zm0 48.384h38.396v41.472H44.802V86.464zM89.598 38.08h38.396v41.472H89.598zm0 48.384h38.396v41.472H89.598z',
+        'M.006.064h127.988v31.104H.006V.064zm0 38.016h38.396v41.472H.006V38.08zm0 48.384h38.396v41.472H.006V86.464zM44.802 38.08h38.396v41.472H44.802V38.08zm0 48.384h38.396v41.472H44.802V86.464zM89.598 38.08h38.396v41.472H89.598zm0 48.384h38.396v41.472H89.598z'
+      ]
+    },
+    'tree-table': {
+      viewBox: '0 0 128 128',
+      paths: [
+        'M44.8 0h79.543C126.78 0 128 1.422 128 4.267v23.466c0 2.845-1.219 4.267-3.657 4.267H44.8c-2.438 0-3.657-1.422-3.657-4.267V4.267C41.143 1.422 42.362 0 44.8 0zm22.857 48h56.686c2.438 0 3.657 1.422 3.657 4.267v23.466c0 2.845-1.219 4.267-3.657 4.267H67.657C65.22 80 64 78.578 64 75.733V52.267C64 49.422 65.219 48 67.657 48zm0 48h56.686c2.438 0 3.657 1.422 3.657 4.267v23.466c0 2.845-1.219 4.267-3.657 4.267H67.657C65.22 128 64 126.578 64 123.733v-23.466C64 97.422 65.219 96 67.657 96zM50.286 68.267c2.02 0 3.657-1.91 3.657-4.267 0-2.356-1.638-4.267-3.657-4.267H17.37V32h6.4c2.02 0 3.658-1.91 3.658-4.267V4.267C27.429 1.91 25.79 0 23.77 0H3.657C1.637 0 0 1.91 0 4.267v23.466C0 30.09 1.637 32 3.657 32h6.4v80c0 2.356 1.638 4.267 3.657 4.267h36.572c2.02 0 3.657-1.91 3.657-4.267 0-2.356-1.638-4.267-3.657-4.267H17.37V68.267h32.915z'
+      ]
+    }
+  };
+
+  var MENU_DEFAULT_ICONS = {
+    production: 'list',
+    'factory-logistics': 'table',
+    'channel-logistics': 'table',
+    inspection: 'table',
+    query: 'table',
+    boards: 'table'
+  };
+
+  Vue.component('menu-icon', {
+    props: {
+      icon: {
+        type: String,
+        default: ''
+      }
+    },
+    render: function (createElement) {
+      var icon = this.icon || '';
+      var svgIcon = MENU_SVG_ICONS[icon];
+      if (svgIcon) {
+        return createElement('svg', {
+          class: 'menu-icon menu-svg-icon',
+          attrs: {
+            'aria-hidden': 'true',
+            viewBox: svgIcon.viewBox
+          }
+        }, svgIcon.paths.map(function (path, index) {
+          return createElement('path', {
+            key: index,
+            attrs: { d: path }
+          });
+        }));
+      }
+      return createElement('i', {
+        class: ['menu-icon', icon]
+      });
+    }
+  });
 
   Vue.component('menu-tree-item', {
     props: {
@@ -1396,16 +1582,21 @@
         required: true
       }
     },
+    computed: {
+      resolvedIcon: function () {
+        return this.item.icon || MENU_DEFAULT_ICONS[this.item.index] || '';
+      }
+    },
     template: `
       <el-submenu v-if="item.children && item.children.length" :index="item.index">
         <template slot="title">
-          <i v-if="item.icon" :class="item.icon"></i>
+          <menu-icon v-if="resolvedIcon" :icon="resolvedIcon"></menu-icon>
           <span class="menu-label">{{ item.title }}</span>
         </template>
         <menu-tree-item v-for="child in item.children" :key="child.index" :item="child"></menu-tree-item>
       </el-submenu>
       <el-menu-item v-else :index="item.index">
-        <i v-if="item.icon" :class="item.icon"></i>
+        <menu-icon v-if="resolvedIcon" :icon="resolvedIcon"></menu-icon>
         <span slot="title" class="menu-label">{{ item.title }}</span>
       </el-menu-item>
     `
@@ -1899,6 +2090,215 @@
     `
   });
 
+  Vue.component('org-tree-page', {
+    props: {
+      schemaState: {
+        type: Object,
+        default: function () {
+          return {};
+        }
+      }
+    },
+    data: function () {
+      return {
+        personKeyword: '',
+        treeKeyword: '',
+        selectedId: 'mit',
+        currentPage: 1,
+        pageSize: 10,
+        treeProps: {
+          children: 'children',
+          label: 'name'
+        }
+      };
+    },
+    computed: {
+      nodes: function () {
+        return this.schemaState.orgTree || [];
+      },
+      filteredNodes: function () {
+        return this.filterTree(this.nodes, this.treeKeyword);
+      },
+      selectedNode: function () {
+        return this.findNode(this.nodes, this.selectedId) || this.nodes[0] || {};
+      },
+      selectedChildren: function () {
+        return this.selectedNode.children || [];
+      },
+      memberRows: function () {
+        var keyword = String(this.personKeyword || '').toLowerCase();
+        var members = this.selectedNode.members || [];
+        if (!keyword) {
+          return members;
+        }
+        return members.filter(function (item) {
+          return [item.name, item.role, item.account, item.phone].some(function (value) {
+            return String(value || '').toLowerCase().indexOf(keyword) > -1;
+          });
+        });
+      },
+      pagedMembers: function () {
+        var start = (this.currentPage - 1) * this.pageSize;
+        return this.memberRows.slice(start, start + this.pageSize);
+      },
+      isSelectedRoot: function () {
+        return !!this.selectedNode.locked;
+      }
+    },
+    watch: {
+      memberRows: function (rows) {
+        var maxPage = Math.max(1, Math.ceil(rows.length / this.pageSize));
+        if (this.currentPage > maxPage) {
+          this.currentPage = maxPage;
+        }
+      }
+    },
+    methods: {
+      findNode: function (nodes, id) {
+        for (var index = 0; index < (nodes || []).length; index += 1) {
+          var item = nodes[index];
+          if (item.id === id) {
+            return item;
+          }
+          var found = this.findNode(item.children || [], id);
+          if (found) {
+            return found;
+          }
+        }
+        return null;
+      },
+      filterTree: function (nodes, keyword) {
+        var text = String(keyword || '').trim();
+        if (!text) {
+          return nodes;
+        }
+        return (nodes || []).reduce(function (result, item) {
+          var children = this.filterTree(item.children || [], text);
+          var matched = item.name.indexOf(text) > -1;
+          if (matched || children.length) {
+            result.push(Object.assign({}, item, { children: children }));
+          }
+          return result;
+        }.bind(this), []);
+      },
+      selectNode: function (data) {
+        if (!data || !data.id) {
+          return;
+        }
+        this.selectedId = data.id;
+        this.currentPage = 1;
+      },
+      nodeLabel: function (data, suffix) {
+        return (data.name || '--') + '(' + (data.count || 0) + suffix + ')';
+      },
+      handlePageChange: function (page) {
+        this.currentPage = page;
+      },
+      handleStaticAction: function (label) {
+        this.$message.info('静态演示动作：' + label);
+      },
+      beforeUpload: function () {
+        this.$message.info('静态演示页暂未接入上传接口');
+        return false;
+      }
+    },
+    template: `
+      <div class="org-tree-page">
+        <section class="legacy-breadcrumb">{{ schemaState.legacyBreadcrumb || '基础资料 / 组织机构' }}</section>
+
+        <section class="section-card legacy-card org-tree-card">
+          <aside class="org-tree-sidebar">
+            <div class="org-person-search">
+              <el-input v-model.trim="personKeyword" size="mini" placeholder="按人员名称查询" clearable @keyup.enter.native="currentPage = 1"></el-input>
+              <el-button size="mini" type="primary" icon="el-icon-search" @click="currentPage = 1"></el-button>
+            </div>
+
+            <div class="org-import-actions">
+              <el-button size="mini" type="primary" @click="handleStaticAction('下载导入模板')">
+                <a class="org-template-link" href="https://dev.mtkj.fun/org/tpls/部门模板.xlsx">下载导入模板</a>
+              </el-button>
+              <el-upload action="#" :auto-upload="false" :show-file-list="false" :before-upload="beforeUpload" class="org-upload">
+                <el-button size="mini" type="success">点击上传</el-button>
+              </el-upload>
+            </div>
+
+            <el-input v-model.trim="treeKeyword" size="mini" placeholder="输入部门名称进行过滤" clearable class="org-tree-filter"></el-input>
+
+            <el-tree class="org-tree-list" :data="filteredNodes" :props="treeProps" node-key="id" default-expand-all :expand-on-click-node="false" @node-click="selectNode">
+              <span class="org-tree-node" :class="{ 'is-active': data.id === selectedId }" slot-scope="{ node, data }">
+                <i class="el-icon-folder-opened"></i>
+                <span>{{ nodeLabel(data, '人') }}</span>
+              </span>
+            </el-tree>
+          </aside>
+
+          <main class="org-tree-main">
+            <header class="org-dept-header">
+              <h3>{{ selectedNode.name || '--' }}</h3>
+              <div class="org-dept-header__actions">
+                <el-button size="mini" icon="el-icon-edit-outline" @click="handleStaticAction('编辑')">编辑</el-button>
+                <el-button size="mini" icon="el-icon-delete" :disabled="isSelectedRoot" @click="handleStaticAction('删除')">删除</el-button>
+              </div>
+            </header>
+
+            <h3 class="org-section-title"><i class="el-icon-s-operation"></i>下级部门</h3>
+            <div class="org-action-strip">
+              <el-button size="mini" icon="el-icon-circle-plus" @click="handleStaticAction('添加子部门')">添加子部门</el-button>
+              <el-button size="mini" @click="handleStaticAction('关联经销商')">关联经销商</el-button>
+            </div>
+            <div class="org-child-list">
+              <button v-for="child in selectedChildren" :key="child.id" type="button" class="org-child-row" @click="selectNode(child)">
+                <i class="el-icon-folder-opened"></i>
+                <span>{{ nodeLabel(child, '') }}</span>
+              </button>
+              <div v-if="!selectedChildren.length" class="org-empty-line">暂无下级部门</div>
+            </div>
+
+            <h3 class="org-section-title org-section-title--members"><i class="el-icon-user-solid"></i>部门人员</h3>
+            <div class="org-action-strip org-action-strip--members">
+              <el-button size="mini" icon="el-icon-circle-plus" @click="handleStaticAction('添加成员(批量)')">添加成员(批量)</el-button>
+              <el-button size="mini" icon="el-icon-circle-plus" @click="handleStaticAction('创建成员')">创建成员</el-button>
+              <el-button size="mini" @click="handleStaticAction('调整部门')">调整部门</el-button>
+              <el-button size="mini" icon="el-icon-delete" class="org-danger-button" @click="handleStaticAction('批量删除')">批量删除</el-button>
+            </div>
+
+            <el-table class="legacy-table org-member-table" :data="pagedMembers" empty-text="暂无部门人员数据">
+              <el-table-column type="selection" width="42"></el-table-column>
+              <el-table-column label="人员" min-width="150">
+                <template slot-scope="{ row }">
+                  <span class="org-member-name">{{ row.name }}</span>
+                  <span v-if="row.role" class="org-role-tag">{{ row.role }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column prop="account" label="账号名称" min-width="150"></el-table-column>
+              <el-table-column prop="phone" label="手机号" min-width="150"></el-table-column>
+              <el-table-column prop="createdAt" label="创建时间" min-width="170"></el-table-column>
+              <el-table-column label="状态" width="120">
+                <template slot-scope="{ row }">
+                  <el-switch v-model="row.enabled" disabled></el-switch>
+                </template>
+              </el-table-column>
+              <el-table-column label="操作" width="100">
+                <template slot-scope="{ row }">
+                  <el-button size="mini" type="text" icon="el-icon-delete" @click="handleStaticAction('删除' + row.name)">删除</el-button>
+                </template>
+              </el-table-column>
+            </el-table>
+
+            <div class="org-pagination">
+              <span>共 {{ memberRows.length }} 条</span>
+              <el-pagination background layout="prev, pager, next, jumper" :page-size="pageSize" :current-page.sync="currentPage" :total="memberRows.length" @current-change="handlePageChange"></el-pagination>
+            </div>
+          </main>
+        </section>
+
+        <button v-if="schemaState.showSettingsButton !== false" type="button" class="legacy-floating-settings" @click="handleStaticAction('设置')">
+          <i class="el-icon-setting"></i>
+        </button>
+      </div>
+    `
+  });
+
   Vue.component('module-page', {
     props: {
       routeMeta: {
@@ -1930,11 +2330,14 @@
       isBoardLayout: function () {
         return this.schemaExists && this.schemaState.layout === 'board';
       },
+      isOrgTreeLayout: function () {
+        return this.schemaExists && this.schemaState.variant === 'org-tree';
+      },
       isSimpleQueryPage: function () {
-        return this.schemaExists && !this.isBoardLayout && !this.isLegacyProduction && !!this.schemaState.simpleQuery;
+        return this.schemaExists && !this.isBoardLayout && !this.isOrgTreeLayout && !this.isLegacyProduction && !!this.schemaState.simpleQuery;
       },
       isTsListLayout: function () {
-        return this.schemaExists && !this.isBoardLayout && !this.isLegacyProduction && !this.isSimpleQueryPage && !!this.schemaState.tsStyle;
+        return this.schemaExists && !this.isBoardLayout && !this.isOrgTreeLayout && !this.isLegacyProduction && !this.isSimpleQueryPage && !!this.schemaState.tsStyle;
       },
       isLegacyProduction: function () {
         return this.schemaExists && this.schemaState.variant === 'legacy-production';
@@ -2240,11 +2643,11 @@
     template: `
       <div class="plant-page">
         <template v-if="schemaExists">
-          <section v-if="!isLegacyProduction && !isTsListLayout" class="module-tagbar">
+          <section v-if="!isLegacyProduction && !isTsListLayout && !isOrgTreeLayout" class="module-tagbar">
             <span v-for="(tag, index) in schemaState.tags || [routeMeta.title]" :key="tag + index" class="module-tag" :class="{ 'module-tag--active': index === (schemaState.tags || []).length - 1 }">{{ tag }}</span>
           </section>
 
-          <section v-if="!isLegacyProduction && !isTsListLayout" class="module-breadcrumb-card">
+          <section v-if="!isLegacyProduction && !isTsListLayout && !isOrgTreeLayout" class="module-breadcrumb-card">
             <el-breadcrumb separator="/">
               <el-breadcrumb-item v-for="(item, index) in (routeMeta.breadcrumb || '').split(' / ')" :key="item + index">{{ item }}</el-breadcrumb-item>
             </el-breadcrumb>
@@ -2284,6 +2687,10 @@
                 <list-card v-for="panel in schemaState.lists" :key="panel.title" :title="panel.title" :list-data="panel.items"></list-card>
               </div>
             </section>
+          </template>
+
+          <template v-else-if="isOrgTreeLayout">
+            <org-tree-page :schema-state="schemaState"></org-tree-page>
           </template>
 
           <template v-else-if="isLegacyProduction">
@@ -4783,6 +5190,11 @@
         var systems = this.shellData.systems || {};
         return (systems[this.activeSystemKey] && systems[this.activeSystemKey].menus) || [];
       },
+      currentBrandName: function () {
+        var systems = this.shellData.systems || {};
+        var activeSystem = systems[this.activeSystemKey] || {};
+        return activeSystem.brandName || this.shellData.brandName || 'V26';
+      },
       routeMeta: function () {
         return this.routeMap[this.currentRouteHash] || this.routeMap['#/dashboard'] || {
           key: 'dashboard',
@@ -4916,7 +5328,7 @@
           <aside class="app-sidebar">
             <div v-show="layoutConfig.sidebarLogo !== false" class="sidebar-brand">
               <img src="assets/images/logo.png" alt="logo">
-              <div class="sidebar-brand__text">{{ shellData.brandName }}</div>
+              <div class="sidebar-brand__text">{{ currentBrandName }}</div>
             </div>
             <div class="sidebar-menu-wrap">
               <el-menu
