@@ -31,7 +31,8 @@ window.dashboardShellData = {
                   children: [
                     { index: 'plant-list', title: '工厂列表', route: '#/home/plant/plantinfo/plantmanage/plantlist', pageKey: 'plant-list', breadcrumb: '首页 / 生产管理 / 工厂列表' },
                     { index: 'workshop-list', title: '车间列表', route: '#/workshoplist', pageKey: 'workshop-list', breadcrumb: '首页 / 生产管理 / 车间列表' },
-                    { index: 'workline', title: '产线列表', route: '#/workline', pageKey: 'workline-list', breadcrumb: '首页 / 生产管理 / 产线列表' }
+                    { index: 'workline', title: '产线列表', route: '#/workline', pageKey: 'workline-list', breadcrumb: '首页 / 生产管理 / 产线列表' },
+                    { index: 'workline-product', title: '产线对应产品列表', route: '#/worklineProduct', pageKey: 'workline-product-list', breadcrumb: '首页 / 生产管理 / 产线对应产品列表' }
                   ]
                 },
                 { index: 'classlist', title: '班组管理', route: '#/home/plant/plantinfo/classlist', pageKey: 'class-list', breadcrumb: '首页 / 生产管理 / 班组管理' }
@@ -78,6 +79,7 @@ window.dashboardShellData = {
             { index: 'refundorderlist', title: '退货工单列表', route: '#/refundorderlist', pageKey: 'refundorderlist', breadcrumb: '首页 / 渠道物流 / 退货工单列表' },
             { index: 'sttSsignWeblist', title: '经销商签收记录', route: '#/sttSsignWeblist', pageKey: 'sttSsignWeblist', breadcrumb: '首页 / 渠道物流 / 经销商签收记录' },
             { index: 'sttSsignscancodelogs', title: '签收扫码日志', route: '#/sttSsignscancodelogs', pageKey: 'sttSsignscancodelogs', breadcrumb: '首页 / 渠道物流 / 签收扫码日志' },
+            { index: 'documentexceptionhandling', title: '单据异常处理', route: '#/documentexceptionhandling', pageKey: 'documentexceptionhandling', breadcrumb: '首页 / 渠道物流 / 经销商物流 / 经销商签收 / 单据异常处理' },
             { index: 'channelinventorylist', title: '渠道库存列表', route: '#/channelinventorylist', pageKey: 'channelinventorylist', breadcrumb: '首页 / 渠道物流 / 渠道库存列表' },
             { index: 'channelinventorylogs', title: '渠道库存流水', route: '#/channelinventorylogs', pageKey: 'channelinventorylogs', breadcrumb: '首页 / 渠道物流 / 渠道库存流水' }
           ]
@@ -274,6 +276,67 @@ window.worklineListModuleData = {
     { id: 103, factoryName: '青岛二厂', workshopCode: 'QD02-WS01', workshopName: '苏打水车间', workshopLabel: '苏打水车间（QD02-WS01）', lineCode: 'L-03', lineName: '三号线' },
     { id: 104, factoryName: '淄博三厂', workshopCode: 'ZB03-WS01', workshopName: '灌装二车间', workshopLabel: '灌装二车间（ZB03-WS01）', lineCode: 'L-04', lineName: '四号线' },
     { id: 105, factoryName: '烟台四厂', workshopCode: 'YT04-WS01', workshopName: '装配车间', workshopLabel: '装配车间（YT04-WS01）', lineCode: 'L-05', lineName: '五码垛线' }
+  ]
+};
+
+window.worklineProductModuleData = {
+  pageSize: 10,
+  statusOptions: ['启用', '停用'],
+  list: [
+    {
+      id: 10001,
+      factoryName: '济南一厂',
+      workshopCode: 'JN01-WS01',
+      workshopName: '灌装一车间',
+      workshopLabel: '灌装一车间（JN01-WS01）',
+      lineId: 101,
+      lineCode: 'L-01',
+      lineName: '一号线',
+      productCode: 'cjs1',
+      productName: '纯净水500ml',
+      spec: '500ml',
+      packageUnit: '瓶',
+      capacityPerHour: 12000,
+      status: '启用',
+      updatedAt: '2026-04-26 09:20:00',
+      remark: '常规瓶装水产线'
+    },
+    {
+      id: 10002,
+      factoryName: '济南一厂',
+      workshopCode: 'JN01-WS02',
+      workshopName: '包装车间',
+      workshopLabel: '包装车间（JN01-WS02）',
+      lineId: 102,
+      lineCode: 'L-02',
+      lineName: '二号线',
+      productCode: 'cjs1',
+      productName: '纯净水500ml',
+      spec: '500ml',
+      packageUnit: '瓶',
+      capacityPerHour: 9800,
+      status: '启用',
+      updatedAt: '2026-04-25 16:30:00',
+      remark: '包装复核产线'
+    },
+    {
+      id: 10003,
+      factoryName: '青岛二厂',
+      workshopCode: 'QD02-WS01',
+      workshopName: '苏打水车间',
+      workshopLabel: '苏打水车间（QD02-WS01）',
+      lineId: 103,
+      lineCode: 'L-03',
+      lineName: '三号线',
+      productCode: 'sds1',
+      productName: '苏打水330ml',
+      spec: '330ml',
+      packageUnit: '罐',
+      capacityPerHour: 8600,
+      status: '启用',
+      updatedAt: '2026-04-24 13:45:00',
+      remark: '苏打水专用线'
+    }
   ]
 };
 
